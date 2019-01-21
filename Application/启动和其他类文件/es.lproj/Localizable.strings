@@ -1,0 +1,136 @@
+/* 
+  Localizable.strings
+  TinyPlayer_V1
+
+  Created by Mr.h on 6/9/18.
+  Copyright © 2018 Great. All rights reserved.
+*/
+Edit      =    "Editar";
+
+delete       =    "Borrar";
+
+save      =    "Salvar";
+
+cancel      =    "Cancelar";
+
+Ok     =    "DE ACUERDO";
+
+playlist     =    "Lista de reproducción";
+
+settings     =    "Configuraciones";
+
+selectAll     =    "Seleccionar todo";
+
+DeselectAll     =    "Deseleccionar todo";
+
+AddTo     =    "añadir";
+
+Search     =    "Ingrese lo que desea buscar";
+
+FeedBack      =    "Gracias por tu apoyo y comentarios";
+
+Tips      =    "Consejos";
+
+Warning      =    "Advertencia";
+
+deletTips     =    "¿Desea eliminar varios archivos de video?";
+
+RenameTips     =    "Nombre de archivo duplicado, cambie el nombre de otros nombres";
+
+Ok      =    "De acuerdo";
+
+DrawCode     =    "Por favor dibuja tu código de gesto";
+
+DrawAgain     =    "Por favor dibuja la contraseña otra vez";
+
+PasswordSettingSuccess     =    "Éxito de configuración de contraseña";
+
+UnlockTips     =    "Por favor, dibuje la contraseña de gesto para desbloquear";
+
+DrawOriginTips     =    "Por favor dibuja la contraseña original";
+
+ResetSuccess     =    "Restablecimiento de contraseña exitosa";
+
+UnlockFail     =    "Error de contraseña, error de desbloqueo, por favor intente de nuevo";
+
+ResetFail     =    "Error de contraseña, error de reinicio, intente de nuevo";
+
+RedrawTips     =    "La contraseña extraída dos veces no es lo mismo, por favor vuelva a dibujar";
+
+DrawErrorTips     =    "Demasiados errores, intente de nuevo más tarde";
+
+Ratio     =    "proporción";
+
+Subtitle     =    "subtitular";
+
+Rate     =    "tarifa";
+
+Top     =    "Parte superior";
+
+Rename     =    "Rebautizar";
+
+AddList     =    "Añadir lista";
+
+Instructions     =    "Instrucciones";
+
+Lock     =    "Bloquear";
+
+Feedback     =    "Realimentación";
+
+OnlyProHave     =    "Esta función solo está disponible para las versiones Pro";
+
+BuyProOpen     =    "Esta función debe iniciarse después de la compra";
+
+BuySuccess     =    "Compra exitosa";
+
+BuyFailed     =    "La compra falló. Por favor, inténtelo de nuevo más tarde";
+
+ResumeBuySuccess     =    "Reanudar el éxito de compra";
+
+ResumeBuyFailed     =    "Compra de reanudación fallida";
+
+BuyNothing     =    "No ha comprado este artículo y no puede reanudar la compra";
+
+Buy     =    "Comprar";
+
+ResumeBuy     =    "Continuar compra";
+
+CancelBuy     =    "Cancelar compra";
+
+RemoveAD     =    "Quitar anuncios";
+
+CustomSubtitle     =    "Elige subtítulos personalizados";
+
+PlayRate     =    "Velocidad de reproducción";
+
+PlayRatio     =    "Relación de juego";
+
+UptoPro     =    "Actualiza a Pro Edition";
+
+ProContent     =    "¿Cuál es la versión Pro?";
+ProContent1     =    "1. Permanentemente no hay publicidad de acoso !!";
+ProContent2     =    "2. ¡Ten subtítulos personalizados, carga tus propios subtítulos! !";
+ProContent3     =    "3. Con la función de ajuste de la tasa de reproducción y la relación de reproducción, ¡más arbitraria! !";
+ProContent4     =    "4. ¡Ten una función de bloqueo de privacidad para que tu video sea más privado! !";
+ProContent5     =    "5. La función de seguimiento tendrá prioridad en la versión Pro, dando prioridad a la experiencia. !";
+ProContent6     =    "6. La versión Pro se actualizará por primera vez y será más estable. !";
+ProContent7     =    "7. ¿Qué estás esperando? ¿Esto no es suficiente? ¡Bien, el precio es solo de $ 3, con un cine privado! Compre y compre!";
+ThanksSupport     =    "8. ¡Muchas gracias por su uso y apoyo!";
+OtherApp     =    "Recomiende otra aplicación excelente";
+RemoveADTips     =    "¿Quieres eliminar anuncios?";
+OpenLockTips     =    "¿Quieres abrir la función de bloqueo de privacidad?";
+OpenSubTitleTips     =    "¿Desea abrir la función de subtítulos personalizada?";
+
+Back     =    "Espalda";
+
+OpenLock     =    "Abra la función de bloqueo de privacidad";
+
+Buying     =    "Adquisitivo";
+
+CheckNoMailTips     =    "No se ha configurado ninguna cuenta de correo para su dispositivo. Por favor, configúralo e intenta nuevamente. Gracias.";
+
+NoSubtitle     =    "Sin subtítulos";
+
+
+
+

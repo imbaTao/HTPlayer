@@ -1,0 +1,136 @@
+/* 
+  Localizable.strings
+  TinyPlayer_V1
+
+  Created by Mr.h on 6/9/18.
+  Copyright © 2018 Great. All rights reserved.
+*/
+Edit      =    "Edit";
+
+delete       =    "Padam";
+
+save      =    "Simpan";
+
+cancel      =    "Batalkan";
+
+Ok     =    "okey";
+
+playlist     =    "Senarai main";
+
+settings     =    "Tetapan";
+
+selectAll     =    "Pilih semua";
+
+DeselectAll     =    "Nyahpilih semua";
+
+AddTo     =    "Tambah ke";
+
+Search     =    "Sila masukkan apa yang anda mahu cari";
+
+FeedBack      =    "Terima kasih atas sokongan dan maklum balas anda";
+
+Tips      =    "Petua";
+
+Warning      =    "Amaran";
+
+deletTips     =    "Adakah anda ingin memadam berbilang fail video?";
+
+RenameTips     =    "Nama fail duplikat, sila namakan semula nama lain";
+
+Ok      =    "Okey";
+
+DrawCode     =    "Sila lukis kod isyarat anda";
+
+DrawAgain     =    "Sila lukis kata laluan sekali lagi";
+
+PasswordSettingSuccess     =    "Kejayaan menetapkan kata laluan";
+
+UnlockTips     =    "Sila lukis kata laluan isyarat untuk membuka kunci";
+
+DrawOriginTips     =    "Sila lukis kata laluan asal";
+
+ResetSuccess     =    "Penyetelan kata laluan berjaya";
+
+UnlockFail     =    "Kesalahan kata laluan, buka kunci kegagalan, sila cuba lagi";
+
+ResetFail     =    "Kesalahan kata laluan, kegagalan semula, sila cuba lagi";
+
+RedrawTips     =    "Kata laluan yang dilukis dua kali tidak sama, sila nyatakan semula";
+
+DrawErrorTips     =    "Terlalu banyak kesilapan, sila cuba lagi kemudian";
+
+Ratio     =    "nisbah";
+
+Subtitle     =    "sarikata";
+
+Rate     =    "kadar";
+
+Top     =    "Teratas";
+
+Rename     =    "Namakan semula";
+
+AddList     =    "Tambah senarai";
+
+Instructions     =    "Arahan";
+
+Lock     =    "Kunci";
+
+Feedback     =    "Maklumbalas";
+
+OnlyProHave     =    "Fungsi ini hanya tersedia untuk versi Pro";
+
+BuyProOpen     =    "Fungsi ini perlu dimulakan selepas pembelian";
+
+BuySuccess     =    "Pembelian yang berjaya";
+
+BuyFailed     =    "Pembelian gagal. Sila cuba sebentar lagi";
+
+ResumeBuySuccess     =    "Teruskan kejayaan pembelian";
+
+ResumeBuyFailed     =    "Resume pembelian gagal";
+
+BuyNothing     =    "Anda belum membeli item ini dan tidak boleh menyambung semula pembelian";
+
+Buy     =    "Beli";
+
+ResumeBuy     =    "Sambung semula pembelian";
+
+CancelBuy     =    "Batalkan pembelian";
+
+RemoveAD     =    "Alih iklan";
+
+CustomSubtitle     =    "Pilih sarikata adat";
+
+PlayRate     =    "Kadar main";
+
+PlayRatio     =    "Nisbah main";
+
+UptoPro     =    "Menaik taraf ke Edisi Pro";
+
+ProContent     =    "Apakah versi Pro?";
+ProContent1     =    "1. Secara kekal tiada gangguan iklan !!";
+ProContent2     =    "2. Mempunyai sarikata adat, muat sarikata sendiri! !";
+ProContent3     =    "3. Dengan fungsi pelarasan nisbah permainan dan bermain, lebih sewenang-wenangnya! !";
+ProContent4     =    "4. Mempunyai fungsi kunci privasi untuk menjadikan video anda lebih peribadi! !";
+ProContent5     =    "5. Fungsi susulan akan diberi keutamaan kepada versi Pro, memberi keutamaan kepada pengalaman! !";
+ProContent6     =    "6. Versi Pro akan dikemas kini pada kali pertama dan lebih stabil. !";
+ProContent7     =    "7. Apa yang anda tunggu? Ini tidak mencukupi? Nah, harganya hanya $ 3, dengan pawagam peribadi! Beli dan beli!";
+ThanksSupport     =    "8. Terima kasih banyak untuk penggunaan dan sokongan anda!";
+OtherApp     =    "Mengesyorkan aplikasi yang sangat baik yang lain";
+RemoveADTips     =    "Adakah anda mahu mengeluarkan iklan?";
+OpenLockTips     =    "Adakah anda ingin membuka fungsi kunci privasi?";
+OpenSubTitleTips     =    "Adakah anda mahu membuka fungsi sarikata peribadi?";
+
+Back     =    "Kembali";
+
+OpenLock     =    "Buka fungsi kunci privasi";
+
+Buying     =    "Membeli";
+
+CheckNoMailTips     =    "Tiada akaun mel telah disediakan untuk peranti anda. Sila tetapkannya dan cuba lagi. Terima kasih.";
+
+NoSubtitle     =    "Tiada sarikata";
+
+
+
+

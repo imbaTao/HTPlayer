@@ -1,0 +1,129 @@
+
+Edit      ="Redigere";
+
+delete       ="Slett";
+
+save      ="Lagre";
+
+cancel      ="Avbryt";
+
+Ok     ="OK";
+
+playlist     ="spilleliste";
+
+settings     ="innstillinger";
+
+selectAll     ="Velg alle";
+
+DeselectAll     ="Opphev alle";
+
+AddTo     ="Legge til";
+
+Search     ="Vennligst skriv inn hva du vil søke";
+
+FeedBack      ="Takk for din støtte og tilbakemelding";
+
+Tips      ="Tips";
+
+Warning      ="Advarsel";
+
+deletTips     ="Ønsker du å slette flere videofiler?";
+
+RenameTips     ="Dupliser filnavn, vennligst gi nytt navn til andre navn";
+
+Ok      ="ok";
+
+DrawCode     ="Vennligst skriv din gestekode";
+
+DrawAgain     ="Vennligst skriv passordet på nytt";
+
+PasswordSettingSuccess     ="Passordinnstilling suksess";
+
+UnlockTips     ="Vennligst tegne gestuspassord for å låse opp";
+
+DrawOriginTips     ="Vennligst skriv det opprinnelige passordet";
+
+ResetSuccess     ="Passord reset vellykket";
+
+UnlockFail     ="Passordfeil, låse opp feil, prøv igjen";
+
+ResetFail     ="Passordfeil, tilbakestillingsfeil, prøv igjen";
+
+RedrawTips     ="Passord trukket to ganger er ikke det samme, vennligst redraw";
+
+DrawErrorTips     ="For mange feil, prøv igjen senere";
+
+Ratio     ="forhold";
+
+Subtitle     ="undertittel";
+
+Rate     ="sats";
+
+Top     ="Topp";
+
+Rename     ="Gi nytt navn";
+
+AddList     ="Legg til liste";
+
+Instructions     ="Bruksanvisning";
+
+Lock     ="Låse";
+
+Feedback     ="Tilbakemelding";
+
+OnlyProHave     ="Denne funksjonen er kun tilgjengelig for Pro-versjoner";
+
+BuyProOpen     ="Denne funksjonen må startes etter kjøpet";
+
+BuySuccess     ="Vellykket kjøp";
+
+BuyFailed     ="Kjøpet mislyktes. Prøv igjen senere";
+
+ResumeBuySuccess     ="Fortsett kjøp suksess";
+
+ResumeBuyFailed     ="Fortsett kjøp mislyktes";
+
+BuyNothing     ="Du har ikke kjøpt denne varen og kan ikke fortsette å kjøpe";
+
+Buy     ="Kjøpe";
+
+ResumeBuy     ="Fortsett kjøp";
+
+CancelBuy     ="Avbryt kjøp";
+
+RemoveAD     ="Fjern annonser";
+
+CustomSubtitle     ="Velg tilpassede teksting";
+
+PlayRate     ="Play rate";
+
+PlayRatio     ="Spillforhold";
+
+UptoPro     ="Oppgrader til Pro Edition";
+
+ProContent     ="Hva er Pro-versjonen?";
+ProContent1     ="1. Permanent ingen reklame trakassering!";
+ProContent2     ="2. Har egendefinerte tekst, last inn dine egne teksting! !";
+ProContent3     ="3. Med spillhastighet og spillforholdsjusteringsfunksjon, mer vilkårlig! !";
+ProContent4     ="4. Har en personvernslåsfunksjon for å gjøre videoen din mer privat! !";
+ProContent5     ="5. Oppfølgingsfunksjonen får prioritet til Pro-versjonen, og prioriterer opplevelsen! !";
+ProContent6     ="6. Pro-versjonen vil bli oppdatert første gang og mer stabil. !";
+ProContent7     ="7. Hva venter du på? Dette er ikke nok? Vel, prisen er bare 3 $, med en privat kino! Kjøp og kjøp!";
+ThanksSupport     ="8. Takk så mye for din bruk og støtte!";
+OtherApp     ="Anbefaler andre gode app";
+RemoveADTips     ="Vil du fjerne annonser?";
+OpenLockTips     ="Vil du åpne personvernlåsen?";
+OpenSubTitleTips     ="Ønsker du å åpne den egendefinerte tekstfunksjonen?";
+
+Back     ="Tilbake";
+
+OpenLock     ="Åpne personvernlåsen";
+
+Buying     ="innkjøp";
+
+CheckNoMailTips     ="Ingen e-postkonto er konfigurert for enheten din. Vennligst sett det opp og prøv igjen. Takk skal du ha.";
+
+NoSubtitle     ="Ingen teksting";
+
+
+

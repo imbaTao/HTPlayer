@@ -1,0 +1,154 @@
+/* 
+  Localizable.strings
+  TinyPlayer_V1
+
+  Created by Mr.h on 6/9/18.
+  Copyright © 2018 Great. All rights reserved.
+*/
+Edit      =    "편집하다";
+
+delete       =    "지우다";
+
+save      =    "구하다";
+
+cancel      =    "취소";
+
+Ok     =    "승인";
+
+playlist     =    "재생 목록";
+
+settings     =    "설정";
+
+selectAll     =    "모두 선택";
+
+DeselectAll     =    "모두 선택 취소";
+
+AddTo     =    "에 추가";
+
+Search     =    "검색 할 내용을 입력하십시오.";
+
+FeedBack      =    "지원과 피드백에 감사드립니다.";
+
+Tips      =    "팁";
+
+Warning      =    "경고";
+
+deletTips     =    "여러 개의 비디오 파일을 삭제 하시겠습니까?";
+
+RenameTips     =    "파일 이름이 중복되었습니다. 다른 이름으로 이름을 변경하십시오.";
+
+Ok      =    "승인";
+
+DrawCode     =    "제스처 코드를 그려주세요.";
+
+DrawAgain     =    "암호를 다시 그려주십시오.";
+
+PasswordSettingSuccess     =    "비밀번호 설정 성공";
+
+UnlockTips     =    "잠금 해제하려면 제스처 암호를 그려주십시오.";
+
+DrawOriginTips     =    "원래 비밀번호를 그려주십시오.";
+
+ResetSuccess     =    "비밀번호 재설정 성공";
+
+UnlockFail     =    "비밀번호 오류, 잠금 해제 실패, 다시 시도해주세요.";
+
+ResetFail     =    "비밀번호 오류, 재설정 실패, 다시 시도해주세요.";
+
+RedrawTips     =    "두 번 그려진 암호가 같지 않아서 다시 그리십시오.";
+
+DrawErrorTips     =    "오류가 너무 많습니다. 잠시 후 다시 시도하십시오.";
+
+Ratio     =    "비율";
+
+Subtitle     =    "부제";
+
+Rate     =    "율";
+
+Top     =    "상단";
+
+Rename     =    "이름 바꾸기";
+
+AddList     =    "목록 추가";
+
+Instructions     =    "명령";
+
+Lock     =    "자물쇠";
+
+Feedback     =    "피드백";
+
+OnlyProHave     =    "이 기능은 Pro 버전에서만 사용할 수 있습니다.";
+
+BuyProOpen     =    "구매 후이 기능을 시작해야합니다.";
+
+BuySuccess     =    "성공적인 구매";
+
+BuyFailed     =    "구매에 실패했습니다. 나중에 다시 시도 해주십시오";
+
+ResumeBuySuccess     =    "구매 성공 재개";
+
+ResumeBuyFailed     =    "구매 재개 실패";
+
+BuyNothing     =    "이 항목을 구입하지 않았으므로 구매를 재개 할 수 없습니다.";
+
+Buy     =    "사다";
+
+ResumeBuy     =    "구매 재개";
+
+CancelBuy     =    "구매 취소";
+
+RemoveAD     =    "광고를 제거하다";
+
+CustomSubtitle     =    "맞춤 자막 선택";
+
+PlayRate     =    "재생 속도";
+
+PlayRatio     =    "재생 비율";
+
+UptoPro     =    "Pro Edition으로 업그레이드";
+
+ProContent     =    "Pro 버전이란 무엇입니까?";
+ProContent1     =    "1. 영구히 광고 폭력은 없습니다 !!";
+ProContent2     =    "2. 맞춤 자막을 만들고 자신의 자막을로드하십시오! !";
+ProContent3     =    "3. 재생 속도 및 재생 비율 조정 기능으로, 더 임의적으로! !";
+ProContent4     =    "4. 개인 정보 보호 기능을 사용하여 비디오를보다 개인적인 것으로 만드십시오! !";
+ProContent5     =    "5. 후속 기능은 Pro 버전에 우선권을 부여하여 경험을 최우선으로 생각합니다! !";
+ProContent6     =    "6.The Pro 버전이 처음으로 업데이트되어보다 안정적으로 업데이트됩니다. !";
+ProContent7     =    "7. 무엇을 기다리고 있니? 충분하지 않다? 음, 가격은 사립 영화관에서만 3 $입니다! 구입하고 구입하십시오!";
+ThanksSupport     =    "8. 사용과 지원에 많은 감사를드립니다!";
+OtherApp     =    "다른 우수한 앱 추천";
+RemoveADTips     =    "광고를 삭제 하시겠습니까?";
+OpenLockTips     =    "개인 정보 보호 잠금 기능을 열시겠습니까?";
+OpenSubTitleTips     =    "사용자 정의 자막 기능을 열시겠습니까?";
+
+Back     =    "뒤로";
+
+OpenLock     =    "프라이버시 잠금 기능 열기";
+
+Buying     =    "구매";
+
+CheckNoMailTips     =    "장치에 대한 메일 계정이 설정되지 않았습니다. 설정하고 다시 시도하십시오. 고맙습니다.";
+
+NoSubtitle     =    "부제 없음";
+
+
+Connect1 =   "USB 케이블을 사용하여 iPhone을 컴퓨터에 연결하십시오";
+Connect2 =  "iTunes를 열고 iPhone을 선택하십시오";
+Connect3 =  "“파일 공유“를 클릭하십시오";
+Connect4 =  "Apps 목록에서 %@를 선택하십시오,“추가”를 클릭하거나 파일을 드래그 앤 드롭하여 %@에 추가하십시오";
+
+
+
+Connect6 =  "귀하의 휴대 전화와 컴퓨터를 동일한 Wi-Fi 네트워크에 연결하십시오";
+Connect7 =  "브라우저 (Chrome 또는 Safari)에서 주소를 입력하십시오. %@";
+Connect8 =  "“파일 업로드 버튼”을 클릭하여 전송을 시작하십시오.";
+Connect9 =  "전송이 완료 될 때까지 창을 닫지 마십시오";
+
+
+FirstWay = "첫 번째 방법";
+SecondWay = "두 번째 방법";
+Default = "태만";
+Original = "원본 파일 이름 :";
+NewfileName = "새 파일 이름을 입력하십시오";
+Play = "동영상 재생";
+

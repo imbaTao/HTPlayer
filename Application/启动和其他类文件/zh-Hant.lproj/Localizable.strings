@@ -1,0 +1,153 @@
+/* 
+  Localizable.strings
+  TinyPlayer_V1
+
+  Created by Mr.h on 6/9/18.
+  Copyright © 2018 Great. All rights reserved.
+*/
+Edit      ="編輯";
+
+delete       ="刪除";
+
+save      ="保存";
+
+cancel      ="取消";
+
+Ok     ="好的";
+
+playlist     ="播放列表";
+
+settings     ="設置";
+
+selectAll     ="全選";
+
+DeselectAll     ="全部取消選擇";
+
+AddTo     ="添加";
+
+Search     ="請輸入你想要搜索的內容";
+
+FeedBack      ="感謝您的支持和反饋";
+
+Tips      ="提示";
+
+Warning      ="警告";
+
+deletTips     ="你想刪除多個視頻文件嗎？";
+
+RenameTips     ="重複的文件名稱，請重命名其他名稱";
+
+Ok      ="好";
+
+DrawCode     ="請畫出你的手勢密碼";
+
+DrawAgain     ="請再次畫出密碼";
+
+PasswordSettingSuccess     ="密碼設置成功";
+
+UnlockTips     ="請畫手勢密碼解鎖";
+
+DrawOriginTips     ="請畫出原始密碼";
+
+ResetSuccess     ="密碼重置成功";
+
+UnlockFail     ="密碼錯誤，解鎖失敗，請重試";
+
+ResetFail     ="密碼錯誤，重置失敗，請重試";
+
+RedrawTips     ="兩次繪製的密碼是不一樣的，請重繪";
+
+DrawErrorTips     ="錯誤次数太多，請稍後重試";
+
+Ratio     ="比例";
+
+Subtitle     ="字幕";
+
+Rate     ="速率";
+
+Top     ="置顶";
+
+Rename     ="改名";
+
+AddList     ="添加列表";
+
+Instructions     ="說明";
+
+Lock     ="鎖";
+
+Feedback     ="反饋";
+
+OnlyProHave     ="此功能僅適用於Pro版本";
+
+BuyProOpen     ="購買後需要啟動該功能";
+
+BuySuccess     ="成功購買";
+
+BuyFailed     ="購買失敗。請稍後再試";
+
+ResumeBuySuccess     ="恢復購買成功";
+
+ResumeBuyFailed     ="恢復購買失敗";
+
+BuyNothing     ="您尚未購買此商品，因此無法恢復購買";
+
+Buy     ="購買";
+
+ResumeBuy     ="恢復購買";
+
+CancelBuy     ="取消購買";
+
+RemoveAD     ="移除廣告";
+
+CustomSubtitle     ="選擇自定義字幕";
+
+PlayRate     ="播放率";
+
+PlayRatio     ="遊戲比例";
+
+UptoPro     ="升級到專業版";
+
+ProContent     ="什麼是Pro版本？";
+ProContent1     ="1.永久無廣告騷擾！";
+ProContent2     ="2.有自定義字幕，加載自己的字幕！ ！";
+ProContent3     ="3.具有播放率和播放比例調節功能，更加隨心所欲！ ！";
+ProContent4     ="4.擁有隱私鎖定功能，讓您的視頻更私密！ ！";
+ProContent5     ="5.後續功能將優先於Pro版本，優先體驗！ ！";
+ProContent6     ="6. Pro版本將在第一時間更新並更穩定。 ！";
+ProContent7     ="7.你還在等什麼？這還不夠？那麼，價格只有3美元，有私人電影！購買和購買！";
+ThanksSupport     ="8.非常感謝您的使用和支持！";
+OtherApp     ="推薦其他優秀的應用";
+RemoveADTips     ="你想刪除廣告嗎？";
+OpenLockTips     ="你想打開隱私鎖定功能嗎？";
+OpenSubTitleTips     ="你想打開自定義字幕功能嗎？";
+
+Back     ="返回";
+
+OpenLock     ="打開隱私鎖定功能";
+
+Buying     ="購買";
+
+CheckNoMailTips     ="沒有為您的設備設置郵件帳戶。請設置它，然後重試。謝謝。";
+
+NoSubtitle     ="沒有字幕";
+
+
+Connect1 = "使用USB數據線連接您的電腦和手機";
+Connect2 = "打開電腦上蘋果公司的iTunes軟件(沒有需自行下載安裝),點擊左上角手機圖標";
+Connect3 = "點擊文件分享";
+Connect4 = "選中%@播放器,直接拖動文件或者點擊添加按鈕來添加視頻到APP";
+
+Connect6 = "保持您的手機和電腦在相同的wifi網絡";
+Connect7 = "在瀏覽器(Chrome or Safari)地址欄中輸入: %@";
+Connect8 = "點擊文件上傳按鈕來上傳文件";
+Connect9 = "一定不要離開這個界面或者熄滅手機屏幕,否則會導致文件傳輸中斷";
+FirstWay = "第一種方式";
+SecondWay = "第二種方式";
+Default = "默認";
+Original = "原文件名: ";
+NewfileName = "請輸入新的文件名";
+Play = "播放";
+
+
+
+

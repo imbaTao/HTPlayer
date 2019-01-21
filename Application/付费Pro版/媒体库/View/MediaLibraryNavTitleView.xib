@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MediaLibraryNavTitleView">
+            <rect key="frame" x="0.0" y="0.0" width="481" height="56"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQ5-2I-sCr">
+                    <rect key="frame" x="12" y="6" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="qpR-Vf-rUM"/>
+                        <constraint firstAttribute="width" constant="44" id="w0d-Es-cVo"/>
+                    </constraints>
+                    <state key="normal" image="Navi_ Glass"/>
+                    <connections>
+                        <action selector="searchAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="o60-Qd-Kri"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45M-cr-FEX">
+                    <rect key="frame" x="425" y="6" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="NmC-2B-8LN"/>
+                        <constraint firstAttribute="width" constant="44" id="pwG-hO-3l7"/>
+                    </constraints>
+                    <state key="normal" image="Navi_Menu"/>
+                    <connections>
+                        <action selector="menuAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="4gv-Zo-HrN"/>
+                    </connections>
+                </button>
+                <searchBar contentMode="redraw" searchBarStyle="minimal" text="" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wly-3z-wrq">
+                    <rect key="frame" x="68" y="0.0" width="345" height="56"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="barTintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    <scopeButtonTitles>
+                        <string>Title</string>
+                        <string>Title</string>
+                    </scopeButtonTitles>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.22352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="45M-cr-FEX" firstAttribute="centerY" secondItem="cQ5-2I-sCr" secondAttribute="centerY" id="9CP-cP-oYI"/>
+                <constraint firstItem="wly-3z-wrq" firstAttribute="leading" secondItem="cQ5-2I-sCr" secondAttribute="trailing" constant="12" id="9fE-As-Lbz"/>
+                <constraint firstItem="45M-cr-FEX" firstAttribute="leading" secondItem="wly-3z-wrq" secondAttribute="trailing" constant="12" id="APv-dG-K8o"/>
+                <constraint firstItem="45M-cr-FEX" firstAttribute="width" secondItem="cQ5-2I-sCr" secondAttribute="width" id="BNF-zY-m3Z"/>
+                <constraint firstItem="cQ5-2I-sCr" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="JWA-d8-DvE"/>
+                <constraint firstItem="cQ5-2I-sCr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="12" id="WS6-4S-LSe"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="45M-cr-FEX" secondAttribute="trailing" constant="12" id="bkC-ma-Fsn"/>
+                <constraint firstItem="45M-cr-FEX" firstAttribute="height" secondItem="cQ5-2I-sCr" secondAttribute="height" id="dHF-4i-jyd"/>
+                <constraint firstItem="wly-3z-wrq" firstAttribute="centerY" secondItem="cQ5-2I-sCr" secondAttribute="centerY" id="oks-Ga-9wt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="menuButton" destination="45M-cr-FEX" id="SLG-w5-8NE"/>
+                <outlet property="menuButtonRightConstraint" destination="bkC-ma-Fsn" id="G33-Y6-XZq"/>
+                <outlet property="searchBar" destination="wly-3z-wrq" id="E4f-J7-wiF"/>
+                <outlet property="searchButton" destination="cQ5-2I-sCr" id="1pz-ne-eic"/>
+                <outlet property="searchButtonLeftConstraint" destination="WS6-4S-LSe" id="eIA-8f-AR7"/>
+            </connections>
+            <point key="canvasLocation" x="77.5" y="-254"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Navi_ Glass" width="24" height="24"/>
+        <image name="Navi_Menu" width="25" height="18"/>
+    </resources>
+</document>

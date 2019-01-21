@@ -1,0 +1,126 @@
+Edit      =    "Redigera";
+
+delete       =    "Radera";
+
+save      =    "Spara";
+
+cancel      =    "Annullera";
+
+Ok     =    "ok";
+
+playlist     =    "Spellista";
+
+settings     =    "inställningar";
+
+selectAll     =    "Välj alla";
+
+DeselectAll     =    "Avmarkera alla";
+
+AddTo     =    "Lägg till";
+
+Search     =    "Vänligen skriv in vad du vill söka";
+
+FeedBack      =    "Tack för ditt stöd och feedback";
+
+Tips      =    "tips";
+
+Warning      =    "Varning";
+
+deletTips     =    "Vill du radera flera videofiler?";
+
+RenameTips     =    "Kopiera filnamn, vänligen byt namn på andra namn";
+
+Ok      =    "Ok";
+
+DrawCode     =    "Var vänlig rita din gestekod";
+
+DrawAgain     =    "Vänligen skriv lösenordet igen";
+
+PasswordSettingSuccess     =    "Lösenordsinställning framgång";
+
+UnlockTips     =    "Vänligen rita gestuslösenord för att låsa upp";
+
+DrawOriginTips     =    "Vänligen rit det ursprungliga lösenordet";
+
+ResetSuccess     =    "Lösenordsåterställning lyckades";
+
+UnlockFail     =    "Lösenordsfel, låsa upp fel, försök igen";
+
+ResetFail     =    "Lösenordsfel, återställningsfel, vänligen försök igen";
+
+RedrawTips     =    "Lösenordet som dras två gånger är inte detsamma, snälla omrapportera";
+
+DrawErrorTips     =    "För många fel, försök igen senare";
+
+Ratio     =    "förhållande";
+
+Subtitle     =    "texta";
+
+Rate     =    "Betygsätta";
+
+Top     =    "Topp";
+
+Rename     =    "Döpa om";
+
+AddList     =    "Lägg till lista";
+
+Instructions     =    "Instruktioner";
+
+Lock     =    "Låsa";
+
+Feedback     =    "Återkoppling";
+
+OnlyProHave     =    "Den här funktionen är endast tillgänglig för Pro-versioner";
+
+BuyProOpen     =    "Denna funktion måste startas efter inköpet";
+
+BuySuccess     =    "Framgångsrikt köp";
+
+BuyFailed     =    "Köp misslyckades. Vänligen försök igen senare";
+
+ResumeBuySuccess     =    "Fortsätt köpes framgång";
+
+ResumeBuyFailed     =    "Fortsätt köpet misslyckades";
+
+BuyNothing     =    "Du har inte köpt det här objektet och kan inte återuppta köp";
+
+Buy     =    "köpa";
+
+ResumeBuy     =    "Fortsätt köp";
+
+CancelBuy     =    "Avbryt köp";
+
+RemoveAD     =    "Ta bort annonser";
+
+CustomSubtitle     =    "Välj anpassade undertexter";
+
+PlayRate     =    "Play rate";
+
+PlayRatio     =    "Play-förhållande";
+
+UptoPro     =    "Uppgradera till Pro Edition";
+
+ProContent     =    "Vad är Pro-versionen?";
+ProContent1     =    "1. Permanent ingen reklam trakasserier !!";
+ProContent2     =    "2. Har egna undertexter, ladda dina egna undertexter! !";
+ProContent3     =    "3. Med play rate och play ratio justeringsfunktion, mer godtycklig! !";
+ProContent4     =    "4. Har en integritetslåsfunktion för att göra din video mer privat! !";
+ProContent5     =    "5. Uppföljningsfunktionen prioriteras till Pro-versionen, vilket prioriterar upplevelsen! !";
+ProContent6     =    "6. Pro-versionen uppdateras första gången och blir stabilare. !";
+ProContent7     =    "7. Vad väntar du på? Det här är inte tillräckligt? Tja, priset är bara 3 $, med en privat biograf! Köp och köp!";
+ThanksSupport     =    "8. Tack så mycket för din användning och support!";
+OtherApp     =    "Rekommendera andra bra app";
+RemoveADTips     =    "Vill du ta bort annonser?";
+OpenLockTips     =    "Vill du öppna integritetslåsfunktionen?";
+OpenSubTitleTips     =    "Vill du öppna den anpassade undertextfunktionen?";
+
+Back     =    "Tillbaka";
+
+OpenLock     =    "Öppna integritetslåsfunktionen";
+
+Buying     =    "Köp av";
+
+CheckNoMailTips     =    "Inget mailkonto har konfigurerats för din enhet. Vänligen sätt upp det och försök igen. Tack.";
+
+NoSubtitle     =    "Ingen textning";
+

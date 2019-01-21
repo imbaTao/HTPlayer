@@ -1,0 +1,148 @@
+
+Edit      ="Edit";
+
+delete       ="Menghapus";
+
+save      ="Menyimpan";
+
+cancel      ="Membatalkan";
+
+Ok     ="baik";
+
+playlist     ="Daftar putar";
+
+settings     ="Pengaturan";
+
+selectAll     ="Pilih Semua";
+
+DeselectAll     ="Hapus semua";
+
+AddTo     ="Tambahkan";
+
+Search     ="Silakan masukkan apa yang ingin Anda cari";
+
+FeedBack      ="Terima kasih atas dukungan dan masukan Anda";
+
+Tips      ="Tips";
+
+Warning      ="PERINGATAN";
+
+deletTips     ="Apakah Anda ingin menghapus beberapa file video?";
+
+RenameTips     ="Gandakan nama file, silakan ganti nama nama lainnya";
+
+Ok      ="Baik";
+
+DrawCode     ="Silakan menggambar kode gerakan Anda";
+
+DrawAgain     ="Tolong gambarkan kata sandinya lagi";
+
+PasswordSettingSuccess     ="Pengaturan kata sandi berhasil";
+
+UnlockTips     ="Silakan gambarkan kata sandi gerakan untuk membuka kunci";
+
+DrawOriginTips     ="Silakan menggambar kata sandi asli";
+
+ResetSuccess     ="Penyetelan ulang kata sandi berhasil";
+
+UnlockFail     ="Kesalahan kata sandi, membuka kunci kegagalan, silakan coba lagi";
+
+ResetFail     ="Kesalahan kata sandi, atur ulang kegagalan, silakan coba lagi";
+
+RedrawTips     ="Kata sandi yang diambil dua kali tidak sama, silakan redraw";
+
+DrawErrorTips     ="Terlalu banyak kesalahan, silakan coba lagi nanti";
+
+Ratio     ="perbandingan";
+
+Subtitle     ="subtitle";
+
+Rate     ="menilai";
+
+Top     ="Puncak";
+
+Rename     ="Ganti nama";
+
+AddList     ="Tambahkan daftar";
+
+Instructions     ="Instruksi";
+
+Lock     ="Mengunci";
+
+Feedback     ="Umpan balik";
+
+OnlyProHave     ="Fungsi ini hanya tersedia untuk versi Pro";
+
+BuyProOpen     ="Fungsi ini harus dimulai setelah pembelian";
+
+BuySuccess     ="Pembelian berhasil";
+
+BuyFailed     ="Pembelian gagal. Silakan coba lagi nanti";
+
+ResumeBuySuccess     ="Lanjutkan keberhasilan pembelian";
+
+ResumeBuyFailed     ="Melanjutkan pembelian gagal";
+
+BuyNothing     ="Anda belum membeli item ini dan tidak dapat melanjutkan pembelian";
+
+Buy     ="Membeli";
+
+ResumeBuy     ="Lanjutkan pembelian";
+
+CancelBuy     ="Batalkan Pembelian";
+
+RemoveAD     ="Hilangkan iklan";
+
+CustomSubtitle     ="Pilih subtitle khusus";
+
+PlayRate     ="Tingkat pemutaran";
+
+PlayRatio     ="Mainkan rasio";
+
+UptoPro     ="Tingkatkan ke Edisi Pro";
+
+ProContent     ="Apa versi Pro?";
+ProContent1     ="1. Secara permanen tidak ada pelecehan iklan !!";
+ProContent2     ="2. Memiliki subtitle kustom, memuat sub judul Anda sendiri! !";
+ProContent3     ="3. Dengan tingkat pemutaran dan fungsi penyesuaian rasio putar, lebih sewenang-wenang! !";
+ProContent4     ="4. Memiliki fungsi kunci privasi untuk membuat video Anda lebih pribadi! !";
+ProContent5     ="5. Fungsi tindak lanjut akan diberikan prioritas ke versi Pro, mengutamakan pengalaman! !";
+ProContent6     ="6. Versi Pro akan diperbarui pada saat pertama dan lebih stabil. !";
+ProContent7     ="7. Apa yang Anda tunggu? Ini tidak cukup? Nah, harganya hanya 3 $, dengan bioskop pribadi! Beli dan beli!";
+ThanksSupport     ="8. Terima kasih banyak atas penggunaan dan dukungan Anda!";
+OtherApp     ="Sarankan aplikasi lain yang sangat baik";
+RemoveADTips     ="Apakah Anda ingin menghapus iklan?";
+OpenLockTips     ="Apakah Anda ingin membuka fungsi kunci privasi?";
+OpenSubTitleTips     ="Apakah Anda ingin membuka fungsi subtitle kustom?";
+
+Back     ="Kembali";
+
+OpenLock     ="Buka fungsi kunci privasi";
+
+Buying     ="Membeli";
+
+CheckNoMailTips     ="Tidak ada akun email yang disiapkan untuk perangkat Anda. Silakan mengaturnya dan coba lagi. Terima kasih.";
+
+NoSubtitle     ="Tanpa subtitle";
+
+
+
+Connect1 =  "Hubungkan iPhone Anda ke komputer menggunakan kabel USB";
+Connect2 =  "Buka iTunes dan pilih iPhone Anda";
+Connect3 =  "Klik pada “Berbagi file”";
+Connect4 =  "Pilih%@ Dari Daftar Aplikasi,Klik “Tambah” atau drag & drop file untuk ditambahkan ke%@";
+
+
+Connect6 =  "Jauhkan ponsel dan komputer Anda di jaringan Wi-Fi yang sama";
+Connect7  = "Masukkan alamat di browser Anda (Chrome atau Safari):%@";
+Connect8 =  "Klik tombol “Unggah File” untuk memulai transfer";
+Connect9 =  "Jangan tutup jendela ini hingga transfer selesai";
+
+
+FirstWay = "Cara pertama";
+SecondWay = "Cara kedua";
+Default = "Default";
+Original = "Nama file asli:";
+NewfileName = "Harap masukkan nama file baru";
+Play = "Mainkan video";
+

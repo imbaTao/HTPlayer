@@ -1,0 +1,130 @@
+
+Edit      ="modifier";
+
+delete       ="Effacer";
+
+save      ="sauvegarder";
+
+cancel      ="Annuler";
+
+Ok     ="D'accord";
+
+playlist     ="Playlist";
+
+settings     ="Paramètres";
+
+selectAll     ="Tout sélectionner";
+
+DeselectAll     ="Tout déselectionner";
+
+AddTo     ="Ajouter à";
+
+Search     ="S'il vous plaît entrer ce que vous voulez rechercher";
+
+FeedBack      ="Merci pour votre soutien et vos commentaires";
+
+Tips      ="Conseils";
+
+Warning      ="Attention";
+
+deletTips     ="Voulez-vous supprimer plusieurs fichiers vidéo?";
+
+RenameTips     ="Nom de fichier en double, veuillez renommer les autres noms";
+
+Ok      ="D'accord";
+
+DrawCode     ="Veuillez dessiner votre code gestuel";
+
+DrawAgain     ="Veuillez redéfinir le mot de passe";
+
+PasswordSettingSuccess     ="Mot de passe";
+
+UnlockTips     ="S'il vous plaît dessiner mot de passe geste pour déverrouiller";
+
+DrawOriginTips     ="Veuillez dessiner le mot de passe original";
+
+ResetSuccess     ="Mot de passe réinitialisé";
+
+UnlockFail     ="Erreur de mot de passe, échec du déverrouillage, veuillez réessayer";
+
+ResetFail     ="Erreur de mot de passe, réinitialisation de l'échec, veuillez réessayer";
+
+RedrawTips     ="Le mot de passe tiré deux fois n'est pas le même, veuillez redessiner";
+
+DrawErrorTips     ="Trop d'erreurs, veuillez réessayer plus tard";
+
+Ratio     ="rapport";
+
+Subtitle     ="Sous-titre";
+
+Rate     ="taux";
+
+Top     ="Haut";
+
+Rename     ="Renommer";
+
+AddList     ="Ajouter la liste";
+
+Instructions     ="Instructions";
+
+Lock     ="Fermer à clé";
+
+Feedback     ="Retour d'information";
+
+OnlyProHave     ="Cette fonction est uniquement disponible pour les versions Pro";
+
+BuyProOpen     ="Cette fonction doit être démarrée après l'achat";
+
+BuySuccess     ="Achat réussi";
+
+BuyFailed     ="Achat raté. Veuillez réessayer plus tard";
+
+ResumeBuySuccess     ="Reprendre le succès de l'achat";
+
+ResumeBuyFailed     ="L'achat de reprise a échoué";
+
+BuyNothing     ="Vous n'avez pas acheté cet article et ne pouvez pas reprendre l'achat";
+
+Buy     ="Acheter";
+
+ResumeBuy     ="Reprendre l'achat";
+
+CancelBuy     ="Annuler l'achat";
+
+RemoveAD     ="Supprimez la pub";
+
+CustomSubtitle     ="Choisissez des sous-titres personnalisés";
+
+PlayRate     ="Taux de jeu";
+
+PlayRatio     ="Taux de jeu";
+
+UptoPro     ="Mettre à niveau vers Pro Edition";
+
+ProContent     ="Quelle est la version Pro?";
+ProContent1     ="1. En permanence pas de harcèlement publicitaire !!";
+ProContent2     ="2. Avoir des sous-titres personnalisés, charger vos propres sous-titres! !";
+ProContent3     ="3. Avec le taux de jeu et la fonction d'ajustement de rapport de jeu, plus arbitraire! !";
+ProContent4     ="4. Avoir une fonction de verrouillage de la vie privée pour rendre votre vidéo plus privée! !";
+ProContent5     ="5. La fonction de suivi sera prioritaire sur la version Pro, donnant la priorité à l'expérience! !";
+ProContent6     ="6. La version Pro sera mise à jour pour la première fois et plus stable. !";
+ProContent7     ="7. Qu'attendez-vous? Ce n'est pas assez? Eh bien, le prix est seulement 3 $, avec un cinéma privé! Achetez et achetez!";
+ThanksSupport     ="8. Merci beaucoup pour votre utilisation et votre soutien!";
+OtherApp     ="Recommander une autre excellente application";
+RemoveADTips     ="Voulez-vous supprimer des annonces?";
+OpenLockTips     ="Voulez-vous ouvrir la fonction de verrouillage de la confidentialité?";
+OpenSubTitleTips     ="Voulez-vous ouvrir la fonction de sous-titres personnalisée?";
+
+Back     ="Arrière";
+
+OpenLock     ="Ouvrez la fonction de verrouillage de la confidentialité";
+
+Buying     ="Achat";
+
+CheckNoMailTips     ="Aucun compte de messagerie n'a été configuré pour votre appareil. Veuillez le configurer et réessayer. Je vous remercie.";
+
+NoSubtitle     ="Pas de sous-titre";
+
+
+
+

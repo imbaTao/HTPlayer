@@ -1,0 +1,54 @@
+PODS:
+  - DBGuestureLock (0.0.2)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - Google-Mobile-Ads-SDK (7.33.1)
+  - IQKeyboardManager (6.1.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+  - MobileVLCKit (3.1.4)
+  - ReactiveObjC (3.1.0)
+
+DEPENDENCIES:
+  - DBGuestureLock (~> 0.0.2)
+  - FMDB
+  - Google-Mobile-Ads-SDK
+  - IQKeyboardManager
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - MobileVLCKit
+  - ReactiveObjC
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DBGuestureLock
+    - FMDB
+    - Google-Mobile-Ads-SDK
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MobileVLCKit
+    - ReactiveObjC
+
+SPEC CHECKSUMS:
+  DBGuestureLock: 9b8c56e278ad47e49ed400584dca6be5a0257519
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  Google-Mobile-Ads-SDK: 71c6d3e8d8f52673fa5a83fc0d027623b11fde16
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MobileVLCKit: 34e17d0148c7a1af90c68c10b17b0707dc980d78
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+
+PODFILE CHECKSUM: 7b32e48fab3eaa38c62d40e48daabe641c4fc36f
+
+COCOAPODS: 1.5.3

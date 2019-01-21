@@ -1,0 +1,130 @@
+
+Edit      ="modificare";
+
+delete       ="Elimina";
+
+save      ="Salvare";
+
+cancel      ="Annulla";
+
+Ok     ="ok";
+
+playlist     ="elenco di riproduzione";
+
+settings     ="impostazioni";
+
+selectAll     ="Seleziona tutto";
+
+DeselectAll     ="Deselezionare tutto";
+
+AddTo     ="Aggiungere a";
+
+Search     ="Si prega di inserire ciò che si desidera cercare";
+
+FeedBack      ="Grazie per il vostro supporto e feedback";
+
+Tips      ="Suggerimenti";
+
+Warning      ="avvertimento";
+
+deletTips     ="Vuoi cancellare più file video?";
+
+RenameTips     ="Nome del file duplicato, rinominare altri nomi";
+
+Ok      ="Ok";
+
+DrawCode     ="Si prega di disegnare il tuo codice gesto";
+
+DrawAgain     ="Si prega di disegnare nuovamente la password";
+
+PasswordSettingSuccess     ="Password con successo";
+
+UnlockTips     ="Si prega di disegnare la password gesto per sbloccare";
+
+DrawOriginTips     ="Si prega di disegnare la password originale";
+
+ResetSuccess     ="Ripristino password riuscita";
+
+UnlockFail     ="Errore password, errore di sblocco, riprova";
+
+ResetFail     ="Errore password, reset fallito, per favore riprova";
+
+RedrawTips     ="La password disegnata due volte non è la stessa, per favore ridisegna";
+
+DrawErrorTips     ="Troppi errori, riprova più tardi";
+
+Ratio     ="rapporto";
+
+Subtitle     ="sottotitolo";
+
+Rate     ="Vota";
+
+Top     ="Superiore";
+
+Rename     ="Rinominare";
+
+AddList     ="Aggiungi lista";
+
+Instructions     ="Istruzioni";
+
+Lock     ="Serratura";
+
+Feedback     ="Risposta";
+
+OnlyProHave     ="Questa funzione è disponibile solo per le versioni Pro";
+
+BuyProOpen     ="Questa funzione deve essere avviata dopo l'acquisto";
+
+BuySuccess     ="Acquisto riuscito";
+
+BuyFailed     ="Acquisto fallito. Per favore riprova più tardi";
+
+ResumeBuySuccess     ="Riprendi il successo dell'acquisto";
+
+ResumeBuyFailed     ="Riprendi l'acquisto non riuscito";
+
+BuyNothing     ="Non hai acquistato questo articolo e non puoi riprendere l'acquisto";
+
+Buy     ="Acquistare";
+
+ResumeBuy     ="Riprendi l'acquisto";
+
+CancelBuy     ="Cancella l'aquisto";
+
+RemoveAD     ="Rimuovere gli annunci";
+
+CustomSubtitle     ="Scegli i sottotitoli personalizzati";
+
+PlayRate     ="Tasso di riproduzione";
+
+PlayRatio     ="Rapporto di gioco";
+
+UptoPro     ="Esegui l'upgrade a Pro Edition";
+
+ProContent     ="Qual è la versione Pro?";
+ProContent1     ="1. Permanentemente nessuna molestia pubblicitaria !!";
+ProContent2     ="2. Avere sottotitoli personalizzati, caricare i propri sottotitoli! !";
+ProContent3     ="3. Con la frequenza di riproduzione e la funzione di regolazione del rapporto di riproduzione, più arbitraria! !";
+ProContent4     ="4. Avere una funzione di blocco della privacy per rendere più privato il tuo video! !";
+ProContent5     ="5. La funzione di follow-up sarà data priorità alla versione Pro, dando priorità all'esperienza! !";
+ProContent6     ="6. La versione Pro verrà aggiornata per la prima volta e più stabile. !";
+ProContent7     ="7. Cosa stai aspettando? Questo non è abbastanza? Bene, il prezzo è solo 3 $, con un cinema privato! Acquista e acquista!";
+ThanksSupport     ="8. Grazie mille per il tuo uso e supporto!";
+OtherApp     ="Raccomanda un'altra app eccellente";
+RemoveADTips     ="Vuoi rimuovere gli annunci?";
+OpenLockTips     ="Vuoi aprire la funzione di blocco privacy?";
+OpenSubTitleTips     ="Vuoi aprire la funzione di sottotitoli personalizzata?";
+
+Back     ="Indietro";
+
+OpenLock     ="Aprire la funzione di blocco privacy";
+
+Buying     ="Acquisto";
+
+CheckNoMailTips     ="Nessun account di posta è stato impostato per il tuo dispositivo. Si prega di configurarlo e riprovare. Grazie.";
+
+NoSubtitle     ="Nessun sottotitolo";
+
+
+
+

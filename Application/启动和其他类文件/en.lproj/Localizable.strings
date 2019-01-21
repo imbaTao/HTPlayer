@@ -1,0 +1,151 @@
+Edit      ="Edit";
+
+delete       ="Delete";
+
+save      ="Save";
+
+cancel      ="Cancel";
+
+play = "Play";
+
+Ok     ="OK";
+
+playlist     ="Playlist";
+
+settings     ="Settings";
+
+selectAll     ="Select all";
+
+DeselectAll     ="Deselect all";
+
+AddTo     ="Add to";
+
+Search     ="Please input what you want to search";
+
+FeedBack      ="Thank you for your support and feedback";
+
+Tips      ="Tips";
+
+Warning      ="Warning";
+
+deletTips     ="Do you want to delete multiple video files?";
+
+RenameTips     ="Duplicate file name, please rename other names";
+
+Ok      ="Ok";
+
+DrawCode     ="Please draw your gesture code";
+
+DrawAgain     ="Please draw the password again";
+
+PasswordSettingSuccess     ="Password setting success";
+
+UnlockTips     ="Please draw gesture password to unlock";
+
+DrawOriginTips     ="Please draw the original password";
+
+ResetSuccess     ="Password reset successful";
+
+UnlockFail     ="Password error, unlock failure, please try again";
+
+ResetFail     ="Password error, reset failure, please try again";
+
+RedrawTips     ="Password drawn twice is not the same, please redraw";
+
+DrawErrorTips     ="Too many errors, please try again later";
+
+Ratio     ="Ratio";
+
+Subtitle     ="Subtitle";
+
+Rate     ="Rate";
+
+Top     ="Top";
+
+Rename     ="Rename";
+
+AddList     ="Add list";
+
+Instructions     ="Instructions";
+
+Lock     ="Lock";
+
+Feedback     ="Feedback";
+
+OnlyProHave     ="This function is only available for Pro versions";
+
+BuyProOpen     ="This function needs to be started after purchase";
+
+BuySuccess     ="Successful purchase";
+
+BuyFailed     ="Purchase failed. Please try again later";
+
+ResumeBuySuccess     ="Resume purchase success";
+
+ResumeBuyFailed     ="Resume purchase failed";
+
+BuyNothing     ="You haven’t purchased this item and can’t resume purchase";
+
+Buy     ="Buy";
+
+ResumeBuy     ="Resume purchase";
+
+CancelBuy     ="Cancel purchase";
+
+RemoveAD     ="Remove ads";
+
+CustomSubtitle     ="Choose custom subtitles";
+
+PlayRate     ="Play rate";
+
+PlayRatio     ="Play ratio";
+
+UptoPro     ="Upgrade to Pro Edition";
+
+ProContent     ="What is the Pro version?";
+ProContent1     ="1. Permanently no advertising harassment!!";
+ProContent2     ="2. Have custom subtitles, load your own subtitles! !"    ;
+ProContent3     ="3. With play rate and play ratio adjustment function, more arbitrary! !";
+ProContent4     ="4. Have a privacy lock function to make your video more private! !";
+ProContent5     ="5. The follow-up function will be given priority to the Pro version, giving priority to experience! !";
+ProContent6     ="6.The Pro version will be updated at the first time and more stable. !";
+ProContent7     ="7. What are you waiting for? This is not enough? Well, the price is only 3$, with a private cinema! Buy and buy!";
+ThanksSupport     ="8. Thank you so much for your use and support!";
+OtherApp     ="Recommend other excellent app";
+RemoveADTips     ="Do you want to remove ads？";
+OpenLockTips     ="Do you want to open the privacy lock function?";
+OpenSubTitleTips     ="Do you want to open the custom subtitle function?";
+
+Back     ="Back";
+
+OpenLock     ="Open the privacy lock function";
+
+Buying     ="Purchasing";
+
+CheckNoMailTips     ="No mail account has been set up for your device. Please set it up and try again. Thank you.";
+
+NoSubtitle     ="No subtitle";
+
+
+
+
+Connect1 =  "Connect your iPhone to your computer using the USB cable";
+Connect2 =  "Open iTunes and select your iPhone";
+Connect3 =  "Click on ”File sharing“";
+Connect4 =  "Select %@ From The Apps List,Click “Add” or drag & drop files to add to %@";
+
+
+Connect6 =  "Keep your phone and computer on the same wifi network";
+Connect7 =  "Enter the address in your browser(Chrome or Safari): %@";
+Connect8 =  "Click the “Upload File button” to start the transfer";
+Connect9 =  "Don’t close thise window until the transfer is completed";
+
+
+
+
+FirstWay = "FirstWay";
+SecondWay = "SecondWay";
+Default = "Default";
+Original = "Original file name:";
+NewfileName = "Please enter a new file name";
+Play = "Play";

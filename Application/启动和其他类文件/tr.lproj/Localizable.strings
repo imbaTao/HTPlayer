@@ -1,0 +1,127 @@
+
+Edit      ="Düzenle";
+
+delete       ="silmek";
+
+save      ="Kayıt etmek";
+
+cancel      ="İptal etmek";
+
+Ok     ="tamam";
+
+playlist     ="Oynatma Listesi";
+
+settings     ="Ayarlar";
+
+selectAll     ="Hepsini seç";
+
+DeselectAll     ="Hiçbirini seçme";
+
+AddTo     ="a ekle";
+
+Search     ="Lütfen aramak istediğiniz şeyi girin";
+
+FeedBack      ="Desteğiniz ve geri bildiriminiz için teşekkür ederiz";
+
+Tips      ="İpuçları";
+
+Warning      ="Uyarı";
+
+deletTips     ="Birden fazla video dosyasını silmek istiyor musunuz?";
+
+RenameTips     ="Yinelenen dosya adı, lütfen diğer adları yeniden adlandırın";
+
+Ok      ="Tamam";
+
+DrawCode     ="Lütfen jest kodunuzu çizin";
+
+DrawAgain     ="Lütfen şifreyi tekrar çizin";
+
+PasswordSettingSuccess     ="Şifre ayarı başarılı";
+
+UnlockTips     ="Kilidini açmak için jest şifre çizin lütfen";
+
+DrawOriginTips     ="Lütfen orijinal şifreyi çizin";
+
+ResetSuccess     ="Şifre sıfırlama başarılı";
+
+UnlockFail     ="Şifre hatası, hatanın kilidini açın, lütfen tekrar deneyin";
+
+ResetFail     ="Şifre hatası, hatayı sıfırla, lütfen tekrar dene";
+
+RedrawTips     ="İki kez çizilen şifre aynı değildir, lütfen yeniden çizin";
+
+DrawErrorTips     ="Çok fazla hata var, lütfen daha sonra tekrar deneyin";
+
+Ratio     ="oran";
+
+Subtitle     ="alt yazı";
+
+Rate     ="oran";
+
+Top     ="Üst";
+
+Rename     ="Adını değiştirmek";
+
+AddList     ="Liste ekle";
+
+Instructions     ="Talimatlar";
+
+Lock     ="Kilit";
+
+Feedback     ="geri bildirim";
+
+OnlyProHave     ="Bu işlev sadece Pro sürümleri için kullanılabilir";
+
+BuyProOpen     ="Bu işlev satın alındıktan sonra başlatılmalıdır";
+
+BuySuccess     ="Başarılı satın alma";
+
+BuyFailed     ="Satın alma başarısız oldu. Lütfen daha sonra tekrar deneyiniz";
+
+ResumeBuySuccess     ="Satın alma başarısını sürdürme";
+
+ResumeBuyFailed     ="Satın alma işlemi başarısız oldu";
+
+BuyNothing     ="Bu ürünü satın almadınız ve satın almaya devam edemezsiniz";
+
+Buy     ="satın almak";
+
+ResumeBuy     ="Satın almaya devam et";
+
+CancelBuy     ="Satın almayı iptal et";
+
+RemoveAD     ="Reklamları kaldırmak";
+
+CustomSubtitle     ="Özel altyazılar seçin";
+
+PlayRate     ="Oynatma oranı";
+
+PlayRatio     ="Oyun oranı";
+
+UptoPro     ="Pro Sürümüne Yükseltme";
+
+ProContent     ="Pro sürümü nedir?";
+ProContent1     ="1. Kalıcı reklam tacizi yok!";
+ProContent2     ="2. Özel altyazılar var, kendi altyazılarınızı yükleyin! !";
+ProContent3     ="3. Oynatma oranı ve oynatma oranı ayarlama fonksiyonu ile, daha keyfi! !";
+ProContent4     ="4. Videonuzu daha özel hale getirmek için bir gizlilik kilidi işlevi var! !";
+ProContent5     ="5. İzleme fonksiyonuna, Pro sürümüne öncelik verilecek ve deneyime öncelik verilecektir! !";
+ProContent6     ="6. Pro sürümü ilk kez ve daha kararlı güncellenecektir. !";
+ProContent7     ="7. Ne için bekliyorsunuz? Bu yeterli değil? Eh, özel bir sinema ile fiyat sadece 3 $! Satın al ve satın al!";
+ThanksSupport     ="8. Kullanımınız ve desteğiniz için çok teşekkür ederim!";
+OtherApp     ="Diğer mükemmel uygulamayı öner";
+RemoveADTips     ="Reklamları kaldırmak istiyor musunuz?";
+OpenLockTips     ="Gizlilik kilidi işlevini açmak ister misiniz?";
+OpenSubTitleTips     ="Özel altyazı işlevini açmak ister misiniz?";
+
+Back     ="Geri";
+
+OpenLock     ="Gizlilik kilidi işlevini aç";
+
+Buying     ="Satın alma";
+
+CheckNoMailTips     ="Cihazınız için posta hesabı ayarlanmamış. Lütfen kur ve tekrar dene. Teşekkür ederim.";
+
+NoSubtitle     ="Altyazı yok";
+

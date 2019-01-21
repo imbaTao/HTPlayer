@@ -1,0 +1,136 @@
+/* 
+  Localizable.strings
+  TinyPlayer_V1
+
+  Created by Mr.h on 6/9/18.
+  Copyright © 2018 Great. All rights reserved.
+*/
+Edit      ="Muokata";
+
+delete       ="Poistaa";
+
+save      ="Tallentaa";
+
+cancel      ="Peruuttaa";
+
+Ok     ="kunnossa";
+
+playlist     ="soittolista";
+
+settings     ="asetukset";
+
+selectAll     ="Valitse kaikki";
+
+DeselectAll     ="Poista kaikki valinta";
+
+AddTo     ="Lisätä";
+
+Search     ="Syötä mitä haluat etsiä";
+
+FeedBack      ="Kiitos tuestanne ja palautteestasi";
+
+Tips      ="vinkkejä";
+
+Warning      ="Varoitus";
+
+deletTips     ="Haluatko poistaa useita videotiedostoja?";
+
+RenameTips     ="Kopioi tiedostonimi uudelleen, nimeä muut nimet";
+
+Ok      ="kunnossa";
+
+DrawCode     ="Piirrä eleettikoodi";
+
+DrawAgain     ="Hanki salasana uudelleen";
+
+PasswordSettingSuccess     ="Salasanan menestys";
+
+UnlockTips     ="Vedä eleiden salasana avataksesi";
+
+DrawOriginTips     ="Piirrä alkuperäinen salasana";
+
+ResetSuccess     ="Salasanan palautus onnistui";
+
+UnlockFail     ="Salasanavirhe, lukituksen poisto, yritä uudelleen";
+
+ResetFail     ="Salasanavirhe, nollaus epäonnistui, yritä uudelleen";
+
+RedrawTips     ="Salasanasi kahdesti ei ole sama, rukoile uudelleen";
+
+DrawErrorTips     ="Liian monet virheet, yritä myöhemmin uudelleen";
+
+Ratio     ="suhde";
+
+Subtitle     ="alaotsikko";
+
+Rate     ="nopeus";
+
+Top     ="ylin";
+
+Rename     ="Nimeä uudelleen";
+
+AddList     ="Lisää luettelo";
+
+Instructions     ="Ohjeet";
+
+Lock     ="Lukko";
+
+Feedback     ="palaute";
+
+OnlyProHave     ="Tämä toiminto on käytettävissä vain Pro-versioille";
+
+BuyProOpen     ="Tämä toiminto on aloitettava ostoksen jälkeen";
+
+BuySuccess     ="Onnistunut osto";
+
+BuyFailed     ="Osto epäonnistui. Yritä uudelleen myöhemmin";
+
+ResumeBuySuccess     ="Jatka ostosten menestystä";
+
+ResumeBuyFailed     ="Jatka ostoa epäonnistui";
+
+BuyNothing     ="Et ole ostanut tätä tuotetta eikä voi jatkaa ostoa";
+
+Buy     ="Ostaa";
+
+ResumeBuy     ="Jatka ostoa";
+
+CancelBuy     ="Peruuta ostos";
+
+RemoveAD     ="Poista mainokset";
+
+CustomSubtitle     ="Valitse omia tekstityksiä";
+
+PlayRate     ="Play rate";
+
+PlayRatio     ="Play-suhde";
+
+UptoPro     ="Päivitä Pro Editioniin";
+
+ProContent     ="Mikä on Pro-versio?";
+ProContent1     ="1. Pysyvästi mainostamishäiriöitä!";
+ProContent2     ="2. Oman tekstityksen, lataa omat tekstisi! !";
+ProContent3     ="3. Play-nopeuden ja toiston säätötoiminnon avulla mielivaltaisempi! !";
+ProContent4     ="4. Ota tietosuojatoiminto videon yksityistämiseksi! !";
+ProContent5     ="5. Seurantatoiminto asetetaan etusijalle Pro-versiolle, etusijalle kokemukselle! !";
+ProContent6     ="6. Pro-versio päivitetään ensimmäistä kertaa ja vakaampi. !";
+ProContent7     ="7. Mitä odotat? Tämä ei riitä? No, hinta on vain 3 $, yksityinen elokuva! Osta ja osta!";
+ThanksSupport     ="8. Kiitos paljon käytöstä ja tuesta!";
+OtherApp     ="Suosittele erinomaista app";
+RemoveADTips     ="Haluatko poistaa mainoksia?";
+OpenLockTips     ="Haluatko avata yksityisyyden lukituksen?";
+OpenSubTitleTips     ="Haluatko avata mukautetun tekstitystoiminnon?";
+
+Back     ="Takaisin";
+
+OpenLock     ="Avaa yksityisyyden suojaustoiminto";
+
+Buying     ="osto-";
+
+CheckNoMailTips     ="Laitetta ei ole määritetty sähköpostitilille. Aseta se ja yritä uudelleen. Kiitos.";
+
+NoSubtitle     ="Ei tekstitystä";
+
+
+
+     

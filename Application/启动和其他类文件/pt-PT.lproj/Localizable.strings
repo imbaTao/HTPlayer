@@ -1,0 +1,136 @@
+/* 
+  Localizable.strings
+  TinyPlayer_V1
+
+  Created by Mr.h on 6/9/18.
+  Copyright © 2018 Great. All rights reserved.
+*/
+Edit      =    "Editar";
+
+delete       =    "Excluir";
+
+save      =    "Salve ";
+
+cancel      =    "Cancelar";
+
+Ok     =    "Está bem";
+
+playlist     =    "Lista de reprodução";
+
+settings     =    "Configurações";
+
+selectAll     =    "Selecionar tudo";
+
+DeselectAll     =    "Desmarcar todos";
+
+AddTo     =    "adicionar à";
+
+Search     =    "Por favor, insira o que você deseja pesquisar";
+
+FeedBack      =    "Obrigado pelo seu apoio e feedback";
+
+Tips      =    "Dicas";
+
+Warning      =    "Atenção";
+
+deletTips     =    "Você deseja excluir vários arquivos de vídeo?";
+
+RenameTips     =    "Nome do arquivo duplicado, por favor, renomeie outros nomes";
+
+Ok      =    "Está bem";
+
+DrawCode     =    "Por favor, desenhe seu código de gestos";
+
+DrawAgain     =    "Por favor, desenhe a senha novamente";
+
+PasswordSettingSuccess     =    "Sucesso de configuração de senha";
+
+UnlockTips     =    "Por favor, desenhe a senha do gesto para desbloquear";
+
+DrawOriginTips     =    "Por favor, desenhe a senha original";
+
+ResetSuccess     =    "Senha redefinida com sucesso";
+
+UnlockFail     =    "Erro de senha, falha de desbloqueio, por favor, tente novamente";
+
+ResetFail     =    "Erro de senha, falha de reset, por favor, tente novamente";
+
+RedrawTips     =    "Senha desenhada duas vezes não é o mesmo, por favor redesenhar";
+
+DrawErrorTips     =    "Muitos erros, por favor, tente novamente mais tarde";
+
+Ratio     =    "relação";
+
+Subtitle     =    "legenda";
+
+Rate     =    "taxa";
+
+Top     =    "Topo";
+
+Rename     =    "Renomear";
+
+AddList     =    "Adicionar lista";
+
+Instructions     =    "Instruções";
+
+Lock     =    "Bloqueio";
+
+Feedback     =    "Comentários";
+
+OnlyProHave     =    "Esta função está disponível apenas para as versões Pro";
+
+BuyProOpen     =    "Esta função precisa ser iniciada após a compra";
+
+BuySuccess     =    "Compra bem sucedida";
+
+BuyFailed     =    "A compra falhou. Por favor, tente novamente mais tarde";
+
+ResumeBuySuccess     =    "Retomar o sucesso da compra";
+
+ResumeBuyFailed     =    "Falha na compra de currículo";
+
+BuyNothing     =    "Você não comprou este item e não pode retomar a compra";
+
+Buy     =    "Comprar";
+
+ResumeBuy     =    "Retomar a compra";
+
+CancelBuy     =    "Cancelar compra";
+
+RemoveAD     =    "Remover propagandas";
+
+CustomSubtitle     =    "Escolha legendas personalizadas";
+
+PlayRate     =    "Taxa de reprodução";
+
+PlayRatio     =    "Proporção de reprodução";
+
+UptoPro     =    "Atualize para o Pro Edition";
+
+ProContent     =    "Qual é a versão Pro?";
+ProContent1     =    "1. permanentemente sem assédio publicidade !!";
+ProContent2     =    "2. Tenha legendas personalizadas, carregue suas próprias legendas! !";
+ProContent3     =    "3. Com taxa de reprodução e função de ajuste de taxa de reprodução, mais arbitrária! !";
+ProContent4     =    "4. Tenha uma função de bloqueio de privacidade para tornar seu vídeo mais privado! !";
+ProContent5     =    "5. A função de acompanhamento terá prioridade para a versão Pro, dando prioridade à experiência! !";
+ProContent6     =    "6.A versão Pro será atualizada pela primeira vez e mais estável. !";
+ProContent7     =    "7. O que você está esperando? Isso não é o suficiente? Bem, o preço é de apenas 3 $, com um cinema privado! Compre e compre!";
+ThanksSupport     =    "8. Muito obrigado pelo seu uso e apoio!";
+OtherApp     =    "Recomendar outro excelente aplicativo";
+RemoveADTips     =    "Você quer remover anúncios?";
+OpenLockTips     =    "Você deseja abrir a função de bloqueio de privacidade?";
+OpenSubTitleTips     =    "Você quer abrir a função de legenda personalizada?";
+
+Back     =    "Costas";
+
+OpenLock     =    "Abra a função de bloqueio de privacidade";
+
+Buying     =    "Compra";
+
+CheckNoMailTips     =    "Nenhuma conta de e-mail foi configurada para o seu dispositivo. Por favor, configure-o e tente novamente. Obrigado.";
+
+NoSubtitle     =    "Sem legenda";
+
+
+
+

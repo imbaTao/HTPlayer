@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ProgressHUDView">
+            <rect key="frame" x="0.0" y="0.0" width="724" height="93"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EDj-hN-5Rw">
+                    <rect key="frame" x="10" y="31.5" width="704" height="30"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCI-3c-vuT">
+                            <rect key="frame" x="8" y="6" width="71.5" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="71.5" id="lgi-Oh-2qD"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.29019607843137252" green="0.56470588235294117" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ck-FQ-xTH" userLabel="bv">
+                            <rect key="frame" x="89.5" y="13.5" width="604.5" height="3"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tCO-KD-YnR" userLabel="pv">
+                                    <rect key="frame" x="0.0" y="0.0" width="10" height="3"/>
+                                    <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="10" id="pcE-Ng-3VV"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.30126284246575341" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="tCO-KD-YnR" firstAttribute="top" secondItem="4ck-FQ-xTH" secondAttribute="top" id="BR9-32-gnC"/>
+                                <constraint firstAttribute="bottom" secondItem="tCO-KD-YnR" secondAttribute="bottom" id="HK9-K0-Xls"/>
+                                <constraint firstItem="tCO-KD-YnR" firstAttribute="leading" secondItem="4ck-FQ-xTH" secondAttribute="leading" id="V7x-Y9-OIP"/>
+                                <constraint firstAttribute="height" constant="3" id="oUb-L5-nAg"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.3594820205479452" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="QCI-3c-vuT" firstAttribute="leading" secondItem="EDj-hN-5Rw" secondAttribute="leading" constant="8" id="dcW-I6-fGG"/>
+                        <constraint firstItem="4ck-FQ-xTH" firstAttribute="centerY" secondItem="QCI-3c-vuT" secondAttribute="centerY" id="hDK-Bb-Tb7"/>
+                        <constraint firstAttribute="trailing" secondItem="4ck-FQ-xTH" secondAttribute="trailing" constant="10" id="i2s-4j-zWX"/>
+                        <constraint firstItem="4ck-FQ-xTH" firstAttribute="centerY" secondItem="EDj-hN-5Rw" secondAttribute="centerY" id="kzw-4Z-rUs"/>
+                        <constraint firstItem="4ck-FQ-xTH" firstAttribute="leading" secondItem="QCI-3c-vuT" secondAttribute="trailing" constant="10" id="uY3-Js-E98"/>
+                        <constraint firstAttribute="height" constant="30" id="zeW-5W-orB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="EDj-hN-5Rw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1SK-c4-2bz"/>
+                <constraint firstItem="EDj-hN-5Rw" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="3pv-dR-jmG"/>
+                <constraint firstAttribute="trailing" secondItem="EDj-hN-5Rw" secondAttribute="trailing" constant="10" id="GwX-jC-IGP"/>
+                <constraint firstItem="EDj-hN-5Rw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="iMN-wP-nns"/>
+                <constraint firstItem="EDj-hN-5Rw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="rWT-OH-sbp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backMainView" destination="EDj-hN-5Rw" id="xK9-oJ-bAW"/>
+                <outlet property="backProgessView" destination="4ck-FQ-xTH" id="htm-dZ-wOc"/>
+                <outlet property="playedProgressView" destination="tCO-KD-YnR" id="dg3-a9-VeQ"/>
+                <outlet property="progressTimeLB" destination="QCI-3c-vuT" id="gqr-Wm-2Ke"/>
+                <outlet property="valueViewConstraint" destination="pcE-Ng-3VV" id="Hvh-zp-5Lh"/>
+            </connections>
+            <point key="canvasLocation" x="-416" y="25"/>
+        </view>
+    </objects>
+</document>

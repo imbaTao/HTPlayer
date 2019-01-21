@@ -1,4 +1,3 @@
-# Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
@@ -7,6 +6,8 @@ build/
 DerivedData/
 
 ## Various settings
+*.xcuserstate
+*.DS_Store
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -16,6 +17,12 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+
+
+#CocoaPods
+Pods
+!Podfile
+!Podfile.lock
 
 ## Other
 *.moved-aside
@@ -27,6 +34,7 @@ xcuserdata/
 *.ipa
 *.dSYM.zip
 *.dSYM
+
 
 # CocoaPods
 #
@@ -52,7 +60,7 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/Preview.html
-fastlane/screenshots/**/*.png
+fastlane/screenshots
 fastlane/test_output
 
 # Code Injection

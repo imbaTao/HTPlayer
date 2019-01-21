@@ -1,0 +1,125 @@
+Edit      =    "Redigere";
+
+delete       =    "Slet";
+
+save      =    "Gemme";
+
+cancel      =    "Afbestille";
+
+Ok     =    "Okay";
+
+playlist     =    "afspilningsliste";
+
+settings     =    "Indstillinger";
+
+selectAll     =    "Vælg alle";
+
+DeselectAll     =    "Fravælg alle";
+
+AddTo     =    "Tilføj til";
+
+Search     =    "Indtast venligst, hvad du vil søge";
+
+FeedBack      =    "Tak for din support og feedback";
+
+Tips      =    "Tips";
+
+Warning      =    "Advarsel";
+
+deletTips     =    "Vil du slette flere videofiler?";
+
+RenameTips     =    "Duplikat filnavn skal du omdøbe andre navne";
+
+Ok      =    "Okay";
+
+DrawCode     =    "Skriv venligst din gestuskode";
+
+DrawAgain     =    "Træk venligst adgangskoden igen";
+
+PasswordSettingSuccess     =    "Kodeordindstilling succes";
+
+UnlockTips     =    "Træk venligst gestusadgangskode for at låse op";
+
+DrawOriginTips     =    "Skriv venligst den oprindelige adgangskode";
+
+ResetSuccess     =    "Password reset vellykket";
+
+UnlockFail     =    "Adgangskodefejl, låsefejl, prøv igen";
+
+ResetFail     =    "Adgangskodefejl, nulstillingsfejl, prøv igen";
+
+RedrawTips     =    "Adgangskoden, der er trukket to gange, er ikke den samme, venligst gentag";
+
+DrawErrorTips     =    "For mange fejl, prøv igen senere";
+
+Ratio     =    "forhold";
+
+Subtitle     =    "undertekst";
+
+Rate     =    "sats";
+
+Top     =    "Top";
+
+Rename     =    "Omdøb";
+
+AddList     =    "Tilføj liste";
+
+Instructions     =    "Instruktioner";
+
+Lock     =    "Låse";
+
+Feedback     =    "Feedback";
+
+OnlyProHave     =    "Denne funktion er kun tilgængelig for Pro-versioner";
+
+BuyProOpen     =    "Denne funktion skal startes efter køb";
+
+BuySuccess     =    "Vellykket køb";
+
+BuyFailed     =    "Køb mislykkedes. Prøv igen senere";
+
+ResumeBuySuccess     =    "Genoptag købs succes";
+
+ResumeBuyFailed     =    "Genoptagelse køb mislykkedes";
+
+BuyNothing     =    "Du har ikke købt denne vare og kan ikke genoptage køb";
+
+Buy     =    "Købe";
+
+ResumeBuy     =    "Genoptag køb";
+
+CancelBuy     =    "Annuller køb";
+
+RemoveAD     =    "Fjern annoncer";
+
+CustomSubtitle     =    "Vælg brugerdefinerede undertekster";
+
+PlayRate     =    "Afspilningshastighed";
+
+PlayRatio     =    "Spilforhold";
+
+UptoPro     =    "Opgrader til Pro Edition";
+
+ProContent     =    "Hvad er Pro-versionen?";
+ProContent1     =    "1. Permanent ingen reklame chikanering !!";
+ProContent2     =    "2. Har brugerdefinerede undertekster, indlæs dine egne undertekster! !";
+ProContent3     =    "3. Med afspilningshastighed og afspilningsforholdsjusteringsfunktion, mere vilkårlig! !";
+ProContent4     =    "4. Har en privatlivslåsfunktion for at gøre din video mere privat! !";
+ProContent5     =    "5. Opfølgningsfunktionen får prioritet til Pro-versionen og prioriterer oplevelsen! !";
+ProContent6     =    "6. Pro-versionen opdateres første gang og mere stabil. !";
+ProContent7     =    "7. Hvad venter du på? Dette er ikke nok? Nåprisen er kun 3 $, med en privat biograf! Køb og køb!";
+ThanksSupport     =    "8. Mange tak for din brug og støtte!";
+OtherApp     =    "Anbefal andre fremragende app";
+RemoveADTips     =    "Vil du fjerne annoncer?";
+OpenLockTips     =    "Vil du åbne privatlivslåsfunktionen?";
+OpenSubTitleTips     =    "Vil du åbne den tilpassede undertekstfunktion?";
+
+Back     =    "Tilbage";
+
+OpenLock     =    "Åbn funktionen for beskyttelse af personlige oplysninger";
+
+Buying     =    "Indkøb";
+
+CheckNoMailTips     =    "Der er ikke konfigureret en e-mail-konto til din enhed. Indstil det og prøv igen. Tak skal du have.";
+
+NoSubtitle     =    "Ingen undertekst";

@@ -1,0 +1,151 @@
+
+Edit      ="編集";
+
+delete       ="削除";
+
+save      ="セーブ";
+
+cancel      ="キャンセル";
+
+Ok     ="[OK]";
+
+playlist     ="プレイリスト";
+
+settings     ="設定";
+
+selectAll     ="すべて選択";
+
+DeselectAll     ="すべての選択を解除";
+
+AddTo     ="追加";
+
+Search     ="検索したいものを入力してください";
+
+FeedBack      ="ご支援いただきありがとうございます";
+
+Tips      ="ヒント";
+
+Warning      ="警告";
+
+deletTips     ="複数のビデオファイルを削除しますか？";
+
+RenameTips     ="ファイル名が重複しています。他の名前の名前を変更してください";
+
+Ok      ="OK";
+
+DrawCode     ="ジェスチャーコードを描画してください";
+
+DrawAgain     ="パスワードをもう一度描いてください";
+
+PasswordSettingSuccess     ="パスワード設定の成功";
+
+UnlockTips     ="ジェスチャーパスワードを描いてロックを解除してください";
+
+DrawOriginTips     ="元のパスワードを描いてください";
+
+ResetSuccess     ="パスワードリセット成功";
+
+UnlockFail     ="パスワードエラー、ロック解除失敗、再試行";
+
+ResetFail     ="パスワードエラー、リセット失敗、もう一度お試しください";
+
+RedrawTips     ="2度描かれたパスワードは同じではないので、再描画してください";
+
+DrawErrorTips     ="エラーが多すぎます。後でやり直してください";
+
+Ratio     ="比";
+
+Subtitle     ="字幕";
+
+Rate     ="レート";
+
+Top     ="上";
+
+Rename     ="名前を変更する";
+
+AddList     ="リストを追加";
+
+Instructions     ="指示";
+
+Lock     ="ロック";
+
+Feedback     ="フィードバック";
+
+OnlyProHave     ="この機能はProバージョンでのみ利用可能です";
+
+BuyProOpen     ="この機能は、購入後に開始する必要があります";
+
+BuySuccess     ="購入の成功";
+
+BuyFailed     ="購入に失敗しました。後でもう一度お試しください";
+
+ResumeBuySuccess     ="購入の成功を再開する";
+
+ResumeBuyFailed     ="購入再開に失敗しました";
+
+BuyNothing     ="この商品を購入していないため、購入を再開できません";
+
+Buy     ="購入";
+
+ResumeBuy     ="購入を再開する";
+
+CancelBuy     ="購入をキャンセルする";
+
+RemoveAD     ="広告を削除";
+
+CustomSubtitle     ="カスタム字幕を選択";
+
+PlayRate     ="プレイレート";
+
+PlayRatio     ="プレイレシオ";
+
+UptoPro     ="Pro Editionへのアップグレード";
+
+ProContent     ="Proバージョンとは何ですか？";
+ProContent1     ="1.広告の嫌がらせはまったくありません！";
+ProContent2     ="2.独自の字幕を持ち、独自の字幕を読み込んでください！ ！";
+ProContent3     ="3.再生率と再生率調整機能で、より任意！ ！";
+ProContent4     ="4.ビデオをよりプライベートにするためのプライバシーロック機能があります！ ！";
+ProContent5     ="5.フォローアップ機能はProバージョンに優先され、経験を優先します！ ！";
+ProContent6     ="6.The Proのバージョンが初めて更新され、より安定します。 ！";
+ProContent7     ="7.あなたは何を待っていますか？これはたりない？さて、価格はプライベートシネマでわずか3 $です！買って買う！";
+ThanksSupport     ="8.ご利用いただきありがとうございます。";
+OtherApp     ="他の優れたアプリをおすすめする";
+RemoveADTips     ="広告を削除しますか？";
+OpenLockTips     ="プライバシーロック機能を開きますか？";
+OpenSubTitleTips     ="カスタム字幕機能を開きますか？";
+
+Back     ="バック";
+
+OpenLock     ="プライバシーロック機能を開く";
+
+Buying     ="購買";
+
+CheckNoMailTips     ="デバイスにメールアカウントが設定されていません。設定してもう一度お試しください。ありがとうございました。";
+
+NoSubtitle     ="字幕なし";
+
+
+
+
+Connect1 =  "USBケーブルを使ってiPhoneをコンピュータに接続する";
+Connect2 =  "iTunesを開いてあなたのiPhoneを選択する";
+Connect3 =  "「ファイル共有」をクリックします";
+Connect4 =  "[アプリリストから％@を選択します,「追加」をクリックするか、ファイルをドラッグ＆ドロップして％@に追加します";
+
+
+Connect6 =  "あなたの電話とコンピュータを同じWi-Fiネットワークに接続します";
+Connect7 =  "ブラウザのアドレス（ChromeまたはSafari）を入力します。％@";
+Connect8 =  "「ファイルのアップロード」ボタンをクリックして転送を開始します";
+Connect9 =  "転送が完了するまで、このウィンドウを閉じないでください";
+
+
+FirstWay = "最初の方法";
+SecondWay = "二番目の方法";
+Default = "デフォルト";
+Original = "元のファイル名：";
+NewfileName = "新しいファイル名を入力してください";
+Play = "ビデオを再生する";
+
+
+

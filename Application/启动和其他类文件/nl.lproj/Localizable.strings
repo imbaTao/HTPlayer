@@ -1,0 +1,135 @@
+/* 
+  Localizable.strings
+  TinyPlayer_V1
+
+  Created by Mr.h on 6/9/18.
+  Copyright © 2018 Great. All rights reserved.
+*/
+Edit      =    "Bewerk";
+
+delete       =    "Verwijder";
+
+save      =    "Opslaan";
+
+cancel      =    "Annuleer";
+
+Ok     =    "OK";
+
+playlist     =    "afspeellijst";
+
+settings     =    "instellingen";
+
+selectAll     =    "Selecteer alles";
+
+DeselectAll     =    "Deselecteer alles";
+
+AddTo     =    "Optellen bij";
+
+Search     =    "Voer in wat u wilt zoeken";
+
+FeedBack      =    "Bedankt voor uw steun en feedback";
+
+Tips      =    "Tips";
+
+Warning      =    "Waarschuwing";
+
+deletTips     =    "Wilt u meerdere videobestanden verwijderen?";
+
+RenameTips     =    "Dubbele bestandsnaam, hernoem andere namen";
+
+Ok      =    "OK";
+
+DrawCode     =    "Teken uw gebaarcode";
+
+DrawAgain     =    "Teken het wachtwoord opnieuw";
+
+PasswordSettingSuccess     =    "Wachtwoordinstelling succes";
+
+UnlockTips     =    "Teken een wachtwoord om te ontgrendelen";
+
+DrawOriginTips     =    "Teken het originele wachtwoord";
+
+ResetSuccess     =    "Wachtwoord reset succesvol";
+
+UnlockFail     =    "Wachtwoordfout, ontgrendel mislukking, probeer het opnieuw";
+
+ResetFail     =    "Wachtwoordfout, resetfout, probeer opnieuw";
+
+RedrawTips     =    "Wachtwoord twee keer getekend is niet hetzelfde, opnieuw tekenen";
+
+DrawErrorTips     =    "Te veel fouten, probeer het later opnieuw";
+
+Ratio     =    "verhouding";
+
+Subtitle     =    "subtitel";
+
+Rate     =    "tarief";
+
+Top     =    "Top";
+
+Rename     =    "andere naam geven";
+
+AddList     =    "Lijst toevoegen";
+
+Instructions     =    "Instructions";
+
+Lock     =    "Slot";
+
+Feedback     =    "terugkoppeling";
+
+OnlyProHave     =    "Deze functie is alleen beschikbaar voor Pro-versies";
+
+BuyProOpen     =    "Deze functie moet na aankoop worden gestart";
+
+BuySuccess     =    "Succesvolle aankoop";
+
+BuyFailed     =    "Aankoop mislukt. Probeer het later opnieuw";
+
+ResumeBuySuccess     =    "Hervat aankoopsucces";
+
+ResumeBuyFailed     =    "Doorgaan met kopen mislukt";
+
+BuyNothing     =    "U hebt dit artikel niet gekocht en kunt de aankoop niet hervatten";
+
+Buy     =    "Kopen";
+
+ResumeBuy     =    "Doorgaan met kopen";
+
+CancelBuy     =    "Aankoop annuleren";
+
+RemoveAD     =    "Verwijder advertenties";
+
+CustomSubtitle     =    "Kies aangepaste ondertitels";
+
+PlayRate     =    "Speelsnelheid";
+
+PlayRatio     =    "Speelratio";
+
+UptoPro     =    "Upgrade naar de Pro-editie";
+
+ProContent     =    "Wat is de Pro-versie?";
+ProContent1     =    "1. Permanent geen reclame intimidatie !!";
+ProContent2     =    "2. Heb aangepaste ondertitels, laad je eigen ondertitels! !";
+ProContent3     =    "3. Met de afspeelsnelheid en de afspeelratio-aanpassingsfunctie, meer willekeurig! !";
+ProContent4     =    "4. Zorg voor een privacy-vergrendelingsfunctie om uw video meer privé te maken! !";
+ProContent5     =    "5. De follow-up functie krijgt voorrang aan de Pro-versie, waarbij voorrang wordt gegeven aan ervaring! !";
+ProContent6     =    "6.De Pro-versie zal bij de eerste keer worden bijgewerkt en stabieler. !";
+ProContent7     =    "7. Waar wacht je nog op? Dit is niet genoeg? Nou,de prijs is slechts 3 $, met een privé-bioscoop! Koop en koop!";
+ThanksSupport     =    "8. Heel erg bedankt voor uw gebruik en ondersteuning!";
+OtherApp     =    "Beveel andere uitstekende app aan";
+RemoveADTips     =    "Wilt u advertenties verwijderen?";
+OpenLockTips     =    "Wilt u de privacyvergrendelingsfunctie openen?";
+OpenSubTitleTips     =    "Wilt u de aangepaste ondertitelfunctie openen?";
+
+Back     =    "Terug";
+
+OpenLock     =    "Open de privacyvergrendelingsfunctie";
+
+Buying     =    "inkoop";
+
+CheckNoMailTips     =    "Er is geen e-mailaccount ingesteld voor uw apparaat. Stel het in en probeer het opnieuw. Dank je.";
+
+NoSubtitle     =    "Geen ondertiteling";
+
+
+

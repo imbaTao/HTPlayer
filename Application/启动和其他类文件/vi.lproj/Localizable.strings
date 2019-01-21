@@ -1,0 +1,128 @@
+Edit      =    "Chỉnh sửa";
+
+delete       =    "Xóa bỏ";
+
+save      =    "Tiết kiệm";
+
+cancel      =    "Hủy bỏ";
+
+Ok     =    "được";
+
+playlist     =    "Danh sách phát";
+
+settings     =    "Cài đặt";
+
+selectAll     =    "Chọn tất cả";
+
+DeselectAll     =    "Bỏ chọn tất cả";
+
+AddTo     =    "Thêm vào";
+
+Search     =    "Vui lòng nhập nội dung bạn muốn tìm kiếm";
+
+FeedBack      =    "Cảm ơn sự hỗ trợ và phản hồi của bạn";
+
+Tips      =    "Lời khuyên";
+
+Warning      =    "Cảnh báo";
+
+deletTips     =    "Bạn có muốn xóa nhiều tệp video không?";
+
+RenameTips     =    "Tên tệp trùng lặp， hãy đổi tên các tên khác";
+
+Ok      =    "Được";
+
+DrawCode     =    "Vui lòng vẽ mã cử chỉ của bạn";
+
+DrawAgain     =    "Vui lòng rút lại mật khẩu";
+
+PasswordSettingSuccess     =    "Cài đặt mật khẩu thành công";
+
+UnlockTips     =    "Vui lòng vẽ mật khẩu cử chỉ để mở khóa";
+
+DrawOriginTips     =    "Vui lòng rút mật khẩu ban đầu";
+
+ResetSuccess     =    "Đặt lại mật khẩu thành công";
+
+UnlockFail     =    "Lỗi mật khẩu,mở khóa lỗi, vui lòng thử lại";
+
+ResetFail     =    "Lỗi mật khẩu, đặt lại lỗi, vui lòng thử lại";
+
+RedrawTips     =    "Mật khẩu được vẽ hai lần không giống nhau, vui lòng vẽ lại";
+
+DrawErrorTips     =    "Quá nhiều lỗi, vui lòng thử lại sau";
+
+Ratio     =    "tỉ lệ";
+
+Subtitle     =    "phụ đề";
+
+Rate     =    "tỷ lệ";
+
+Top     =    "Hàng đầu";
+
+Rename     =    "Đổi tên";
+
+AddList     =    "Thêm vào danh sách";
+
+Instructions     =    "Hướng dẫn";
+
+Lock     =    "Khóa";
+
+Feedback     =    "Phản hồi";
+
+OnlyProHave     =    "Chức năng này chỉ có sẵn cho các phiên bản Pro";
+
+BuyProOpen     =    "Chức năng này cần được bắt đầu sau khi mua";
+
+BuySuccess     =    "Mua thành công";
+
+BuyFailed     =    "Giao dịch thất bại. Vui lòng thử lại sau";
+
+ResumeBuySuccess     =    "Tiếp tục mua thành công";
+
+ResumeBuyFailed     =    "Không thể tiếp tục mua hàng";
+
+BuyNothing     =    "Bạn chưa mua mặt hàng này và không thể tiếp tục mua hàng";
+
+Buy     =    "Mua";
+
+ResumeBuy     =    "Tiếp tục mua hàng";
+
+CancelBuy     =    "Hủy mua hàng";
+
+RemoveAD     =    "Loại bỏ các quảng cáo";
+
+CustomSubtitle     =    "Chọn phụ đề tùy chỉnh";
+
+PlayRate     =    "Tỷ lệ phát";
+
+PlayRatio     =    "Tỷ lệ phát";
+
+UptoPro     =    "Nâng cấp lên phiên bản Pro";
+
+ProContent     =    "Phiên bản Pro là gì?";
+ProContent1     =    "1. Vĩnh viễn không có quấy rối quảng cáo !!";
+ProContent2     =    "2. Có phụ đề tùy chỉnh, tải phụ đề của riêng bạn! !";
+ProContent3     =    "3. Với tỷ lệ chơi và chơi chức năng điều chỉnh tỷ lệ, tùy ý hơn! !";
+ProContent4     =    "4. Có một chức năng khóa riêng tư để làm cho video của bạn riêng tư hơn! !";
+ProContent5     =    "5. Chức năng tiếp theo sẽ được ưu tiên cho phiên bản Pro, ưu tiên trải nghiệm! !";
+ProContent6     =    "6. Phiên bản Pro sẽ được cập nhật lần đầu tiên và ổn định hơn. !";
+ProContent7     =    "7. Bạn còn chờ gì nữa? Điều này là không đủ? Vâng,giá chỉ là 3 $, với một rạp chiếu phim riêng! Mua và mua!";
+ThanksSupport     =    "8. Cảm ơn bạn rất nhiều vì đã sử dụng và hỗ trợ!";
+OtherApp     =    "Đề xuất ứng dụng tuyệt vời khác";
+RemoveADTips     =    "Bạn có muốn xóa quảng cáo không?";
+OpenLockTips     =    "Bạn có muốn mở chức năng khóa riêng tư không?";
+OpenSubTitleTips     =    "Bạn có muốn mở chức năng phụ đề tùy chỉnh không?";
+
+Back     =    "Trở lại";
+
+OpenLock     =    "Mở chức năng khóa riêng tư";
+
+Buying     =    "Thu mua";
+
+CheckNoMailTips     =    "Chưa có tài khoản thư nào được thiết lập cho thiết bị của bạn. Vui lòng thiết lập và thử lại. Cảm ơn bạn.";
+
+NoSubtitle     =    "Không có phụ đề";
+
+
+

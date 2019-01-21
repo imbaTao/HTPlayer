@@ -1,0 +1,145 @@
+Edit  ="编辑";
+
+delete   ="删除";
+
+save  ="保存";
+
+cancel  ="取消";
+
+Ok ="确定";
+
+playlist ="播放列表";
+
+settings ="设置";
+
+selectAll ="全选";
+
+DeselectAll ="取消全选";
+
+AddTo ="添加";
+
+Search ="请输入您想查看的内容";
+
+FeedBack  ="意见反馈";
+
+Tips  ="提示";
+
+Warning  ="警告";
+
+deletTips ="确定删除多个视频文件吗?";
+
+RenameTips ="文件名重复,请使用不同文件名";
+
+Ok  ="好的";
+
+DrawCode ="请绘制您的手势密码";
+
+DrawAgain ="请再次绘制您的手势密码";
+
+PasswordSettingSuccess ="密码设置成功";
+
+UnlockTips ="请绘制您的密码解锁";
+
+DrawOriginTips ="绘制原始密码";
+
+ResetSuccess ="密码重置成功";
+
+UnlockFail ="密码错误解锁失败,请再次尝试";
+
+ResetFail = "密码错误,重置失败,请再次尝试";
+
+RedrawTips ="两次绘制密码不同,请重新绘制";
+
+DrawErrorTips ="错误次数过多,请稍后尝试";
+
+Ratio ="比例";
+
+Subtitle ="字幕";
+
+Rate ="速率";
+
+Top ="顶置";
+
+Rename ="重命名";
+
+AddList ="添加列表";
+
+Instructions ="使用说明";
+
+Lock ="隐私锁";
+
+Feedback ="意见反馈";
+
+OnlyProHave ="此功能仅在付费版开放";
+
+BuyProOpen ="此功能将在购买后开启";
+
+BuySuccess ="购买成功,谢谢支持,开始享用吧!";
+
+BuyFailed ="购买失败,请稍后尝试";
+
+ResumeBuySuccess ="恢复购买成功";
+
+ResumeBuyFailed ="恢复购买失败";
+
+BuyNothing ="您未购买过任何产品,如法进行恢复";
+
+Buy ="购买";
+
+ResumeBuy ="恢复购买";
+
+CancelBuy ="取消购买";
+
+RemoveAD ="去除广告";
+
+OpenLock = "开启隐私锁功能";
+
+CustomSubtitle ="开启自定义字幕功能";
+
+PlayRate ="播放速率";
+
+PlayRatio ="播放比例";
+
+UptoPro ="升级到Pro版";
+
+ProContent ="Pro版有些什么内容？";
+ProContent1 ="1.永久无广告!";
+ProContent2 ="2.导入自定义字幕功能!";
+ProContent3 ="3.拥有播放速率和播放比例调节功能,更加定制化!";
+ProContent4 ="4.拥有隐私锁功能,使您的视频更加私密";
+ProContent5 ="5.后续功能模块将优先开展在Pro版,Pro版享有优先体验权限";
+ProContent6 ="6.Pro版优先升级,更新修复频率更频繁,更加稳定";
+ProContent7 ="7.您还在等什么？这些还不够吗？好吧,那12块钱就可以拥有一个私人影院,如此实惠还不心动？买！买！买！";
+
+Back = "返回";
+
+
+
+ThanksSupport ="万分感谢您的支持";
+OtherApp  = "推荐其他app";
+RemoveADTips ="您想移除广告吗";
+OpenLockTips ="您想开启隐私锁功能吗?";
+OpenSubTitleTips ="您想开启自定义字幕功能吗?";
+CheckNoMailTips = "检测到您的设备未设置邮箱账号,请设置后重试,谢谢配合";
+NoSubtitle =  "无字幕";
+
+
+
+Connect1 =  "使用USB数据线连接您的电脑和手机";
+Connect2 =  "打开电脑上苹果公司的iTunes软件(没有需自行下载安装),点击左上角手机图标";
+Connect3 =  "点击文件分享";
+Connect4 =  "选中%@播放器,直接拖动文件或者点击添加按钮来添加视频到APP";
+
+
+Connect6 =  "保持您的手机和电脑在相同的wifi网络";
+Connect7 =  "在浏览器(Chrome or Safari)地址栏中输入: %@";
+Connect8 =  "点击文件上传按钮来上传文件";
+Connect9 =  "一定不要离开这个界面或者熄灭手机屏幕,否则会导致文件传输中断";
+
+
+FirstWay = "方法一";
+SecondWay = "方法二";
+Default = "默认";
+Original = "原文件名: ";
+NewfileName = "请输入新的文件名";
+Play = "播放";

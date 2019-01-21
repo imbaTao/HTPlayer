@@ -287,7 +287,6 @@
 		D101D01221AC0694007BC818 /* MediaLibraryVC_Free.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaLibraryVC_Free.m; sourceTree = "<group>"; };
 		D1039B20208FF356009BC2FF /* GuideVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuideVC.h; sourceTree = "<group>"; };
 		D1039B21208FF356009BC2FF /* GuideVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideVC.m; sourceTree = "<group>"; };
-		D103C29321D8D3D30068386F /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		D1077D2120CD1F4300D64EB2 /* WhatsPlayer-Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatsPlayer-Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1077D6420CD30BC00D64EB2 /* InfoPro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InfoPro.plist; sourceTree = "<group>"; };
 		D1077D9120CD34FB00D64EB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -489,8 +488,6 @@
 		D17229CC21BCF48600755FCD /* PaymentManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentManager.m; sourceTree = "<group>"; };
 		D17AEDBF214FD1EC00A8F569 /* FeedBackVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedBackVC.h; sourceTree = "<group>"; };
 		D17AEDC0214FD1EC00A8F569 /* FeedBackVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedBackVC.m; sourceTree = "<group>"; };
-		D180202A21D876F9003F00D9 /* WhatsPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsPlayerUITests.m; sourceTree = "<group>"; };
-		D180202C21D876F9003F00D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1A38AC420CFF6D3006FD9C1 /* libDBGuestureLock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDBGuestureLock.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A38AC620CFF70C006FD9C1 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A38AC820CFF70C006FD9C1 /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1082,23 +1079,12 @@
 			path = FeedBackVC;
 			sourceTree = "<group>";
 		};
-		D180202921D876F9003F00D9 /* WhatsPlayerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D103C29321D8D3D30068386F /* SnapshotHelper.swift */,
-				D180202A21D876F9003F00D9 /* WhatsPlayerUITests.m */,
-				D180202C21D876F9003F00D9 /* Info.plist */,
-			);
-			path = WhatsPlayerUITests;
-			sourceTree = "<group>";
-		};
 		D1B07C4C2156192500CE07CC /* 媒体库 */ = {
 			isa = PBXGroup;
 			children = (
+				F15916C221F5EFA000CB1D23 /* ViewController */,
 				F106729621F09B6E00A73745 /* Swift媒体库 */,
 				D14F4EB221C4C10C00689D0B /* ViewModel */,
-				D11A57FB2150627D00F2282F /* MediaLibraryVC.h */,
-				D11A57FC2150627D00F2282F /* MediaLibraryVC.m */,
 				D16AEEAC20E73174008BF7B9 /* Model */,
 				D16AEEB520E73174008BF7B9 /* View */,
 				D16AEECA20E73174008BF7B9 /* Tool */,
@@ -1308,12 +1294,20 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F15916C221F5EFA000CB1D23 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D11A57FB2150627D00F2282F /* MediaLibraryVC.h */,
+				D11A57FC2150627D00F2282F /* MediaLibraryVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		F1E521801EBD642700C518CB = {
 			isa = PBXGroup;
 			children = (
 				F1E521BF1EBD643D00C518CB /* Application */,
 				F1E521D31EBD643E00C518CB /* 媒体资源 */,
-				D180202921D876F9003F00D9 /* WhatsPlayerUITests */,
 				F1E5218A1EBD642700C518CB /* Products */,
 				0B9E471D6A7AFC536C1BAEB4 /* Pods */,
 				0B8746047DA02FB5A6B59AE6 /* Frameworks */,

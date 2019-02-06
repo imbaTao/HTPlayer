@@ -11,6 +11,12 @@ PODS:
   - MJRefresh (3.1.15.7)
   - MobileVLCKit (3.1.4)
   - ReactiveObjC (3.1.0)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - DBGuestureLock (~> 0.0.2)
@@ -23,6 +29,10 @@ DEPENDENCIES:
   - MJRefresh
   - MobileVLCKit
   - ReactiveObjC
+  - RxAtomic
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -36,6 +46,10 @@ SPEC REPOS:
     - MJRefresh
     - MobileVLCKit
     - ReactiveObjC
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SnapKit
 
 SPEC CHECKSUMS:
   DBGuestureLock: 9b8c56e278ad47e49ed400584dca6be5a0257519
@@ -48,7 +62,11 @@ SPEC CHECKSUMS:
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   MobileVLCKit: 34e17d0148c7a1af90c68c10b17b0707dc980d78
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 7b32e48fab3eaa38c62d40e48daabe641c4fc36f
+PODFILE CHECKSUM: d33db71648edfbc316ecab5b8ebab9dfe570c5f1
 
 COCOAPODS: 1.5.3

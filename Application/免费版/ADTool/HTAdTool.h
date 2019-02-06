@@ -18,11 +18,11 @@
 
 
 /** 广告加载完成 */
-- (void)AdLoadedSuccessful;
+-(void)AdLoadedSuccessful;
 
 
 // 移除广告完成
-- (void)removeAdComplete;
+-(void)removeAdComplete;
 @end
 
 
@@ -35,10 +35,8 @@
 
 
 @interface HTAdTool : NSObject
-singleH()
+singleH();
 
-/** delegate */
-@property(nonatomic,weak)id<HTAdToolDelgate> delegate;
 
 /** bool */
 @property(nonatomic,assign)BOOL NoAD;
@@ -48,6 +46,10 @@ singleH()
 
 /** bannerView */
 @property(nonatomic, strong) GADBannerView *bannerView;
+
+/** delegate */
+@property(nonatomic,weak)id<HTAdToolDelgate> delegate;
+
 
 /** 加载banner */
 + (void)loadBanner;

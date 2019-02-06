@@ -16,6 +16,7 @@
 #ifndef ISPRO
 #import "MediaLibraryVC_Free.h"
 #import "SettingViewController_Free.h"
+#import "WhatsPlayer-Swift.h"
 #endif
 @interface HZYTabbarController ()
 
@@ -66,7 +67,7 @@ return _instance;
     MediaLibraryVC *vc1 = [[MediaLibraryVC alloc] init];
      SettingViewController *vc3 = [[SettingViewController alloc] init];
 #else
-    MediaLibraryVC *vc1 = [[MediaLibraryVC alloc] init];
+    MediaLibray_ViewController *vc1 = [[MediaLibray_ViewController alloc] init];
     SettingViewController_Free *vc3 = [[SettingViewController_Free alloc] init];
 #endif
     BaseNavigationController *nav1 = [[BaseNavigationController alloc] initWithRootViewController:vc1];

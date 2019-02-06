@@ -213,8 +213,6 @@
 		F1052F401F01264C00098A51 /* DataHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F1052F3F1F01264C00098A51 /* DataHandleTool.m */; };
 		F106729C21F09BD300A73745 /* MediaLibray_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F106729B21F09BD300A73745 /* MediaLibray_ViewController.swift */; };
 		F106729D21F09BD300A73745 /* MediaLibray_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F106729B21F09BD300A73745 /* MediaLibray_ViewController.swift */; };
-		F106729F21F09C1600A73745 /* MediaLibray_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F106729E21F09C1600A73745 /* MediaLibray_ViewModel.swift */; };
-		F10672A021F09C1600A73745 /* MediaLibray_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F106729E21F09C1600A73745 /* MediaLibray_ViewModel.swift */; };
 		F110E1EB1EE3A85700B28EBD /* MediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = F110E1E81EE3A85700B28EBD /* MediaView.m */; };
 		F110E1EE1EE3A8A800B28EBD /* PlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F110E1ED1EE3A8A800B28EBD /* PlayerVC.m */; };
 		F13DA3B61EC9138900347BF1 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DA3B51EC9138900347BF1 /* MobileVLCKit.framework */; };
@@ -224,15 +222,25 @@
 		F13DA4071EC9154600347BF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DA4061EC9154600347BF1 /* CoreGraphics.framework */; };
 		F13DA4091EC9154B00347BF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DA4081EC9154B00347BF1 /* UIKit.framework */; };
 		F13DA40B1EC9155500347BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DA40A1EC9155500347BF1 /* Foundation.framework */; };
+		F16DBCFC2207D3A600F6CEB1 /* LocalDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DBCFA2207D3A600F6CEB1 /* LocalDataHelper.swift */; };
+		F16DBCFD2207D3A600F6CEB1 /* LocalDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DBCFA2207D3A600F6CEB1 /* LocalDataHelper.swift */; };
+		F16DBD042207D3D900F6CEB1 /* MediaModel1+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DBD002207D3D900F6CEB1 /* MediaModel1+CoreDataProperties.swift */; };
+		F16DBD052207D3D900F6CEB1 /* MediaModel1+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DBD002207D3D900F6CEB1 /* MediaModel1+CoreDataProperties.swift */; };
+		F16DBD062207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F16DBD012207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld */; };
+		F16DBD072207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F16DBD012207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld */; };
+		F16DBD082207D3D900F6CEB1 /* MediaModel1+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DBD032207D3D900F6CEB1 /* MediaModel1+CoreDataClass.swift */; };
+		F16DBD092207D3D900F6CEB1 /* MediaModel1+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DBD032207D3D900F6CEB1 /* MediaModel1+CoreDataClass.swift */; };
+		F16DBD0B2207D3F600F6CEB1 /* MediaLibrayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DBD0A2207D3F600F6CEB1 /* MediaLibrayVM.swift */; };
+		F16DBD0C2207D3F600F6CEB1 /* MediaLibrayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DBD0A2207D3F600F6CEB1 /* MediaLibrayVM.swift */; };
 		F175406F1EEBE6C800AD4673 /* MediaTopInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F175406E1EEBE6C800AD4673 /* MediaTopInfoView.m */; };
 		F1C6C4331EBEB31E00284BB7 /* UISlider+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C6C4321EBEB31E00284BB7 /* UISlider+extension.m */; };
 		F1DA4CE51EC9D5BB00856A58 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DA4CE41EC9D5BB00856A58 /* libz.tbd */; };
 		F1DA4CE71EC9D5C500856A58 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DA4CE61EC9D5C500856A58 /* libbz2.tbd */; };
 		F1DA4CE91EC9D5D000856A58 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DA4CE81EC9D5D000856A58 /* libiconv.tbd */; };
+		F1E2687D220A8439009F5EC1 /* SwiftFunctionPchFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2687B220A833D009F5EC1 /* SwiftFunctionPchFile.swift */; };
 		F1E521E51EBD643E00C518CB /* UIImage+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E521C21EBD643D00C518CB /* UIImage+extension.m */; };
 		F1E521EB1EBD643E00C518CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E521D51EBD643E00C518CB /* Assets.xcassets */; };
 		F1E521EC1EBD643E00C518CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E521DC1EBD643E00C518CB /* AppDelegate.m */; };
-		F1E521ED1EBD643E00C518CB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1E521DE1EBD643E00C518CB /* Info.plist */; };
 		F1E521EE1EBD643E00C518CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E521DF1EBD643E00C518CB /* LaunchScreen.storyboard */; };
 		F1E521EF1EBD643E00C518CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E521E01EBD643E00C518CB /* main.m */; };
 		F1E521F51EBD701500C518CB /* UIView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E521F41EBD701500C518CB /* UIView+extension.m */; };
@@ -519,7 +527,6 @@
 		F1052F3E1F01264C00098A51 /* DataHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHandleTool.h; sourceTree = "<group>"; };
 		F1052F3F1F01264C00098A51 /* DataHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandleTool.m; sourceTree = "<group>"; };
 		F106729B21F09BD300A73745 /* MediaLibray_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaLibray_ViewController.swift; sourceTree = "<group>"; };
-		F106729E21F09C1600A73745 /* MediaLibray_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaLibray_ViewModel.swift; sourceTree = "<group>"; };
 		F110E1E71EE3A85700B28EBD /* MediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaView.h; sourceTree = "<group>"; };
 		F110E1E81EE3A85700B28EBD /* MediaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaView.m; sourceTree = "<group>"; };
 		F110E1EC1EE3A8A800B28EBD /* PlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerVC.h; sourceTree = "<group>"; };
@@ -536,6 +543,11 @@
 		F13DA4081EC9154B00347BF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F13DA40A1EC9155500347BF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F15916C121F0A0BE00CB1D23 /* WhatsPlayerBridgFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatsPlayerBridgFile.h; sourceTree = "<group>"; };
+		F16DBCFA2207D3A600F6CEB1 /* LocalDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalDataHelper.swift; sourceTree = "<group>"; };
+		F16DBD002207D3D900F6CEB1 /* MediaModel1+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MediaModel1+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F16DBD022207D3D900F6CEB1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F16DBD032207D3D900F6CEB1 /* MediaModel1+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MediaModel1+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F16DBD0A2207D3F600F6CEB1 /* MediaLibrayVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaLibrayVM.swift; sourceTree = "<group>"; };
 		F175406D1EEBE6C800AD4673 /* MediaTopInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTopInfoView.h; sourceTree = "<group>"; };
 		F175406E1EEBE6C800AD4673 /* MediaTopInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTopInfoView.m; sourceTree = "<group>"; };
 		F1C6C4311EBEB31E00284BB7 /* UISlider+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+extension.h"; sourceTree = "<group>"; };
@@ -543,6 +555,7 @@
 		F1DA4CE41EC9D5BB00856A58 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		F1DA4CE61EC9D5C500856A58 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		F1DA4CE81EC9D5D000856A58 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		F1E2687B220A833D009F5EC1 /* SwiftFunctionPchFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFunctionPchFile.swift; sourceTree = "<group>"; };
 		F1E521891EBD642700C518CB /* WhatsPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E521C11EBD643D00C518CB /* UIImage+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+extension.h"; sourceTree = "<group>"; };
 		F1E521C21EBD643D00C518CB /* UIImage+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+extension.m"; sourceTree = "<group>"; };
@@ -686,13 +699,6 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		D101D00E21AC065F007BC818 /* LinkVC_Free */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LinkVC_Free;
-			sourceTree = "<group>";
-		};
 		D101D00F21AC065F007BC818 /* MediaLibrary_Free */ = {
 			isa = PBXGroup;
 			children = (
@@ -759,7 +765,6 @@
 				D17229CA21BCEF6700755FCD /* 内购 */,
 				D1E7E53A21BAB3A400A18B9D /* PlayerVC_Free */,
 				D110F82421AC0C48006C9700 /* Tabbar_Free */,
-				D101D00E21AC065F007BC818 /* LinkVC_Free */,
 				D101D00F21AC065F007BC818 /* MediaLibrary_Free */,
 				D101D01021AC065F007BC818 /* SettingVC_Free */,
 				D15F070720B19E58007E789E /* ADTool */,
@@ -1018,7 +1023,7 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		D16AEECA20E73174008BF7B9 /* Tool */ = {
+		D16AEECA20E73174008BF7B9 /* 媒体工具类 */ = {
 			isa = PBXGroup;
 			children = (
 				D110BE66214BC938001671EA /* HZYGCDLater.h */,
@@ -1026,7 +1031,7 @@
 				D16AEECB20E73174008BF7B9 /* MediaTool.h */,
 				D16AEECC20E73174008BF7B9 /* MediaTool.m */,
 			);
-			path = Tool;
+			path = "媒体工具类";
 			sourceTree = "<group>";
 		};
 		D16AEEF020E731F8008BF7B9 /* 底部Tabbar */ = {
@@ -1087,7 +1092,7 @@
 				D14F4EB221C4C10C00689D0B /* ViewModel */,
 				D16AEEAC20E73174008BF7B9 /* Model */,
 				D16AEEB520E73174008BF7B9 /* View */,
-				D16AEECA20E73174008BF7B9 /* Tool */,
+				D16AEECA20E73174008BF7B9 /* 媒体工具类 */,
 			);
 			path = "媒体库";
 			sourceTree = "<group>";
@@ -1202,10 +1207,8 @@
 		F106729621F09B6E00A73745 /* Swift媒体库 */ = {
 			isa = PBXGroup;
 			children = (
+				F16DBCF92207D3A600F6CEB1 /* ViewModel */,
 				F106729721F09B7600A73745 /* ViewController */,
-				F106729A21F09B8800A73745 /* Model */,
-				F106729921F09B8100A73745 /* ViewModel */,
-				F106729821F09B7F00A73745 /* View */,
 			);
 			path = "Swift媒体库";
 			sourceTree = "<group>";
@@ -1216,28 +1219,6 @@
 				F106729B21F09BD300A73745 /* MediaLibray_ViewController.swift */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		F106729821F09B7F00A73745 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F106729921F09B8100A73745 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				F106729E21F09C1600A73745 /* MediaLibray_ViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		F106729A21F09B8800A73745 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		F110E1DF1EE3A83400B28EBD /* PlayerVC */ = {
@@ -1301,6 +1282,19 @@
 				D11A57FC2150627D00F2282F /* MediaLibraryVC.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F16DBCF92207D3A600F6CEB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F16DBD0A2207D3F600F6CEB1 /* MediaLibrayVM.swift */,
+				F16DBCFA2207D3A600F6CEB1 /* LocalDataHelper.swift */,
+				F16DBD012207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld */,
+				F16DBD032207D3D900F6CEB1 /* MediaModel1+CoreDataClass.swift */,
+				F16DBD002207D3D900F6CEB1 /* MediaModel1+CoreDataProperties.swift */,
+				F1E2687B220A833D009F5EC1 /* SwiftFunctionPchFile.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		F1E521801EBD642700C518CB = {
@@ -1454,7 +1448,7 @@
 					};
 					F1E521881EBD642700C518CB = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 285R4BK8S5;
+						DevelopmentTeam = CRV3R593G3;
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
@@ -1548,7 +1542,6 @@
 				D1315C2D20F979720015C1C3 /* GCDWebUploader.bundle in Resources */,
 				D1E284412144AE2100DC1E09 /* MediaLibraryNavTitleView.xib in Resources */,
 				D1617AE820CB704F00A1782E /* InfoPlist.strings in Resources */,
-				F1E521ED1EBD643E00C518CB /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1649,12 +1642,14 @@
 				D1077D4C20CD305A00D64EB2 /* ProgressHUDView.m in Sources */,
 				D1B9634D215B004F00D6C542 /* SettingStatusModel.m in Sources */,
 				D1B96357215B009D00D6C542 /* LinkGuideCell.m in Sources */,
+				F16DBD072207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld in Sources */,
+				F16DBD0C2207D3F600F6CEB1 /* MediaLibrayVM.swift in Sources */,
 				D1315C2020F979720015C1C3 /* GCDWebServerFileResponse.m in Sources */,
-				F10672A021F09C1600A73745 /* MediaLibray_ViewModel.swift in Sources */,
 				D1B96351215B004F00D6C542 /* SettingTableView.m in Sources */,
 				D1315C1C20F979720015C1C3 /* GCDWebServerConnection.m in Sources */,
 				D16AEEA720E72185008BF7B9 /* BaseTabBarController.m in Sources */,
 				D16038D0214730700049DFE7 /* MonitorFileChangeUtils.m in Sources */,
+				F16DBD052207D3D900F6CEB1 /* MediaModel1+CoreDataProperties.swift in Sources */,
 				D141E406213959D2007470E4 /* HZYBubbleCell.m in Sources */,
 				D16AEEE520E73174008BF7B9 /* MediaViewCell.m in Sources */,
 				D16AEEDB20E73174008BF7B9 /* PlayListHeaderView.m in Sources */,
@@ -1676,6 +1671,7 @@
 				D12D237A20F183B8009A650C /* BaseCollectionview.m in Sources */,
 				D17AEDC2214FD1EC00A8F569 /* FeedBackVC.m in Sources */,
 				D1315C1820F979720015C1C3 /* GCDWebServerFunctions.m in Sources */,
+				F16DBD092207D3D900F6CEB1 /* MediaModel1+CoreDataClass.swift in Sources */,
 				D163EBBD20F0609B00BC20E9 /* UIBarButtonItem+SXCreate.m in Sources */,
 				D141E404213959D2007470E4 /* HZYBubbleHeaderView.m in Sources */,
 				D14F4EB621C4C13700689D0B /* MediaLibraryViewModel.m in Sources */,
@@ -1684,6 +1680,7 @@
 				D11A57FD2150627D00F2282F /* MediaLibraryVC.m in Sources */,
 				D1315C2620F979720015C1C3 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
 				D1315C2220F979720015C1C3 /* GCDWebServerDataResponse.m in Sources */,
+				F16DBCFD2207D3A600F6CEB1 /* LocalDataHelper.swift in Sources */,
 				D1B96358215B009D00D6C542 /* LinkTableView.m in Sources */,
 				D1077D5320CD306400D64EB2 /* GuideVC.m in Sources */,
 				D16AEEA520E72185008BF7B9 /* BaseViewController.m in Sources */,
@@ -1735,6 +1732,7 @@
 				D1315C1B20F979720015C1C3 /* GCDWebServerConnection.m in Sources */,
 				D16AEEA220E72185008BF7B9 /* BaseNavigationController.m in Sources */,
 				D1315C2B20F979720015C1C3 /* GCDWebServerFileRequest.m in Sources */,
+				F16DBD082207D3D900F6CEB1 /* MediaModel1+CoreDataClass.swift in Sources */,
 				D12D237520F183B8009A650C /* BaseTableView.m in Sources */,
 				F1E521EC1EBD643E00C518CB /* AppDelegate.m in Sources */,
 				D16AEEDE20E73174008BF7B9 /* LibraryCollectionView.m in Sources */,
@@ -1770,14 +1768,15 @@
 				D1315C1720F979720015C1C3 /* GCDWebServerFunctions.m in Sources */,
 				659E2FF2200CCBCB0022C7FB /* ConfigHUDView.m in Sources */,
 				D16AEEDA20E73174008BF7B9 /* PlayListHeaderView.m in Sources */,
+				F1E2687D220A8439009F5EC1 /* SwiftFunctionPchFile.swift in Sources */,
 				D16AEED220E73174008BF7B9 /* MediaPageModel.m in Sources */,
 				F1EB07C21EBDBA3E008DE1CE /* UIButton+extension.m in Sources */,
 				703749C41F2C9614008894BB /* MediaPlayListTBV.m in Sources */,
+				F16DBD042207D3D900F6CEB1 /* MediaModel1+CoreDataProperties.swift in Sources */,
 				D141E405213959D2007470E4 /* HZYBubbleCell.m in Sources */,
 				D1B9635B215B009E00D6C542 /* LinkTableView.m in Sources */,
 				70D6E8C01F5E1A2E001234FE /* PlayerTool.m in Sources */,
 				D1315C2320F979720015C1C3 /* GCDWebServerStreamedResponse.m in Sources */,
-				F106729F21F09C1600A73745 /* MediaLibray_ViewModel.swift in Sources */,
 				F110E1EB1EE3A85700B28EBD /* MediaView.m in Sources */,
 				D1B96359215B009E00D6C542 /* LinkTableViewCell.m in Sources */,
 				D17229C821BCC05700755FCD /* ConfigManager.m in Sources */,
@@ -1810,9 +1809,12 @@
 				D16AEEEC20E73174008BF7B9 /* MediaTool.m in Sources */,
 				D1277B6221C7C08100BD1EA4 /* MBProgressHUD+HzyHUD.m in Sources */,
 				D141E403213959D2007470E4 /* HZYBubbleHeaderView.m in Sources */,
+				F16DBD0B2207D3F600F6CEB1 /* MediaLibrayVM.swift in Sources */,
 				65637E671FE941CA004D7019 /* MediaControllView.m in Sources */,
+				F16DBCFC2207D3A600F6CEB1 /* LocalDataHelper.swift in Sources */,
 				D17229C421BCBC4A00755FCD /* SettingViewController_Free.m in Sources */,
 				703749C71F2C98C9008894BB /* MediaPlayCell.m in Sources */,
+				F16DBD062207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld in Sources */,
 				D15F070A20B19EA9007E789E /* HTAdTool.m in Sources */,
 				D1315C1920F979720015C1C3 /* GCDWebServer.m in Sources */,
 				D163EBBC20F0609B00BC20E9 /* UIBarButtonItem+SXCreate.m in Sources */,
@@ -2146,13 +2148,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 285R4BK8S5;
+				DEVELOPMENT_TEAM = CRV3R593G3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Application/SDK",
 					"$(PROJECT_DIR)/Pods/MobileVLCKit/MobileVLCKit-binary",
 				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Application/启动和其他类文件/WhatsPlayer.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2175,7 +2178,7 @@
 					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Application/OtherFiles/InfoPlistFile/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Application/启动和其他类文件/InfoPlistFile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -2184,6 +2187,31 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos/CocoaLumberjack",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Application/SDK",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/DBGuestureLock\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MobileVLCKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -2255,14 +2283,15 @@
 					"-weak_framework",
 					"\"WebKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.WhatsPlayer.imbaTao;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WhatsPlayer.imbaTaoqwewqe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Application/启动和其他类文件/WhatsPlayerBridgFile.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				WARNING_CFLAGS = (
 					"-Wno-format\n-Wno-unused-variable\n-Wno-unused-variable\n-Wno-undeclared-selector\n-Wno-int-conversion",
 					"-Wno-unused-variable",
@@ -2279,13 +2308,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 285R4BK8S5;
+				DEVELOPMENT_TEAM = CRV3R593G3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Application/SDK",
 					"$(PROJECT_DIR)/Pods/MobileVLCKit/MobileVLCKit-binary",
 				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Application/启动和其他类文件/WhatsPlayer.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2308,7 +2338,7 @@
 					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Application/OtherFiles/InfoPlistFile/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Application/启动和其他类文件/InfoPlistFile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -2317,6 +2347,31 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos/CocoaLumberjack",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Application/SDK",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/DBGuestureLock\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MobileVLCKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -2388,13 +2443,14 @@
 					"-weak_framework",
 					"\"WebKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.WhatsPlayer.imbaTao;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WhatsPlayer.imbaTaoqwewqe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Application/启动和其他类文件/WhatsPlayerBridgFile.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				WARNING_CFLAGS = (
 					"-Wno-format\n-Wno-unused-variable\n-Wno-unused-variable\n-Wno-undeclared-selector\n-Wno-int-conversion",
 					"-Wno-unused-variable",
@@ -2435,6 +2491,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F16DBD012207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F16DBD022207D3D900F6CEB1 /* Model.xcdatamodel */,
+			);
+			currentVersion = F16DBD022207D3D900F6CEB1 /* Model.xcdatamodel */;
+			path = MediaDataBase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F1E521811EBD642700C518CB /* Project object */;
 }

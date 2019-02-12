@@ -23,6 +23,6 @@ extension MediaModel1 {
     @NSManaged public var rankNumber: Int64
     @NSManaged public var thumbnail: NSData?
     @NSManaged public var url: String?
-    @NSManaged public var isDirctory: Bool
+    @NSManaged public var isDirectory: Bool
 
 }

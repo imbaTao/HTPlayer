@@ -14,7 +14,7 @@ class MediaLibrayVM: NSObject {
     var mediaListArray = [MediaModel1]()
     override init() {
         // 取出来未过滤的数组
-       mediaListArray = LocalDataHelper.analyzeRomMediafiles()
+       mediaListArray = LD.analyzeRomMediafiles(path: documentPath)
         
         //初始化数据
 //        let items = Observable.just(mediaListArray)

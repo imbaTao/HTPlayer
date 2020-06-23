@@ -9,8 +9,6 @@
 #ifndef WhatsPlayerBridgFile_h
 #define WhatsPlayerBridgFile_h
 #import "BaseViewController.h"
-#import "MobileVLCKit.h"
 
-
-
+#import <MobileVLCKit/MobileVLCKit.h>
 #endif /* WhatsPlayerBridgFile_h */

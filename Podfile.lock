@@ -35,7 +35,7 @@ DEPENDENCIES:
   - SnapKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - DBGuestureLock
     - FMDB
     - Google-Mobile-Ads-SDK
@@ -67,6 +67,6 @@ SPEC CHECKSUMS:
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: d33db71648edfbc316ecab5b8ebab9dfe570c5f1
+PODFILE CHECKSUM: 12aa2df50311d43e4890297a5e7c58bcd91746a3
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.1

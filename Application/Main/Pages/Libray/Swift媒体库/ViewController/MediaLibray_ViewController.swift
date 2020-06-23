@@ -9,6 +9,8 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import SnapKit
+
 class MediaLibray_ViewController: UIViewController {
     let vm = MediaLibrayVM()
     let disposeBag = DisposeBag()

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4F391EAACDA0F41D2E13D9 /* Pods_WhatsPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB836CD780B5FCB253401B9 /* Pods_WhatsPlayer.framework */; };
 		6555BDD820061C2800B16A08 /* ProgressHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6555BDCF20061C2600B16A08 /* ProgressHUDView.m */; };
 		6555BDD920061C2800B16A08 /* ProgressHUDView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6555BDD020061C2600B16A08 /* ProgressHUDView.xib */; };
 		6555BDDB20061C2800B16A08 /* VolumeAndBrightHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6555BDD420061C2700B16A08 /* VolumeAndBrightHUDView.m */; };
@@ -20,6 +21,8 @@
 		703749C71F2C98C9008894BB /* MediaPlayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 703749C61F2C98C9008894BB /* MediaPlayCell.m */; };
 		70500FFC1F24AB6C00371E0D /* LockerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 70500FFB1F24AB6C00371E0D /* LockerVC.m */; };
 		70D6E8C01F5E1A2E001234FE /* PlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D6E8BF1F5E1A2E001234FE /* PlayerTool.m */; };
+		AA8320F7249677590041D32A /* InfoPro.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1077D6420CD30BC00D64EB2 /* InfoPro.plist */; };
+		AA8320F82496775E0041D32A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1E521DE1EBD643E00C518CB /* Info.plist */; };
 		D101D00D21AC000C007BC818 /* MediaLibraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D11A57FC2150627D00F2282F /* MediaLibraryVC.m */; };
 		D101D01321AC0694007BC818 /* MediaLibraryVC_Free.m in Sources */ = {isa = PBXBuildFile; fileRef = D101D01221AC0694007BC818 /* MediaLibraryVC_Free.m */; };
 		D1039B22208FF356009BC2FF /* GuideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1039B21208FF356009BC2FF /* GuideVC.m */; };
@@ -44,7 +47,6 @@
 		D1077D5E20CD306400D64EB2 /* UIButton+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EB07C11EBDBA3E008DE1CE /* UIButton+extension.m */; };
 		D1077D5F20CD306400D64EB2 /* UILabel+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EB07C41EBDBA78008DE1CE /* UILabel+extension.m */; };
 		D1077D6020CD306400D64EB2 /* UISlider+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C6C4321EBEB31E00284BB7 /* UISlider+extension.m */; };
-		D1077D6520CD30BD00D64EB2 /* InfoPro.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1077D6420CD30BC00D64EB2 /* InfoPro.plist */; };
 		D1077D6620CD30C700D64EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E521D51EBD643E00C518CB /* Assets.xcassets */; };
 		D1077D7820CD33B400D64EB2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DA4CE41EC9D5BB00856A58 /* libz.tbd */; };
 		D1077D7A20CD33C600D64EB2 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DA4CE81EC9D5D000856A58 /* libiconv.tbd */; };
@@ -171,16 +173,6 @@
 		D17229CD21BCF48600755FCD /* PaymentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D17229CC21BCF48600755FCD /* PaymentManager.m */; };
 		D17AEDC1214FD1EC00A8F569 /* FeedBackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D17AEDC0214FD1EC00A8F569 /* FeedBackVC.m */; };
 		D17AEDC2214FD1EC00A8F569 /* FeedBackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D17AEDC0214FD1EC00A8F569 /* FeedBackVC.m */; };
-		D1A38AC520CFF6D3006FD9C1 /* libDBGuestureLock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A38AC420CFF6D3006FD9C1 /* libDBGuestureLock.a */; };
-		D1A38AC720CFF70C006FD9C1 /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A38AC620CFF70C006FD9C1 /* libFMDB.a */; };
-		D1A38AC920CFF70C006FD9C1 /* libIQKeyboardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A38AC820CFF70C006FD9C1 /* libIQKeyboardManager.a */; };
-		D1A38ACB20CFF70C006FD9C1 /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A38ACA20CFF70C006FD9C1 /* libMasonry.a */; };
-		D1A38ACD20CFF70C006FD9C1 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A38ACC20CFF70C006FD9C1 /* libMBProgressHUD.a */; };
-		D1A38ACF20CFF70C006FD9C1 /* libMJExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A38ACE20CFF70C006FD9C1 /* libMJExtension.a */; };
-		D1A38AD120CFF70C006FD9C1 /* libMJRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A38AD020CFF70C006FD9C1 /* libMJRefresh.a */; };
-		D1A38AD320CFF70C006FD9C1 /* libPods-WhatsPlayer-Pro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A38AD220CFF70C006FD9C1 /* libPods-WhatsPlayer-Pro.a */; };
-		D1A38AD520CFF70C006FD9C1 /* libReactiveObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A38AD420CFF70C006FD9C1 /* libReactiveObjC.a */; };
-		D1A38AD620CFF70D006FD9C1 /* libPods-WhatsPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A6C62944D778D17E61AE8F /* libPods-WhatsPlayer.a */; };
 		D1B9634C215B004F00D6C542 /* SettingStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B96342215B004F00D6C542 /* SettingStatusModel.m */; };
 		D1B9634D215B004F00D6C542 /* SettingStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B96342215B004F00D6C542 /* SettingStatusModel.m */; };
 		D1B9634E215B004F00D6C542 /* SettingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B96343215B004F00D6C542 /* SettingTool.m */; };
@@ -209,7 +201,7 @@
 		D1F84F502141564D001F7B4B /* HZYReNameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F84F4D2141564D001F7B4B /* HZYReNameView.xib */; };
 		D1F84F512141564D001F7B4B /* HZYReNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F84F4E2141564D001F7B4B /* HZYReNameView.m */; };
 		D1F84F522141564D001F7B4B /* HZYReNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F84F4E2141564D001F7B4B /* HZYReNameView.m */; };
-		EB15B004F669CDA80D0A57D9 /* libPods-WhatsPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A6C62944D778D17E61AE8F /* libPods-WhatsPlayer.a */; };
+		D63E8627AE0BA56E4FBAF337 /* Pods_WhatsPlayer_Pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FA6AC04A42FCA8EB41587D /* Pods_WhatsPlayer_Pro.framework */; };
 		F1052F401F01264C00098A51 /* DataHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F1052F3F1F01264C00098A51 /* DataHandleTool.m */; };
 		F106729C21F09BD300A73745 /* MediaLibray_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F106729B21F09BD300A73745 /* MediaLibray_ViewController.swift */; };
 		F106729D21F09BD300A73745 /* MediaLibray_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F106729B21F09BD300A73745 /* MediaLibray_ViewController.swift */; };
@@ -264,8 +256,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		01A6C62944D778D17E61AE8F /* libPods-WhatsPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhatsPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FA6AC04A42FCA8EB41587D /* Pods_WhatsPlayer_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsPlayer_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FE855C66E1FB782376981F /* Pods-WhatsPlayer-Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsPlayer-Pro.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsPlayer-Pro/Pods-WhatsPlayer-Pro.release.xcconfig"; sourceTree = "<group>"; };
+		5BB836CD780B5FCB253401B9 /* Pods_WhatsPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6555BDCF20061C2600B16A08 /* ProgressHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUDView.m; sourceTree = "<group>"; };
 		6555BDD020061C2600B16A08 /* ProgressHUDView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressHUDView.xib; sourceTree = "<group>"; };
 		6555BDD120061C2700B16A08 /* ProgressHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUDView.h; sourceTree = "<group>"; };
@@ -498,15 +491,6 @@
 		D17229CC21BCF48600755FCD /* PaymentManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentManager.m; sourceTree = "<group>"; };
 		D17AEDBF214FD1EC00A8F569 /* FeedBackVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedBackVC.h; sourceTree = "<group>"; };
 		D17AEDC0214FD1EC00A8F569 /* FeedBackVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedBackVC.m; sourceTree = "<group>"; };
-		D1A38AC420CFF6D3006FD9C1 /* libDBGuestureLock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDBGuestureLock.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1A38AC620CFF70C006FD9C1 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1A38AC820CFF70C006FD9C1 /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1A38ACA20CFF70C006FD9C1 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1A38ACC20CFF70C006FD9C1 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1A38ACE20CFF70C006FD9C1 /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1A38AD020CFF70C006FD9C1 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1A38AD220CFF70C006FD9C1 /* libPods-WhatsPlayer-Pro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-WhatsPlayer-Pro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1A38AD420CFF70C006FD9C1 /* libReactiveObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactiveObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B96342215B004F00D6C542 /* SettingStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingStatusModel.m; sourceTree = "<group>"; };
 		D1B96343215B004F00D6C542 /* SettingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTool.m; sourceTree = "<group>"; };
 		D1B96344215B004F00D6C542 /* SettingStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingStatusModel.h; sourceTree = "<group>"; };
@@ -585,8 +569,6 @@
 				D1077D7820CD33B400D64EB2 /* libz.tbd in Frameworks */,
 				D1315C3A20F97A6A0015C1C3 /* libiconv.2.tbd in Frameworks */,
 				D1315C3820F97A580015C1C3 /* libxml2.tbd in Frameworks */,
-				D1A38AD520CFF70C006FD9C1 /* libReactiveObjC.a in Frameworks */,
-				D1A38AC520CFF6D3006FD9C1 /* libDBGuestureLock.a in Frameworks */,
 				D1077D8120CD33F900D64EB2 /* AudioToolbox.framework in Frameworks */,
 				D1077D8020CD33F200D64EB2 /* CoreAudio.framework in Frameworks */,
 				D1077D7F20CD33EC00D64EB2 /* CoreGraphics.framework in Frameworks */,
@@ -594,16 +576,9 @@
 				D1077D7D20CD33E200D64EB2 /* Foundation.framework in Frameworks */,
 				D1077D7C20CD33DC00D64EB2 /* AVFoundation.framework in Frameworks */,
 				D1077D7B20CD33CF00D64EB2 /* libbz2.tbd in Frameworks */,
-				D1A38ACB20CFF70C006FD9C1 /* libMasonry.a in Frameworks */,
-				D1A38ACF20CFF70C006FD9C1 /* libMJExtension.a in Frameworks */,
 				D1077D7A20CD33C600D64EB2 /* libiconv.tbd in Frameworks */,
-				D1A38AD320CFF70C006FD9C1 /* libPods-WhatsPlayer-Pro.a in Frameworks */,
 				D1315C3620F97A180015C1C3 /* libz.1.tbd in Frameworks */,
-				D1A38AC720CFF70C006FD9C1 /* libFMDB.a in Frameworks */,
-				D1A38AC920CFF70C006FD9C1 /* libIQKeyboardManager.a in Frameworks */,
-				D1A38ACD20CFF70C006FD9C1 /* libMBProgressHUD.a in Frameworks */,
-				D1A38AD120CFF70C006FD9C1 /* libMJRefresh.a in Frameworks */,
-				D1A38AD620CFF70D006FD9C1 /* libPods-WhatsPlayer.a in Frameworks */,
+				D63E8627AE0BA56E4FBAF337 /* Pods_WhatsPlayer_Pro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,7 +596,7 @@
 				F13DA4031EC9153600347BF1 /* CoreAudio.framework in Frameworks */,
 				F13DA4011EC9152A00347BF1 /* AudioToolbox.framework in Frameworks */,
 				F13DA3B61EC9138900347BF1 /* MobileVLCKit.framework in Frameworks */,
-				EB15B004F669CDA80D0A57D9 /* libPods-WhatsPlayer.a in Frameworks */,
+				5B4F391EAACDA0F41D2E13D9 /* Pods_WhatsPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,15 +611,6 @@
 				D1315C3720F97A580015C1C3 /* libxml2.tbd */,
 				D1315C3520F97A180015C1C3 /* libz.1.tbd */,
 				D1315C3320F97A0F0015C1C3 /* libc++.1.tbd */,
-				D1A38AC620CFF70C006FD9C1 /* libFMDB.a */,
-				D1A38AC820CFF70C006FD9C1 /* libIQKeyboardManager.a */,
-				D1A38ACA20CFF70C006FD9C1 /* libMasonry.a */,
-				D1A38ACC20CFF70C006FD9C1 /* libMBProgressHUD.a */,
-				D1A38ACE20CFF70C006FD9C1 /* libMJExtension.a */,
-				D1A38AD020CFF70C006FD9C1 /* libMJRefresh.a */,
-				D1A38AD220CFF70C006FD9C1 /* libPods-WhatsPlayer-Pro.a */,
-				D1A38AD420CFF70C006FD9C1 /* libReactiveObjC.a */,
-				D1A38AC420CFF6D3006FD9C1 /* libDBGuestureLock.a */,
 				F1DA4CE81EC9D5D000856A58 /* libiconv.tbd */,
 				F1DA4CE61EC9D5C500856A58 /* libbz2.tbd */,
 				F1DA4CE41EC9D5BB00856A58 /* libz.tbd */,
@@ -659,7 +625,8 @@
 				F13DA3FA1EC9150000347BF1 /* libbz2.1.0.tbd */,
 				F13DA3F81EC914F500347BF1 /* libstdc++.6.0.9.tbd */,
 				F13DA3B51EC9138900347BF1 /* MobileVLCKit.framework */,
-				01A6C62944D778D17E61AE8F /* libPods-WhatsPlayer.a */,
+				5BB836CD780B5FCB253401B9 /* Pods_WhatsPlayer.framework */,
+				30FA6AC04A42FCA8EB41587D /* Pods_WhatsPlayer_Pro.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -684,13 +651,13 @@
 			path = "本地储存";
 			sourceTree = "<group>";
 		};
-		70500FF91F24AB5000371E0D /* LockerVC */ = {
+		70500FF91F24AB5000371E0D /* Locker */ = {
 			isa = PBXGroup;
 			children = (
 				70500FFA1F24AB6C00371E0D /* LockerVC.h */,
 				70500FFB1F24AB6C00371E0D /* LockerVC.m */,
 			);
-			path = LockerVC;
+			path = Locker;
 			sourceTree = "<group>";
 		};
 		70D6E8BD1F5E19F4001234FE /* Tool */ = {
@@ -700,6 +667,46 @@
 				70D6E8BF1F5E1A2E001234FE /* PlayerTool.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		AA8320B824966C780041D32A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA8320BA24966D530041D32A /* Pages */,
+				AA8320B924966D140041D32A /* LauchEntry */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AA8320B924966D140041D32A /* LauchEntry */ = {
+			isa = PBXGroup;
+			children = (
+				F1E521DD1EBD643E00C518CB /* InfoPlistFile */,
+				F1E521E31EBD643E00C518CB /* WhatsPlayer.pch */,
+				F1E521DB1EBD643E00C518CB /* AppDelegate.h */,
+				F1E521DC1EBD643E00C518CB /* AppDelegate.m */,
+				F1E521DF1EBD643E00C518CB /* LaunchScreen.storyboard */,
+				D1C7B0E220CD38AF001ECE1E /* LaunchScreenPro.storyboard */,
+				F1E521E01EBD643E00C518CB /* main.m */,
+				D1617AEA20CB704F00A1782E /* InfoPlist.strings */,
+				D1617B1120CB7AE400A1782E /* Localizable.strings */,
+				F15916C121F0A0BE00CB1D23 /* WhatsPlayerBridgFile.h */,
+			);
+			path = LauchEntry;
+			sourceTree = "<group>";
+		};
+		AA8320BA24966D530041D32A /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				D1B07C4C2156192500CE07CC /* Libray */,
+				D1B96340215B004E00D6C542 /* Setting */,
+				D1372320215B0014006B3A9F /* Link */,
+				70500FF91F24AB5000371E0D /* Locker */,
+				D1039B1C208FF327009BC2FF /* Guide */,
+				F110E1DF1EE3A83400B28EBD /* PlayerVC */,
+				D17AEDBE214FD1D900A8F569 /* FeedBackVC */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 		D101D00F21AC065F007BC818 /* MediaLibrary_Free */ = {
@@ -720,14 +727,14 @@
 			path = SettingVC_Free;
 			sourceTree = "<group>";
 		};
-		D1039B1C208FF327009BC2FF /* GuideVC */ = {
+		D1039B1C208FF327009BC2FF /* Guide */ = {
 			isa = PBXGroup;
 			children = (
 				D1039B1D208FF327009BC2FF /* Controller */,
 				D1039B1E208FF327009BC2FF /* Model */,
 				D1039B1F208FF327009BC2FF /* View */,
 			);
-			path = GuideVC;
+			path = Guide;
 			sourceTree = "<group>";
 		};
 		D1039B1D208FF327009BC2FF /* Controller */ = {
@@ -773,20 +780,6 @@
 				D15F070720B19E58007E789E /* ADTool */,
 			);
 			path = "免费版";
-			sourceTree = "<group>";
-		};
-		D11A57FA2150627D00F2282F /* 付费Pro版 */ = {
-			isa = PBXGroup;
-			children = (
-				D1B07C4C2156192500CE07CC /* 媒体库 */,
-				D1B96340215B004E00D6C542 /* SettingVC */,
-				D1372320215B0014006B3A9F /* LinkVC */,
-				70500FF91F24AB5000371E0D /* LockerVC */,
-				D1039B1C208FF327009BC2FF /* GuideVC */,
-				F110E1DF1EE3A83400B28EBD /* PlayerVC */,
-				D17AEDBE214FD1D900A8F569 /* FeedBackVC */,
-			);
-			path = "付费Pro版";
 			sourceTree = "<group>";
 		};
 		D1315BE620F979710015C1C3 /* 第三方库等 */ = {
@@ -889,13 +882,13 @@
 			path = GCDWebUploader;
 			sourceTree = "<group>";
 		};
-		D1372320215B0014006B3A9F /* LinkVC */ = {
+		D1372320215B0014006B3A9F /* Link */ = {
 			isa = PBXGroup;
 			children = (
 				D1372321215B0014006B3A9F /* View */,
 				D1372328215B0014006B3A9F /* ViewController */,
 			);
-			path = LinkVC;
+			path = Link;
 			sourceTree = "<group>";
 		};
 		D1372321215B0014006B3A9F /* View */ = {
@@ -1088,7 +1081,7 @@
 			path = FeedBackVC;
 			sourceTree = "<group>";
 		};
-		D1B07C4C2156192500CE07CC /* 媒体库 */ = {
+		D1B07C4C2156192500CE07CC /* Libray */ = {
 			isa = PBXGroup;
 			children = (
 				F15916C221F5EFA000CB1D23 /* ViewController */,
@@ -1098,7 +1091,7 @@
 				D16AEEB520E73174008BF7B9 /* View */,
 				D16AEECA20E73174008BF7B9 /* 媒体工具类 */,
 			);
-			path = "媒体库";
+			path = Libray;
 			sourceTree = "<group>";
 		};
 		D1B07C4D215619A200CE07CC /* 公共模块 */ = {
@@ -1116,14 +1109,14 @@
 			path = "公共模块";
 			sourceTree = "<group>";
 		};
-		D1B96340215B004E00D6C542 /* SettingVC */ = {
+		D1B96340215B004E00D6C542 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
 				D1B96341215B004F00D6C542 /* Model */,
 				D1B96346215B004F00D6C542 /* View */,
 				D1B96349215B004F00D6C542 /* ViewController */,
 			);
-			path = SettingVC;
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		D1B96341215B004F00D6C542 /* Model */ = {
@@ -1324,10 +1317,9 @@
 		F1E521BF1EBD643D00C518CB /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				D11A57FA2150627D00F2282F /* 付费Pro版 */,
+				AA8320B824966C780041D32A /* Main */,
 				D11A57F92150627600F2282F /* 免费版 */,
 				D1B07C4D215619A200CE07CC /* 公共模块 */,
-				F1E521DA1EBD643E00C518CB /* 启动和其他类文件 */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -1365,23 +1357,6 @@
 			path = "媒体资源";
 			sourceTree = "<group>";
 		};
-		F1E521DA1EBD643E00C518CB /* 启动和其他类文件 */ = {
-			isa = PBXGroup;
-			children = (
-				F1E521DD1EBD643E00C518CB /* InfoPlistFile */,
-				F1E521E31EBD643E00C518CB /* WhatsPlayer.pch */,
-				F1E521DB1EBD643E00C518CB /* AppDelegate.h */,
-				F1E521DC1EBD643E00C518CB /* AppDelegate.m */,
-				F1E521DF1EBD643E00C518CB /* LaunchScreen.storyboard */,
-				D1C7B0E220CD38AF001ECE1E /* LaunchScreenPro.storyboard */,
-				F1E521E01EBD643E00C518CB /* main.m */,
-				D1617AEA20CB704F00A1782E /* InfoPlist.strings */,
-				D1617B1120CB7AE400A1782E /* Localizable.strings */,
-				F15916C121F0A0BE00CB1D23 /* WhatsPlayerBridgFile.h */,
-			);
-			path = "启动和其他类文件";
-			sourceTree = "<group>";
-		};
 		F1E521DD1EBD643E00C518CB /* InfoPlistFile */ = {
 			isa = PBXGroup;
 			children = (
@@ -1403,7 +1378,7 @@
 				D1077D1D20CD1F4300D64EB2 /* Sources */,
 				D1077D1E20CD1F4300D64EB2 /* Frameworks */,
 				D1077D1F20CD1F4300D64EB2 /* Resources */,
-				DD3696DC90735997C7571D7E /* [CP] Copy Pods Resources */,
+				1D22EAEA13011DFF9B876A42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1422,8 +1397,8 @@
 				F1E521851EBD642700C518CB /* Sources */,
 				F1E521861EBD642700C518CB /* Frameworks */,
 				F1E521871EBD642700C518CB /* Resources */,
-				86EE75F966D57F4E67C7E629 /* [CP] Copy Pods Resources */,
 				F1C6C4471EBEC00F00284BB7 /* Embed Frameworks */,
+				89C963AD5693F27CE317CD37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1463,6 +1438,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				fr,
@@ -1517,10 +1493,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1C7B0E320CD38B0001ECE1E /* LaunchScreenPro.storyboard in Resources */,
-				D1077D6520CD30BD00D64EB2 /* InfoPro.plist in Resources */,
 				D1077D6620CD30C700D64EB2 /* Assets.xcassets in Resources */,
 				D1077D8920CD345C00D64EB2 /* VolumeAndBrightHUDView.xib in Resources */,
 				D1077D8C20CD34BD00D64EB2 /* Localizable.strings in Resources */,
+				AA8320F7249677590041D32A /* InfoPro.plist in Resources */,
 				D1077D8720CD345C00D64EB2 /* ConfigHUDView.xib in Resources */,
 				D1077D8A20CD345C00D64EB2 /* MediaControllView.xib in Resources */,
 				D1077D9020CD34FB00D64EB2 /* InfoPlist.strings in Resources */,
@@ -1543,6 +1519,7 @@
 				F1E521EE1EBD643E00C518CB /* LaunchScreen.storyboard in Resources */,
 				65637E681FE941CA004D7019 /* MediaControllView.xib in Resources */,
 				D1F84F4F2141564D001F7B4B /* HZYReNameView.xib in Resources */,
+				AA8320F82496775E0041D32A /* Info.plist in Resources */,
 				D1315C2D20F979720015C1C3 /* GCDWebUploader.bundle in Resources */,
 				D1E284412144AE2100DC1E09 /* MediaLibraryNavTitleView.xib in Resources */,
 				D1617AE820CB704F00A1782E /* InfoPlist.strings in Resources */,
@@ -1552,6 +1529,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1D22EAEA13011DFF9B876A42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsPlayer-Pro/Pods-WhatsPlayer-Pro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DBGuestureLock/DBGuestureLock.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DBGuestureLock.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsPlayer-Pro/Pods-WhatsPlayer-Pro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		324F7B08B9CCACFA564DF7E8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1570,24 +1587,44 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		86EE75F966D57F4E67C7E629 /* [CP] Copy Pods Resources */ = {
+		89C963AD5693F27CE317CD37 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WhatsPlayer/Pods-WhatsPlayer-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsPlayer/Pods-WhatsPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DBGuestureLock/DBGuestureLock.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DBGuestureLock.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsPlayer/Pods-WhatsPlayer-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsPlayer/Pods-WhatsPlayer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		98ACF6128159D6CAE1528170 /* [CP] Check Pods Manifest.lock */ = {
@@ -1606,26 +1643,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD3696DC90735997C7571D7E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WhatsPlayer-Pro/Pods-WhatsPlayer-Pro-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsPlayer-Pro/Pods-WhatsPlayer-Pro-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1957,7 +1974,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Application/启动和其他类文件/WhatsPlayer.pch";
+				GCC_PREFIX_HEADER = Application/Main/LauchEntry/WhatsPlayer.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1983,14 +2000,14 @@
 					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Application/启动和其他类文件/InfoPlistFile/InfoPro.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Application/Main/LauchEntry/InfoPlistFile/InfoPro.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WhatsPlayer-Pro.imbaTao";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Application/启动和其他类文件/WhatsPlayerBridgFile.h";
+				SWIFT_OBJC_BRIDGING_HEADER = Application/Main/LauchEntry/WhatsPlayerBridgFile.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.2;
@@ -2023,7 +2040,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Application/启动和其他类文件/WhatsPlayer.pch";
+				GCC_PREFIX_HEADER = Application/Main/LauchEntry/WhatsPlayer.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "ISPRO=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2040,14 +2057,14 @@
 					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Application/启动和其他类文件/InfoPlistFile/InfoPro.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Application/Main/LauchEntry/InfoPlistFile/InfoPro.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WhatsPlayer-Pro.imbaTao";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Application/启动和其他类文件/WhatsPlayerBridgFile.h";
+				SWIFT_OBJC_BRIDGING_HEADER = Application/Main/LauchEntry/WhatsPlayerBridgFile.h;
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2184,7 +2201,7 @@
 					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Application/启动和其他类文件/InfoPlistFile/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Application/Main/LauchEntry/InfoPlistFile/InfoPro.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -2292,7 +2309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.WhatsPlayer.imbaTaoqwewqe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Application/启动和其他类文件/WhatsPlayerBridgFile.h";
+				SWIFT_OBJC_BRIDGING_HEADER = Application/Main/LauchEntry/WhatsPlayerBridgFile.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.2;
@@ -2344,7 +2361,7 @@
 					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Application/启动和其他类文件/InfoPlistFile/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Application/Main/LauchEntry/InfoPlistFile/InfoPro.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -2452,7 +2469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.WhatsPlayer.imbaTaoqwewqe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Application/启动和其他类文件/WhatsPlayerBridgFile.h";
+				SWIFT_OBJC_BRIDGING_HEADER = Application/Main/LauchEntry/WhatsPlayerBridgFile.h;
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

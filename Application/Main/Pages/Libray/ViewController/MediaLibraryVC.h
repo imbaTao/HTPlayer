@@ -12,6 +12,7 @@
 #import "LibraryCollectionView.h"
 #import "MediaLibraryNavTitleView.h"
 
+
 @protocol screenRotateDelegate <NSObject>
 
 - (void)allowedRotate:(BOOL)flag;

@@ -7,10 +7,12 @@
 //
 
 import Foundation
-import RxSwift
 import RxCocoa
-class MediaLibrayVM: NSObject {
 
+class MediaLibrayVM: NSObject {
+    
+//    let width = widthValue()
+    
     var mediaListArray = [MediaModel1]()
     override init() {
         // 取出来未过滤的数组
@@ -19,4 +21,8 @@ class MediaLibrayVM: NSObject {
         //初始化数据
 //        let items = Observable.just(mediaListArray)
     }
+    
+//    func widthValue() -> Float {
+//        return 10.0;
+//    }
 }

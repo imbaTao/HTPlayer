@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:WhatsPlayer.xcodeproj">
+      location = "group:/Users/mr.hong/Desktop/HTPlayer/GanliaoPlayer.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

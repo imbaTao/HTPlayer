@@ -1,6 +1,6 @@
 //
 //  MediaModel2.swift
-//  WhatsPlayer
+//  敢聊播放器
 //
 //  Created by hong  on 2019/2/9.
 //  Copyright © 2019 Great. All rights reserved.

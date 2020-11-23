@@ -16,11 +16,6 @@
 #import "PlayerTool.h"
 #import "ConfigManager.h"
 
-
-#ifndef ISPRO
-#import "MediaLibraryVC_Free.h"
-#import "HTAdTool.h"
-#endif
 @interface AppDelegate ()
 
 @end
@@ -31,9 +26,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self configKeboard];
-#ifndef ISPRO
-       [GADMobileAds configureWithApplicationID:[HTAdTool APPADID]];
-#endif
     [self configWindow];
 //    //监听系统声音
 //    AVAudioSession *session = [AVAudioSession sharedInstance];

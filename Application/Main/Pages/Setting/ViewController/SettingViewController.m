@@ -50,17 +50,19 @@
 #pragma mark - TaleViewCellSelectedDelegate
 - (void)cellSelectedWithIndexPath:(NSIndexPath *)indexPath{
     switch (indexPath.row) {
-        case 1:{
+        case 0:{
             LockerVC *lockVC = [[LockerVC alloc]init];
             lockVC.completeBlock = ^(BOOL isOpen) {
                 SettingStatusModel *statusModel = self.SettingTableView.dataArray[1];
                 statusModel.canUse = isOpen;
                 [self.SettingTableView reloadData];
             };
+            lockVC.modalPresentationStyle = UIModalPresentationFullScreen;
             [self presentViewController:lockVC animated:true completion:nil];
         }break;
-        case 2:{
+        case 1:{
             FeedBackVC *feedBackVC = [[FeedBackVC alloc] init];
+            feedBackVC.modalPresentationStyle = UIModalPresentationFullScreen;
             // 设置邮件代理
             [feedBackVC setMailComposeDelegate:self];
             if (feedBackVC) {

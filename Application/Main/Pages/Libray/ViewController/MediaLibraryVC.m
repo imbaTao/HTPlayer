@@ -19,9 +19,6 @@
 
 #import "NSAttributedString+Colorful.h"
 #import "MediaLibraryViewModel.h"
-#ifndef ISPRO
-#import "PlayerVC_Free.h"
-#endif
 
 
 @interface MediaLibraryVC () <MediaCollectionViewDelegate,HZYBubbleDelegate,MediaEditMenuBarDelegate,HZYRenameViewDelegate,MediaLibraryNavTitleDelegate,UISearchBarDelegate,PlayerVCDelgate,MediaLibraryViewModelDelegate>
@@ -84,6 +81,17 @@
     };
     
      [self interfaceConfig];
+    
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+         UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+               
+           }];
+           
+           UIAlertController *ac = [UIAlertController alertControllerWithTitle:@"提示" message:@"注意,本产品只提供视频播放功能，不提供下载功能！" preferredStyle:UIAlertControllerStyleAlert];
+           [ac addAction:okAction];
+           [self presentViewController:ac animated:true completion:nil];
+    });
 }
 
 - (void)checkDBVersion{
@@ -220,19 +228,12 @@
             [self.mediaInfoBubble hideBubble];
             switch (row) {
                 case 0:{ // 播放
-#ifndef ISPRO
-                    PlayerVC_Free *playVC = [[PlayerVC_Free alloc] initWithMediaDataArray:[NSMutableArray arrayWithArray:@[_currentMediaModel]]];
-                    playVC.delegate = self;
-                    [self.navigationController presentViewController:playVC animated:true completion:^{
-                        [playVC startPlayWithIndex:row];
-                    }];
-#else
                     PlayerVC *playVC = [[PlayerVC alloc] initWithMediaDataArray:[NSMutableArray arrayWithArray:@[_currentMediaModel]]];
                     playVC.delegate = self;
+                    playVC.modalPresentationStyle = UIModalPresentationFullScreen;
                     [self.navigationController presentViewController:playVC animated:true completion:^{
                         [playVC startPlayWithIndex:row];
                     }];
-#endif
                 }break;
                 case 1:{// 重命名
                     [self.renameView showWithSourceName:_currentMediaModel.mediaName];
@@ -325,17 +326,13 @@
         }
     }
     
-#ifndef ISPRO
-    PlayerVC_Free *playVC = [[PlayerVC_Free alloc] initWithMediaDataArray:needPlayArray];
-    [self.navigationController presentViewController:playVC animated:true completion:^{
-        [playVC startPlayWithIndex:0];
-    }];
-#else
+
     PlayerVC *playVC = [[PlayerVC alloc] initWithMediaDataArray:needPlayArray];
+    playVC.modalPresentationStyle = UIModalPresentationFullScreen;
     [self.navigationController presentViewController:playVC animated:true completion:^{
         [playVC startPlayWithIndex:0];
     }];
-#endif
+
     // 传给播放器
 }
 
@@ -449,19 +446,11 @@
 #pragma mark - 媒体Cell选中
 - (void)cellselectedWithRow:(NSInteger)row isEditing:(BOOL)isEditing{
     if (!isEditing) {
-#ifndef ISPRO
-        PlayerVC_Free *playVC = [[PlayerVC_Free alloc] initWithMediaDataArray:MEDIALIST];
-        playVC.delegate = self;
-        [self.navigationController presentViewController:playVC animated:true completion:^{
-            [playVC startPlayWithIndex:row];
-        }];
-#else
         PlayerVC *playVC = [[PlayerVC alloc] initWithMediaDataArray:MEDIALIST];
         playVC.delegate = self;
         [self.navigationController presentViewController:playVC animated:true completion:^{
             [playVC startPlayWithIndex:row];
         }];
-#endif
     }else{
         // 检测BarView上按钮是否可以点击
         [self p_checkEditBarStatus];

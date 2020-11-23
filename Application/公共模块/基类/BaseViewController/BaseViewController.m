@@ -12,6 +12,15 @@
 @end
 
 @implementation BaseViewController
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+         self.modalPresentationStyle = UIModalPresentationFullScreen;
+    }
+    return self;
+}
+
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:false];

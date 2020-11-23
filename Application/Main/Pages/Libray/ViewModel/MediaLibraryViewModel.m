@@ -1,6 +1,6 @@
 //
 //  MediaLibraryViewModel.m
-//  WhatsPlayer
+//  敢聊播放器
 //
 //  Created by Mr.h on 12/15/18.
 //  Copyright © 2018 Great. All rights reserved.

@@ -10,10 +10,6 @@
 #import "HZYTabbarController.h"
 #import "UIBarButtonItem+SXCreate.h"
 
-#ifndef ISPRO
-#import "HTAdTool.h"
-#endif
-
 
 @interface BaseViewController : UIViewController
 - (void)hiddenLeftBtn;

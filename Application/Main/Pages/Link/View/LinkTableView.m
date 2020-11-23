@@ -41,7 +41,7 @@
              if (appCurName.length) {
                  tipStr = [tipStr stringByReplacingOccurrencesOfString:@"%@" withString:appCurName];
              }else{
-                 tipStr = [tipStr stringByReplacingOccurrencesOfString:@"%@" withString:@"WhatsPlayer"];
+                 tipStr = [tipStr stringByReplacingOccurrencesOfString:@"%@" withString:@"敢聊播放器"];
              }
          }else if (indexPath.section == 1 && i == 1){
               tipStr =  [tipStr stringByReplacingOccurrencesOfString:@"%@" withString:[self demo_wifiTransfer]];

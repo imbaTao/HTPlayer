@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D1077D2020CD1F4300D64EB2"
-               BuildableName = "WhatsPlayer-Pro.app"
-               BlueprintName = "WhatsPlayer-Pro"
+               BuildableName = "&#x6562;&#x804a;&#x64ad;&#x653e;&#x5668;.app"
+               BlueprintName = "GanliaoPlayer"
                ReferencedContainer = "container:GanliaoPlayer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -31,8 +31,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D1077D2020CD1F4300D64EB2"
-            BuildableName = "WhatsPlayer-Pro.app"
-            BlueprintName = "WhatsPlayer-Pro"
+            BuildableName = "&#x6562;&#x804a;&#x64ad;&#x653e;&#x5668;.app"
+            BlueprintName = "GanliaoPlayer"
             ReferencedContainer = "container:GanliaoPlayer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -54,8 +54,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D1077D2020CD1F4300D64EB2"
-            BuildableName = "WhatsPlayer-Pro.app"
-            BlueprintName = "WhatsPlayer-Pro"
+            BuildableName = "&#x6562;&#x804a;&#x64ad;&#x653e;&#x5668;.app"
+            BlueprintName = "GanliaoPlayer"
             ReferencedContainer = "container:GanliaoPlayer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -71,8 +71,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D1077D2020CD1F4300D64EB2"
-            BuildableName = "WhatsPlayer-Pro.app"
-            BlueprintName = "WhatsPlayer-Pro"
+            BuildableName = "&#x6562;&#x804a;&#x64ad;&#x653e;&#x5668;.app"
+            BlueprintName = "GanliaoPlayer"
             ReferencedContainer = "container:GanliaoPlayer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

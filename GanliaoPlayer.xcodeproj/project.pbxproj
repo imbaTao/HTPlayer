@@ -7,25 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B4F391EAACDA0F41D2E13D9 /* Pods_WhatsPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB836CD780B5FCB253401B9 /* Pods_WhatsPlayer.framework */; };
-		6555BDD820061C2800B16A08 /* ProgressHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6555BDCF20061C2600B16A08 /* ProgressHUDView.m */; };
-		6555BDD920061C2800B16A08 /* ProgressHUDView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6555BDD020061C2600B16A08 /* ProgressHUDView.xib */; };
-		6555BDDB20061C2800B16A08 /* VolumeAndBrightHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6555BDD420061C2700B16A08 /* VolumeAndBrightHUDView.m */; };
-		6555BDDC20061C2800B16A08 /* VolumeAndBrightHUDView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6555BDD520061C2700B16A08 /* VolumeAndBrightHUDView.xib */; };
-		65637E671FE941CA004D7019 /* MediaControllView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65637E641FE941C9004D7019 /* MediaControllView.m */; };
-		65637E681FE941CA004D7019 /* MediaControllView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65637E651FE941C9004D7019 /* MediaControllView.xib */; };
-		659E2FF2200CCBCB0022C7FB /* ConfigHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E2FEF200CCBCA0022C7FB /* ConfigHUDView.m */; };
-		659E2FF3200CCBCB0022C7FB /* ConfigHUDView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659E2FF0200CCBCA0022C7FB /* ConfigHUDView.xib */; };
-		65E72A4A1FB67F1D002CC585 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E72A491FB67F1D002CC585 /* DBHelper.m */; };
-		703749C41F2C9614008894BB /* MediaPlayListTBV.m in Sources */ = {isa = PBXBuildFile; fileRef = 703749C31F2C9614008894BB /* MediaPlayListTBV.m */; };
-		703749C71F2C98C9008894BB /* MediaPlayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 703749C61F2C98C9008894BB /* MediaPlayCell.m */; };
-		70500FFC1F24AB6C00371E0D /* LockerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 70500FFB1F24AB6C00371E0D /* LockerVC.m */; };
-		70D6E8C01F5E1A2E001234FE /* PlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D6E8BF1F5E1A2E001234FE /* PlayerTool.m */; };
+		701EE672418A18F39C07F193 /* Pods_GanliaoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C078977998A185D4E39B747 /* Pods_GanliaoPlayer.framework */; };
+		AA5CA91E254BAB04005A2215 /* ConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5CA91C254BAA97005A2215 /* ConfigManager.m */; };
 		AA8320F7249677590041D32A /* InfoPro.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1077D6420CD30BC00D64EB2 /* InfoPro.plist */; };
-		AA8320F82496775E0041D32A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1E521DE1EBD643E00C518CB /* Info.plist */; };
-		D101D00D21AC000C007BC818 /* MediaLibraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D11A57FC2150627D00F2282F /* MediaLibraryVC.m */; };
-		D101D01321AC0694007BC818 /* MediaLibraryVC_Free.m in Sources */ = {isa = PBXBuildFile; fileRef = D101D01221AC0694007BC818 /* MediaLibraryVC_Free.m */; };
-		D1039B22208FF356009BC2FF /* GuideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1039B21208FF356009BC2FF /* GuideVC.m */; };
 		D1077D4920CD305700D64EB2 /* PlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D6E8BF1F5E1A2E001234FE /* PlayerTool.m */; };
 		D1077D4A20CD305700D64EB2 /* PlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F110E1ED1EE3A8A800B28EBD /* PlayerVC.m */; };
 		D1077D4B20CD305A00D64EB2 /* ConfigHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E2FEF200CCBCA0022C7FB /* ConfigHUDView.m */; };
@@ -63,201 +47,83 @@
 		D1077D8A20CD345C00D64EB2 /* MediaControllView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65637E651FE941C9004D7019 /* MediaControllView.xib */; };
 		D1077D8C20CD34BD00D64EB2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1617B1120CB7AE400A1782E /* Localizable.strings */; };
 		D1077D9020CD34FB00D64EB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1077D9220CD34FB00D64EB2 /* InfoPlist.strings */; };
-		D110BE67214BC938001671EA /* HZYGCDLater.m in Sources */ = {isa = PBXBuildFile; fileRef = D110BE65214BC938001671EA /* HZYGCDLater.m */; };
 		D110BE68214BC938001671EA /* HZYGCDLater.m in Sources */ = {isa = PBXBuildFile; fileRef = D110BE65214BC938001671EA /* HZYGCDLater.m */; };
-		D110D270213A256400331286 /* MediaEditMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D110D26F213A256400331286 /* MediaEditMenuBar.m */; };
 		D110D271213A256400331286 /* MediaEditMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D110D26F213A256400331286 /* MediaEditMenuBar.m */; };
-		D110F82721AC0CAE006C9700 /* Tabbar_Free.m in Sources */ = {isa = PBXBuildFile; fileRef = D110F82621AC0CAE006C9700 /* Tabbar_Free.m */; };
 		D11A57FD2150627D00F2282F /* MediaLibraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D11A57FC2150627D00F2282F /* MediaLibraryVC.m */; };
-		D1277B6221C7C08100BD1EA4 /* MBProgressHUD+HzyHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D1277B6021C7C08000BD1EA4 /* MBProgressHUD+HzyHUD.m */; };
 		D1277B6321C7C08100BD1EA4 /* MBProgressHUD+HzyHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D1277B6021C7C08000BD1EA4 /* MBProgressHUD+HzyHUD.m */; };
-		D12D237520F183B8009A650C /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D237220F183B8009A650C /* BaseTableView.m */; };
 		D12D237620F183B8009A650C /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D237220F183B8009A650C /* BaseTableView.m */; };
-		D12D237720F183B8009A650C /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D237320F183B8009A650C /* BaseButton.m */; };
 		D12D237820F183B8009A650C /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D237320F183B8009A650C /* BaseButton.m */; };
-		D12D237920F183B8009A650C /* BaseCollectionview.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D237420F183B8009A650C /* BaseCollectionview.m */; };
 		D12D237A20F183B8009A650C /* BaseCollectionview.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D237420F183B8009A650C /* BaseCollectionview.m */; };
-		D12D237D20F18561009A650C /* BaseTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D237B20F18561009A650C /* BaseTabbarView.m */; };
 		D12D237E20F18561009A650C /* BaseTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D237B20F18561009A650C /* BaseTabbarView.m */; };
-		D1315C1120F979720015C1C3 /* GCDWebDAVServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BEA20F979710015C1C3 /* GCDWebDAVServer.m */; };
 		D1315C1220F979720015C1C3 /* GCDWebDAVServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BEA20F979710015C1C3 /* GCDWebDAVServer.m */; };
-		D1315C1320F979720015C1C3 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BEF20F979710015C1C3 /* GCDWebServerResponse.m */; };
 		D1315C1420F979720015C1C3 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BEF20F979710015C1C3 /* GCDWebServerResponse.m */; };
-		D1315C1520F979720015C1C3 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BF220F979710015C1C3 /* GCDWebServerRequest.m */; };
 		D1315C1620F979720015C1C3 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BF220F979710015C1C3 /* GCDWebServerRequest.m */; };
-		D1315C1720F979720015C1C3 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BF520F979710015C1C3 /* GCDWebServerFunctions.m */; };
 		D1315C1820F979720015C1C3 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BF520F979710015C1C3 /* GCDWebServerFunctions.m */; };
-		D1315C1920F979720015C1C3 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BF620F979710015C1C3 /* GCDWebServer.m */; };
 		D1315C1A20F979720015C1C3 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BF620F979710015C1C3 /* GCDWebServer.m */; };
-		D1315C1B20F979720015C1C3 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BF720F979710015C1C3 /* GCDWebServerConnection.m */; };
 		D1315C1C20F979720015C1C3 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BF720F979710015C1C3 /* GCDWebServerConnection.m */; };
-		D1315C1D20F979720015C1C3 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BFC20F979710015C1C3 /* GCDWebServerErrorResponse.m */; };
 		D1315C1E20F979720015C1C3 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BFC20F979710015C1C3 /* GCDWebServerErrorResponse.m */; };
-		D1315C1F20F979720015C1C3 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BFE20F979710015C1C3 /* GCDWebServerFileResponse.m */; };
 		D1315C2020F979720015C1C3 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BFE20F979710015C1C3 /* GCDWebServerFileResponse.m */; };
-		D1315C2120F979720015C1C3 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BFF20F979710015C1C3 /* GCDWebServerDataResponse.m */; };
 		D1315C2220F979720015C1C3 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315BFF20F979710015C1C3 /* GCDWebServerDataResponse.m */; };
-		D1315C2320F979720015C1C3 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C0120F979710015C1C3 /* GCDWebServerStreamedResponse.m */; };
 		D1315C2420F979720015C1C3 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C0120F979710015C1C3 /* GCDWebServerStreamedResponse.m */; };
-		D1315C2520F979720015C1C3 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C0620F979710015C1C3 /* GCDWebServerURLEncodedFormRequest.m */; };
 		D1315C2620F979720015C1C3 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C0620F979710015C1C3 /* GCDWebServerURLEncodedFormRequest.m */; };
-		D1315C2720F979720015C1C3 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C0720F979710015C1C3 /* GCDWebServerMultiPartFormRequest.m */; };
 		D1315C2820F979720015C1C3 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C0720F979710015C1C3 /* GCDWebServerMultiPartFormRequest.m */; };
-		D1315C2920F979720015C1C3 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C0820F979710015C1C3 /* GCDWebServerDataRequest.m */; };
 		D1315C2A20F979720015C1C3 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C0820F979710015C1C3 /* GCDWebServerDataRequest.m */; };
-		D1315C2B20F979720015C1C3 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C0920F979710015C1C3 /* GCDWebServerFileRequest.m */; };
 		D1315C2C20F979720015C1C3 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C0920F979710015C1C3 /* GCDWebServerFileRequest.m */; };
-		D1315C2D20F979720015C1C3 /* GCDWebUploader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1315C0D20F979710015C1C3 /* GCDWebUploader.bundle */; };
 		D1315C2E20F979720015C1C3 /* GCDWebUploader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1315C0D20F979710015C1C3 /* GCDWebUploader.bundle */; };
-		D1315C2F20F979720015C1C3 /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C0F20F979710015C1C3 /* GCDWebUploader.m */; };
 		D1315C3020F979720015C1C3 /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C0F20F979710015C1C3 /* GCDWebUploader.m */; };
-		D1315C3120F979720015C1C3 /* SJXCSMIPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C1020F979710015C1C3 /* SJXCSMIPHelper.m */; };
 		D1315C3220F979720015C1C3 /* SJXCSMIPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D1315C1020F979710015C1C3 /* SJXCSMIPHelper.m */; };
 		D1315C3620F97A180015C1C3 /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D1315C3520F97A180015C1C3 /* libz.1.tbd */; };
 		D1315C3820F97A580015C1C3 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D1315C3720F97A580015C1C3 /* libxml2.tbd */; };
 		D1315C3A20F97A6A0015C1C3 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D1315C3920F97A6A0015C1C3 /* libiconv.2.tbd */; };
-		D141E401213959D2007470E4 /* HZYBubbleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D141E3F9213959D0007470E4 /* HZYBubbleVC.m */; };
 		D141E402213959D2007470E4 /* HZYBubbleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D141E3F9213959D0007470E4 /* HZYBubbleVC.m */; };
-		D141E403213959D2007470E4 /* HZYBubbleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D141E3FB213959D0007470E4 /* HZYBubbleHeaderView.m */; };
 		D141E404213959D2007470E4 /* HZYBubbleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D141E3FB213959D0007470E4 /* HZYBubbleHeaderView.m */; };
-		D141E405213959D2007470E4 /* HZYBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D141E3FD213959D1007470E4 /* HZYBubbleCell.m */; };
 		D141E406213959D2007470E4 /* HZYBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D141E3FD213959D1007470E4 /* HZYBubbleCell.m */; };
-		D141E407213959D2007470E4 /* HZYPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = D141E3FF213959D1007470E4 /* HZYPopoverBackgroundView.m */; };
 		D141E408213959D2007470E4 /* HZYPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = D141E3FF213959D1007470E4 /* HZYPopoverBackgroundView.m */; };
-		D14F4EB521C4C13700689D0B /* MediaLibraryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D14F4EB421C4C13700689D0B /* MediaLibraryViewModel.m */; };
 		D14F4EB621C4C13700689D0B /* MediaLibraryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D14F4EB421C4C13700689D0B /* MediaLibraryViewModel.m */; };
-		D15F070A20B19EA9007E789E /* HTAdTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F070920B19EA9007E789E /* HTAdTool.m */; };
-		D16038CF214730700049DFE7 /* MonitorFileChangeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D16038CD2147306F0049DFE7 /* MonitorFileChangeUtils.m */; };
 		D16038D0214730700049DFE7 /* MonitorFileChangeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D16038CD2147306F0049DFE7 /* MonitorFileChangeUtils.m */; };
-		D1617AE820CB704F00A1782E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1617AEA20CB704F00A1782E /* InfoPlist.strings */; };
-		D1617B0F20CB7AE400A1782E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1617B1120CB7AE400A1782E /* Localizable.strings */; };
-		D163EBB820F0557800BC20E9 /* RelativeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D163EBB720F0557800BC20E9 /* RelativeTool.m */; };
 		D163EBB920F0557800BC20E9 /* RelativeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D163EBB720F0557800BC20E9 /* RelativeTool.m */; };
-		D163EBBC20F0609B00BC20E9 /* UIBarButtonItem+SXCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = D163EBBA20F0609A00BC20E9 /* UIBarButtonItem+SXCreate.m */; };
 		D163EBBD20F0609B00BC20E9 /* UIBarButtonItem+SXCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = D163EBBA20F0609A00BC20E9 /* UIBarButtonItem+SXCreate.m */; };
-		D16AEEA220E72185008BF7B9 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEE9920E72185008BF7B9 /* BaseNavigationController.m */; };
 		D16AEEA320E72185008BF7B9 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEE9920E72185008BF7B9 /* BaseNavigationController.m */; };
-		D16AEEA420E72185008BF7B9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEE9C20E72185008BF7B9 /* BaseViewController.m */; };
 		D16AEEA520E72185008BF7B9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEE9C20E72185008BF7B9 /* BaseViewController.m */; };
-		D16AEEA620E72185008BF7B9 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEA120E72185008BF7B9 /* BaseTabBarController.m */; };
 		D16AEEA720E72185008BF7B9 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEA120E72185008BF7B9 /* BaseTabBarController.m */; };
-		D16AEED020E73174008BF7B9 /* BubbleConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEAE20E73174008BF7B9 /* BubbleConfigModel.m */; };
 		D16AEED120E73174008BF7B9 /* BubbleConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEAE20E73174008BF7B9 /* BubbleConfigModel.m */; };
-		D16AEED220E73174008BF7B9 /* MediaPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEB220E73174008BF7B9 /* MediaPageModel.m */; };
 		D16AEED320E73174008BF7B9 /* MediaPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEB220E73174008BF7B9 /* MediaPageModel.m */; };
-		D16AEED420E73174008BF7B9 /* ThumbImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEB320E73174008BF7B9 /* ThumbImageModel.m */; };
 		D16AEED520E73174008BF7B9 /* ThumbImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEB320E73174008BF7B9 /* ThumbImageModel.m */; };
-		D16AEED620E73174008BF7B9 /* MediaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEB420E73174008BF7B9 /* MediaModel.m */; };
 		D16AEED720E73174008BF7B9 /* MediaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEB420E73174008BF7B9 /* MediaModel.m */; };
-		D16AEED820E73174008BF7B9 /* MenuBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEB620E73174008BF7B9 /* MenuBubbleView.m */; };
 		D16AEED920E73174008BF7B9 /* MenuBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEB620E73174008BF7B9 /* MenuBubbleView.m */; };
-		D16AEEDA20E73174008BF7B9 /* PlayListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEB720E73174008BF7B9 /* PlayListHeaderView.m */; };
 		D16AEEDB20E73174008BF7B9 /* PlayListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEB720E73174008BF7B9 /* PlayListHeaderView.m */; };
-		D16AEEDC20E73174008BF7B9 /* MediaLibraryTBV.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEB920E73174008BF7B9 /* MediaLibraryTBV.m */; };
 		D16AEEDD20E73174008BF7B9 /* MediaLibraryTBV.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEB920E73174008BF7B9 /* MediaLibraryTBV.m */; };
-		D16AEEDE20E73174008BF7B9 /* LibraryCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEBA20E73174008BF7B9 /* LibraryCollectionView.m */; };
 		D16AEEDF20E73174008BF7B9 /* LibraryCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEBA20E73174008BF7B9 /* LibraryCollectionView.m */; };
-		D16AEEE220E73174008BF7B9 /* BubbleSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEBE20E73174008BF7B9 /* BubbleSettingCell.m */; };
 		D16AEEE320E73174008BF7B9 /* BubbleSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEBE20E73174008BF7B9 /* BubbleSettingCell.m */; };
-		D16AEEE420E73174008BF7B9 /* MediaViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEC020E73174008BF7B9 /* MediaViewCell.m */; };
 		D16AEEE520E73174008BF7B9 /* MediaViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEC020E73174008BF7B9 /* MediaViewCell.m */; };
-		D16AEEEC20E73174008BF7B9 /* MediaTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEECC20E73174008BF7B9 /* MediaTool.m */; };
 		D16AEEED20E73174008BF7B9 /* MediaTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEECC20E73174008BF7B9 /* MediaTool.m */; };
-		D16AEEF320E731F8008BF7B9 /* HZYTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEF220E731F8008BF7B9 /* HZYTabbarController.m */; };
 		D16AEEF420E731F8008BF7B9 /* HZYTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AEEF220E731F8008BF7B9 /* HZYTabbarController.m */; };
-		D16DB6FB2146ABE0002748F8 /* VLCMediaThumbnailer+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D16DB6FA2146ABE0002748F8 /* VLCMediaThumbnailer+extension.m */; };
 		D16DB6FC2146ABE0002748F8 /* VLCMediaThumbnailer+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D16DB6FA2146ABE0002748F8 /* VLCMediaThumbnailer+extension.m */; };
-		D17229C421BCBC4A00755FCD /* SettingViewController_Free.m in Sources */ = {isa = PBXBuildFile; fileRef = D17229C321BCBC4A00755FCD /* SettingViewController_Free.m */; };
-		D17229C821BCC05700755FCD /* ConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D17229C721BCC05700755FCD /* ConfigManager.m */; };
-		D17229C921BCC05700755FCD /* ConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D17229C721BCC05700755FCD /* ConfigManager.m */; };
-		D17AEDC1214FD1EC00A8F569 /* FeedBackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D17AEDC0214FD1EC00A8F569 /* FeedBackVC.m */; };
 		D17AEDC2214FD1EC00A8F569 /* FeedBackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D17AEDC0214FD1EC00A8F569 /* FeedBackVC.m */; };
-		D1B9634C215B004F00D6C542 /* SettingStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B96342215B004F00D6C542 /* SettingStatusModel.m */; };
 		D1B9634D215B004F00D6C542 /* SettingStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B96342215B004F00D6C542 /* SettingStatusModel.m */; };
-		D1B9634E215B004F00D6C542 /* SettingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B96343215B004F00D6C542 /* SettingTool.m */; };
 		D1B9634F215B004F00D6C542 /* SettingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B96343215B004F00D6C542 /* SettingTool.m */; };
-		D1B96350215B004F00D6C542 /* SettingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B96348215B004F00D6C542 /* SettingTableView.m */; };
 		D1B96351215B004F00D6C542 /* SettingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B96348215B004F00D6C542 /* SettingTableView.m */; };
-		D1B96352215B004F00D6C542 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B9634B215B004F00D6C542 /* SettingViewController.m */; };
 		D1B96353215B004F00D6C542 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B9634B215B004F00D6C542 /* SettingViewController.m */; };
 		D1B96354215B008900D6C542 /* LinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1372329215B0014006B3A9F /* LinkViewController.m */; };
-		D1B96355215B008A00D6C542 /* LinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1372329215B0014006B3A9F /* LinkViewController.m */; };
 		D1B96356215B009D00D6C542 /* LinkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1372324215B0014006B3A9F /* LinkTableViewCell.m */; };
 		D1B96357215B009D00D6C542 /* LinkGuideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1372325215B0014006B3A9F /* LinkGuideCell.m */; };
 		D1B96358215B009D00D6C542 /* LinkTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1372326215B0014006B3A9F /* LinkTableView.m */; };
-		D1B96359215B009E00D6C542 /* LinkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1372324215B0014006B3A9F /* LinkTableViewCell.m */; };
-		D1B9635A215B009E00D6C542 /* LinkGuideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1372325215B0014006B3A9F /* LinkGuideCell.m */; };
-		D1B9635B215B009E00D6C542 /* LinkTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1372326215B0014006B3A9F /* LinkTableView.m */; };
-		D1BAA285213D3F2000119265 /* NSAttributedString+Colorful.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BAA284213D3F2000119265 /* NSAttributedString+Colorful.m */; };
 		D1BAA286213D3F2000119265 /* NSAttributedString+Colorful.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BAA284213D3F2000119265 /* NSAttributedString+Colorful.m */; };
 		D1C7B0E320CD38B0001ECE1E /* LaunchScreenPro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C7B0E220CD38AF001ECE1E /* LaunchScreenPro.storyboard */; };
-		D1E2843E2144AE1500DC1E09 /* MediaLibraryNavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E2843D2144AE1500DC1E09 /* MediaLibraryNavTitleView.m */; };
 		D1E2843F2144AE1500DC1E09 /* MediaLibraryNavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E2843D2144AE1500DC1E09 /* MediaLibraryNavTitleView.m */; };
-		D1E284412144AE2100DC1E09 /* MediaLibraryNavTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E284402144AE2100DC1E09 /* MediaLibraryNavTitleView.xib */; };
 		D1E284422144AE2100DC1E09 /* MediaLibraryNavTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E284402144AE2100DC1E09 /* MediaLibraryNavTitleView.xib */; };
-		D1E7E53D21BAB3C800A18B9D /* PlayerVC_Free.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E7E53C21BAB3C800A18B9D /* PlayerVC_Free.m */; };
-		D1F84F4F2141564D001F7B4B /* HZYReNameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F84F4D2141564D001F7B4B /* HZYReNameView.xib */; };
 		D1F84F502141564D001F7B4B /* HZYReNameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F84F4D2141564D001F7B4B /* HZYReNameView.xib */; };
-		D1F84F512141564D001F7B4B /* HZYReNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F84F4E2141564D001F7B4B /* HZYReNameView.m */; };
 		D1F84F522141564D001F7B4B /* HZYReNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F84F4E2141564D001F7B4B /* HZYReNameView.m */; };
-		D63E8627AE0BA56E4FBAF337 /* Pods_WhatsPlayer_Pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FA6AC04A42FCA8EB41587D /* Pods_WhatsPlayer_Pro.framework */; };
-		F1052F401F01264C00098A51 /* DataHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F1052F3F1F01264C00098A51 /* DataHandleTool.m */; };
-		F106729C21F09BD300A73745 /* MediaLibray_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F106729B21F09BD300A73745 /* MediaLibray_ViewController.swift */; };
 		F106729D21F09BD300A73745 /* MediaLibray_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F106729B21F09BD300A73745 /* MediaLibray_ViewController.swift */; };
-		F110E1EB1EE3A85700B28EBD /* MediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = F110E1E81EE3A85700B28EBD /* MediaView.m */; };
-		F110E1EE1EE3A8A800B28EBD /* PlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F110E1ED1EE3A8A800B28EBD /* PlayerVC.m */; };
-		F13DA3B61EC9138900347BF1 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DA3B51EC9138900347BF1 /* MobileVLCKit.framework */; };
-		F13DA4011EC9152A00347BF1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DA4001EC9152A00347BF1 /* AudioToolbox.framework */; };
-		F13DA4031EC9153600347BF1 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DA4021EC9153600347BF1 /* CoreAudio.framework */; };
-		F13DA4051EC9153C00347BF1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DA4041EC9153C00347BF1 /* AVFoundation.framework */; };
-		F13DA4071EC9154600347BF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DA4061EC9154600347BF1 /* CoreGraphics.framework */; };
-		F13DA4091EC9154B00347BF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DA4081EC9154B00347BF1 /* UIKit.framework */; };
-		F13DA40B1EC9155500347BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DA40A1EC9155500347BF1 /* Foundation.framework */; };
-		F16DBCFC2207D3A600F6CEB1 /* LocalDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DBCFA2207D3A600F6CEB1 /* LocalDataHelper.swift */; };
 		F16DBCFD2207D3A600F6CEB1 /* LocalDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DBCFA2207D3A600F6CEB1 /* LocalDataHelper.swift */; };
-		F16DBD062207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F16DBD012207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld */; };
 		F16DBD072207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F16DBD012207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld */; };
-		F16DBD0B2207D3F600F6CEB1 /* MediaLibrayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DBD0A2207D3F600F6CEB1 /* MediaLibrayVM.swift */; };
 		F16DBD0C2207D3F600F6CEB1 /* MediaLibrayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DBD0A2207D3F600F6CEB1 /* MediaLibrayVM.swift */; };
-		F175406F1EEBE6C800AD4673 /* MediaTopInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F175406E1EEBE6C800AD4673 /* MediaTopInfoView.m */; };
-		F1A3C799220E991500655B70 /* MediaModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3C798220E991500655B70 /* MediaModel2.swift */; };
 		F1A3C79A220E991500655B70 /* MediaModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3C798220E991500655B70 /* MediaModel2.swift */; };
-		F1A3C79D2210307400655B70 /* MediaModel1+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3C79B2210307400655B70 /* MediaModel1+CoreDataClass copy.swift */; };
 		F1A3C79E2210307400655B70 /* MediaModel1+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3C79B2210307400655B70 /* MediaModel1+CoreDataClass copy.swift */; };
-		F1A3C79F2210307400655B70 /* MediaModel1+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3C79C2210307400655B70 /* MediaModel1+CoreDataProperties copy.swift */; };
 		F1A3C7A02210307400655B70 /* MediaModel1+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3C79C2210307400655B70 /* MediaModel1+CoreDataProperties copy.swift */; };
-		F1C6C4331EBEB31E00284BB7 /* UISlider+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C6C4321EBEB31E00284BB7 /* UISlider+extension.m */; };
-		F1DA4CE51EC9D5BB00856A58 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DA4CE41EC9D5BB00856A58 /* libz.tbd */; };
-		F1DA4CE71EC9D5C500856A58 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DA4CE61EC9D5C500856A58 /* libbz2.tbd */; };
-		F1DA4CE91EC9D5D000856A58 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DA4CE81EC9D5D000856A58 /* libiconv.tbd */; };
-		F1E2687D220A8439009F5EC1 /* SwiftFunctionPchFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2687B220A833D009F5EC1 /* SwiftFunctionPchFile.swift */; };
-		F1E521E51EBD643E00C518CB /* UIImage+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E521C21EBD643D00C518CB /* UIImage+extension.m */; };
-		F1E521EB1EBD643E00C518CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E521D51EBD643E00C518CB /* Assets.xcassets */; };
-		F1E521EC1EBD643E00C518CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E521DC1EBD643E00C518CB /* AppDelegate.m */; };
-		F1E521EE1EBD643E00C518CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E521DF1EBD643E00C518CB /* LaunchScreen.storyboard */; };
-		F1E521EF1EBD643E00C518CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E521E01EBD643E00C518CB /* main.m */; };
-		F1E521F51EBD701500C518CB /* UIView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E521F41EBD701500C518CB /* UIView+extension.m */; };
-		F1EB07C21EBDBA3E008DE1CE /* UIButton+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EB07C11EBDBA3E008DE1CE /* UIButton+extension.m */; };
-		F1EB07C51EBDBA78008DE1CE /* UILabel+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EB07C41EBDBA78008DE1CE /* UILabel+extension.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		F1C6C4471EBEC00F00284BB7 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		30FA6AC04A42FCA8EB41587D /* Pods_WhatsPlayer_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsPlayer_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52FE855C66E1FB782376981F /* Pods-WhatsPlayer-Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsPlayer-Pro.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsPlayer-Pro/Pods-WhatsPlayer-Pro.release.xcconfig"; sourceTree = "<group>"; };
-		5BB836CD780B5FCB253401B9 /* Pods_WhatsPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6555BDCF20061C2600B16A08 /* ProgressHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUDView.m; sourceTree = "<group>"; };
 		6555BDD020061C2600B16A08 /* ProgressHUDView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressHUDView.xib; sourceTree = "<group>"; };
 		6555BDD120061C2700B16A08 /* ProgressHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUDView.h; sourceTree = "<group>"; };
@@ -272,6 +138,7 @@
 		659E2FF1200CCBCB0022C7FB /* ConfigHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigHUDView.h; sourceTree = "<group>"; };
 		65E72A481FB67F1D002CC585 /* DBHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
 		65E72A491FB67F1D002CC585 /* DBHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
+		6C078977998A185D4E39B747 /* Pods_GanliaoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GanliaoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		703749C21F2C9614008894BB /* MediaPlayListTBV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayListTBV.h; sourceTree = "<group>"; };
 		703749C31F2C9614008894BB /* MediaPlayListTBV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaPlayListTBV.m; sourceTree = "<group>"; };
 		703749C51F2C98C9008894BB /* MediaPlayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayCell.h; sourceTree = "<group>"; };
@@ -281,15 +148,15 @@
 		70D6E8BE1F5E1A2E001234FE /* PlayerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerTool.h; sourceTree = "<group>"; };
 		70D6E8BF1F5E1A2E001234FE /* PlayerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTool.m; sourceTree = "<group>"; };
 		795533C63036378038628B3D /* Pods-WhatsPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsPlayer/Pods-WhatsPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		AA821E22474624AC49B8473E /* Pods-WhatsPlayer-Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsPlayer-Pro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsPlayer-Pro/Pods-WhatsPlayer-Pro.debug.xcconfig"; sourceTree = "<group>"; };
+		AA5CA91B254BAA97005A2215 /* ConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigManager.h; sourceTree = "<group>"; };
+		AA5CA91C254BAA97005A2215 /* ConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigManager.m; sourceTree = "<group>"; };
+		ADF0E8602C3B6145AFBDA3DA /* Pods-GanliaoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GanliaoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-GanliaoPlayer/Pods-GanliaoPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		D077B9F18A412019B17103E2 /* Pods-WhatsPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsPlayer/Pods-WhatsPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		D101CEA32071A64500BF023D /* Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
 		D101D00B21ABFF8C007BC818 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		D101D01121AC0694007BC818 /* MediaLibraryVC_Free.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaLibraryVC_Free.h; sourceTree = "<group>"; };
-		D101D01221AC0694007BC818 /* MediaLibraryVC_Free.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaLibraryVC_Free.m; sourceTree = "<group>"; };
 		D1039B20208FF356009BC2FF /* GuideVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuideVC.h; sourceTree = "<group>"; };
 		D1039B21208FF356009BC2FF /* GuideVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideVC.m; sourceTree = "<group>"; };
-		D1077D2120CD1F4300D64EB2 /* WhatsPlayer-Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatsPlayer-Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1077D2120CD1F4300D64EB2 /* 敢聊播放器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "敢聊播放器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1077D6420CD30BC00D64EB2 /* InfoPro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InfoPro.plist; sourceTree = "<group>"; };
 		D1077D9120CD34FB00D64EB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1077D9320CD350800D64EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -299,8 +166,6 @@
 		D110BE66214BC938001671EA /* HZYGCDLater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZYGCDLater.h; sourceTree = "<group>"; };
 		D110D26E213A256400331286 /* MediaEditMenuBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaEditMenuBar.h; sourceTree = "<group>"; };
 		D110D26F213A256400331286 /* MediaEditMenuBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaEditMenuBar.m; sourceTree = "<group>"; };
-		D110F82521AC0CAE006C9700 /* Tabbar_Free.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tabbar_Free.h; sourceTree = "<group>"; };
-		D110F82621AC0CAE006C9700 /* Tabbar_Free.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tabbar_Free.m; sourceTree = "<group>"; };
 		D11A57FB2150627D00F2282F /* MediaLibraryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaLibraryVC.h; sourceTree = "<group>"; };
 		D11A57FC2150627D00F2282F /* MediaLibraryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaLibraryVC.m; sourceTree = "<group>"; };
 		D120102120CBA4F40054DE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -372,8 +237,6 @@
 		D141E400213959D2007470E4 /* HZYBubbleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZYBubbleCell.h; sourceTree = "<group>"; };
 		D14F4EB321C4C13700689D0B /* MediaLibraryViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaLibraryViewModel.h; sourceTree = "<group>"; };
 		D14F4EB421C4C13700689D0B /* MediaLibraryViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaLibraryViewModel.m; sourceTree = "<group>"; };
-		D15F070820B19EA9007E789E /* HTAdTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAdTool.h; sourceTree = "<group>"; };
-		D15F070920B19EA9007E789E /* HTAdTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAdTool.m; sourceTree = "<group>"; };
 		D16038CD2147306F0049DFE7 /* MonitorFileChangeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorFileChangeUtils.m; sourceTree = "<group>"; };
 		D16038CE2147306F0049DFE7 /* MonitorFileChangeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorFileChangeUtils.h; sourceTree = "<group>"; };
 		D1617AE920CB704F00A1782E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -482,10 +345,6 @@
 		D16AEEF220E731F8008BF7B9 /* HZYTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZYTabbarController.m; sourceTree = "<group>"; };
 		D16DB6F92146ABE0002748F8 /* VLCMediaThumbnailer+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VLCMediaThumbnailer+extension.h"; sourceTree = "<group>"; };
 		D16DB6FA2146ABE0002748F8 /* VLCMediaThumbnailer+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VLCMediaThumbnailer+extension.m"; sourceTree = "<group>"; };
-		D17229C221BCBC4A00755FCD /* SettingViewController_Free.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController_Free.h; sourceTree = "<group>"; };
-		D17229C321BCBC4A00755FCD /* SettingViewController_Free.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController_Free.m; sourceTree = "<group>"; };
-		D17229C621BCC05700755FCD /* ConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigManager.h; sourceTree = "<group>"; };
-		D17229C721BCC05700755FCD /* ConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigManager.m; sourceTree = "<group>"; };
 		D17AEDBF214FD1EC00A8F569 /* FeedBackVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedBackVC.h; sourceTree = "<group>"; };
 		D17AEDC0214FD1EC00A8F569 /* FeedBackVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedBackVC.m; sourceTree = "<group>"; };
 		D1B96342215B004F00D6C542 /* SettingStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingStatusModel.m; sourceTree = "<group>"; };
@@ -502,11 +361,10 @@
 		D1E2843C2144AE1500DC1E09 /* MediaLibraryNavTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaLibraryNavTitleView.h; sourceTree = "<group>"; };
 		D1E2843D2144AE1500DC1E09 /* MediaLibraryNavTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaLibraryNavTitleView.m; sourceTree = "<group>"; };
 		D1E284402144AE2100DC1E09 /* MediaLibraryNavTitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediaLibraryNavTitleView.xib; sourceTree = "<group>"; };
-		D1E7E53B21BAB3C800A18B9D /* PlayerVC_Free.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerVC_Free.h; sourceTree = "<group>"; };
-		D1E7E53C21BAB3C800A18B9D /* PlayerVC_Free.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerVC_Free.m; sourceTree = "<group>"; };
 		D1F84F4C2141564D001F7B4B /* HZYReNameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZYReNameView.h; sourceTree = "<group>"; };
 		D1F84F4D2141564D001F7B4B /* HZYReNameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZYReNameView.xib; sourceTree = "<group>"; };
 		D1F84F4E2141564D001F7B4B /* HZYReNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZYReNameView.m; sourceTree = "<group>"; };
+		D2D84B8D02FF59F6CF25F81D /* Pods-GanliaoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GanliaoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GanliaoPlayer/Pods-GanliaoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		F1052F3E1F01264C00098A51 /* DataHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHandleTool.h; sourceTree = "<group>"; };
 		F1052F3F1F01264C00098A51 /* DataHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandleTool.m; sourceTree = "<group>"; };
 		F106729B21F09BD300A73745 /* MediaLibray_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaLibray_ViewController.swift; sourceTree = "<group>"; };
@@ -540,7 +398,6 @@
 		F1DA4CE61EC9D5C500856A58 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		F1DA4CE81EC9D5D000856A58 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		F1E2687B220A833D009F5EC1 /* SwiftFunctionPchFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFunctionPchFile.swift; sourceTree = "<group>"; };
-		F1E521891EBD642700C518CB /* WhatsPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E521C11EBD643D00C518CB /* UIImage+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+extension.h"; sourceTree = "<group>"; };
 		F1E521C21EBD643D00C518CB /* UIImage+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+extension.m"; sourceTree = "<group>"; };
 		F1E521D51EBD643E00C518CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -549,7 +406,7 @@
 		F1E521DE1EBD643E00C518CB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1E521DF1EBD643E00C518CB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1E521E01EBD643E00C518CB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F1E521E31EBD643E00C518CB /* WhatsPlayer.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatsPlayer.pch; sourceTree = "<group>"; };
+		F1E521E31EBD643E00C518CB /* GanliaoPlayer.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GanliaoPlayer.pch; sourceTree = "<group>"; };
 		F1E521F31EBD701500C518CB /* UIView+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extension.h"; sourceTree = "<group>"; };
 		F1E521F41EBD701500C518CB /* UIView+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extension.m"; sourceTree = "<group>"; };
 		F1EB07C01EBDBA3E008DE1CE /* UIButton+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+extension.h"; sourceTree = "<group>"; };
@@ -575,25 +432,7 @@
 				D1077D7B20CD33CF00D64EB2 /* libbz2.tbd in Frameworks */,
 				D1077D7A20CD33C600D64EB2 /* libiconv.tbd in Frameworks */,
 				D1315C3620F97A180015C1C3 /* libz.1.tbd in Frameworks */,
-				D63E8627AE0BA56E4FBAF337 /* Pods_WhatsPlayer_Pro.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1E521861EBD642700C518CB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1DA4CE51EC9D5BB00856A58 /* libz.tbd in Frameworks */,
-				F1DA4CE91EC9D5D000856A58 /* libiconv.tbd in Frameworks */,
-				F1DA4CE71EC9D5C500856A58 /* libbz2.tbd in Frameworks */,
-				F13DA40B1EC9155500347BF1 /* Foundation.framework in Frameworks */,
-				F13DA4091EC9154B00347BF1 /* UIKit.framework in Frameworks */,
-				F13DA4071EC9154600347BF1 /* CoreGraphics.framework in Frameworks */,
-				F13DA4051EC9153C00347BF1 /* AVFoundation.framework in Frameworks */,
-				F13DA4031EC9153600347BF1 /* CoreAudio.framework in Frameworks */,
-				F13DA4011EC9152A00347BF1 /* AudioToolbox.framework in Frameworks */,
-				F13DA3B61EC9138900347BF1 /* MobileVLCKit.framework in Frameworks */,
-				5B4F391EAACDA0F41D2E13D9 /* Pods_WhatsPlayer.framework in Frameworks */,
+				701EE672418A18F39C07F193 /* Pods_GanliaoPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,8 +461,7 @@
 				F13DA3FA1EC9150000347BF1 /* libbz2.1.0.tbd */,
 				F13DA3F81EC914F500347BF1 /* libstdc++.6.0.9.tbd */,
 				F13DA3B51EC9138900347BF1 /* MobileVLCKit.framework */,
-				5BB836CD780B5FCB253401B9 /* Pods_WhatsPlayer.framework */,
-				30FA6AC04A42FCA8EB41587D /* Pods_WhatsPlayer_Pro.framework */,
+				6C078977998A185D4E39B747 /* Pods_GanliaoPlayer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -633,8 +471,8 @@
 			children = (
 				795533C63036378038628B3D /* Pods-WhatsPlayer.debug.xcconfig */,
 				D077B9F18A412019B17103E2 /* Pods-WhatsPlayer.release.xcconfig */,
-				AA821E22474624AC49B8473E /* Pods-WhatsPlayer-Pro.debug.xcconfig */,
-				52FE855C66E1FB782376981F /* Pods-WhatsPlayer-Pro.release.xcconfig */,
+				D2D84B8D02FF59F6CF25F81D /* Pods-GanliaoPlayer.debug.xcconfig */,
+				ADF0E8602C3B6145AFBDA3DA /* Pods-GanliaoPlayer.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -666,6 +504,15 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		AA5CA91A254BAA97005A2215 /* ConfigManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA5CA91B254BAA97005A2215 /* ConfigManager.h */,
+				AA5CA91C254BAA97005A2215 /* ConfigManager.m */,
+			);
+			path = ConfigManager;
+			sourceTree = "<group>";
+		};
 		AA8320B824966C780041D32A /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -679,7 +526,7 @@
 			isa = PBXGroup;
 			children = (
 				F1E521DD1EBD643E00C518CB /* InfoPlistFile */,
-				F1E521E31EBD643E00C518CB /* WhatsPlayer.pch */,
+				F1E521E31EBD643E00C518CB /* GanliaoPlayer.pch */,
 				F1E521DB1EBD643E00C518CB /* AppDelegate.h */,
 				F1E521DC1EBD643E00C518CB /* AppDelegate.m */,
 				F1E521DF1EBD643E00C518CB /* LaunchScreen.storyboard */,
@@ -704,24 +551,6 @@
 				D17AEDBE214FD1D900A8F569 /* FeedBackVC */,
 			);
 			path = Pages;
-			sourceTree = "<group>";
-		};
-		D101D00F21AC065F007BC818 /* MediaLibrary_Free */ = {
-			isa = PBXGroup;
-			children = (
-				D101D01121AC0694007BC818 /* MediaLibraryVC_Free.h */,
-				D101D01221AC0694007BC818 /* MediaLibraryVC_Free.m */,
-			);
-			path = MediaLibrary_Free;
-			sourceTree = "<group>";
-		};
-		D101D01021AC065F007BC818 /* SettingVC_Free */ = {
-			isa = PBXGroup;
-			children = (
-				D17229C221BCBC4A00755FCD /* SettingViewController_Free.h */,
-				D17229C321BCBC4A00755FCD /* SettingViewController_Free.m */,
-			);
-			path = SettingVC_Free;
 			sourceTree = "<group>";
 		};
 		D1039B1C208FF327009BC2FF /* Guide */ = {
@@ -755,28 +584,6 @@
 			children = (
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		D110F82421AC0C48006C9700 /* Tabbar_Free */ = {
-			isa = PBXGroup;
-			children = (
-				D110F82521AC0CAE006C9700 /* Tabbar_Free.h */,
-				D110F82621AC0CAE006C9700 /* Tabbar_Free.m */,
-			);
-			path = Tabbar_Free;
-			sourceTree = "<group>";
-		};
-		D11A57F92150627600F2282F /* 免费版 */ = {
-			isa = PBXGroup;
-			children = (
-				D17229CA21BCEF6700755FCD /* 内购 */,
-				D1E7E53A21BAB3A400A18B9D /* PlayerVC_Free */,
-				D110F82421AC0C48006C9700 /* Tabbar_Free */,
-				D101D00F21AC065F007BC818 /* MediaLibrary_Free */,
-				D101D01021AC065F007BC818 /* SettingVC_Free */,
-				D15F070720B19E58007E789E /* ADTool */,
-			);
-			path = "免费版";
 			sourceTree = "<group>";
 		};
 		D1315BE620F979710015C1C3 /* 第三方库等 */ = {
@@ -919,15 +726,6 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		D15F070720B19E58007E789E /* ADTool */ = {
-			isa = PBXGroup;
-			children = (
-				D15F070820B19EA9007E789E /* HTAdTool.h */,
-				D15F070920B19EA9007E789E /* HTAdTool.m */,
-			);
-			path = ADTool;
-			sourceTree = "<group>";
-		};
 		D16AEE9720E72185008BF7B9 /* 基类 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1050,23 +848,6 @@
 			path = BaseView;
 			sourceTree = "<group>";
 		};
-		D17229C521BCC03D00755FCD /* ConfigManager */ = {
-			isa = PBXGroup;
-			children = (
-				D17229C621BCC05700755FCD /* ConfigManager.h */,
-				D17229C721BCC05700755FCD /* ConfigManager.m */,
-			);
-			path = ConfigManager;
-			sourceTree = "<group>";
-		};
-		D17229CA21BCEF6700755FCD /* 内购 */ = {
-			isa = PBXGroup;
-			children = (
-				D17229C521BCC03D00755FCD /* ConfigManager */,
-			);
-			path = "内购";
-			sourceTree = "<group>";
-		};
 		D17AEDBE214FD1D900A8F569 /* FeedBackVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -1092,6 +873,7 @@
 		D1B07C4D215619A200CE07CC /* 公共模块 */ = {
 			isa = PBXGroup;
 			children = (
+				AA5CA91A254BAA97005A2215 /* ConfigManager */,
 				F106729321F0997B00A73745 /* 风格 */,
 				D1315BE620F979710015C1C3 /* 第三方库等 */,
 				F1E521C01EBD643D00C518CB /* 类别 */,
@@ -1156,15 +938,6 @@
 				D141E3FF213959D1007470E4 /* HZYPopoverBackgroundView.m */,
 			);
 			path = "气泡控制器";
-			sourceTree = "<group>";
-		};
-		D1E7E53A21BAB3A400A18B9D /* PlayerVC_Free */ = {
-			isa = PBXGroup;
-			children = (
-				D1E7E53B21BAB3C800A18B9D /* PlayerVC_Free.h */,
-				D1E7E53C21BAB3C800A18B9D /* PlayerVC_Free.m */,
-			);
-			path = PlayerVC_Free;
 			sourceTree = "<group>";
 		};
 		D1F84F4B2141564D001F7B4B /* HZYReNameView */ = {
@@ -1303,8 +1076,7 @@
 		F1E5218A1EBD642700C518CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1E521891EBD642700C518CB /* WhatsPlayer.app */,
-				D1077D2120CD1F4300D64EB2 /* WhatsPlayer-Pro.app */,
+				D1077D2120CD1F4300D64EB2 /* 敢聊播放器.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1313,7 +1085,6 @@
 			isa = PBXGroup;
 			children = (
 				AA8320B824966C780041D32A /* Main */,
-				D11A57F92150627600F2282F /* 免费版 */,
 				D1B07C4D215619A200CE07CC /* 公共模块 */,
 			);
 			path = Application;
@@ -1365,43 +1136,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1077D2020CD1F4300D64EB2 /* WhatsPlayer-Pro */ = {
+		D1077D2020CD1F4300D64EB2 /* GanliaoPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1077D3620CD1F4500D64EB2 /* Build configuration list for PBXNativeTarget "WhatsPlayer-Pro" */;
+			buildConfigurationList = D1077D3620CD1F4500D64EB2 /* Build configuration list for PBXNativeTarget "GanliaoPlayer" */;
 			buildPhases = (
-				324F7B08B9CCACFA564DF7E8 /* [CP] Check Pods Manifest.lock */,
+				6D2B54523E1BE8192225BBC6 /* [CP] Check Pods Manifest.lock */,
 				D1077D1D20CD1F4300D64EB2 /* Sources */,
 				D1077D1E20CD1F4300D64EB2 /* Frameworks */,
 				D1077D1F20CD1F4300D64EB2 /* Resources */,
-				1D22EAEA13011DFF9B876A42 /* [CP] Embed Pods Frameworks */,
+				138E505CB18C16654BA9B7CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "WhatsPlayer-Pro";
+			name = GanliaoPlayer;
 			productName = "WhatsPlayer-Pro";
-			productReference = D1077D2120CD1F4300D64EB2 /* WhatsPlayer-Pro.app */;
-			productType = "com.apple.product-type.application";
-		};
-		F1E521881EBD642700C518CB /* WhatsPlayer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F1E521B61EBD642700C518CB /* Build configuration list for PBXNativeTarget "WhatsPlayer" */;
-			buildPhases = (
-				98ACF6128159D6CAE1528170 /* [CP] Check Pods Manifest.lock */,
-				F1E521851EBD642700C518CB /* Sources */,
-				F1E521861EBD642700C518CB /* Frameworks */,
-				F1E521871EBD642700C518CB /* Resources */,
-				F1C6C4471EBEC00F00284BB7 /* Embed Frameworks */,
-				89C963AD5693F27CE317CD37 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WhatsPlayer;
-			productName = TinyPlayer_V1;
-			productReference = F1E521891EBD642700C518CB /* WhatsPlayer.app */;
+			productReference = D1077D2120CD1F4300D64EB2 /* 敢聊播放器.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1416,12 +1167,6 @@
 				TargetAttributes = {
 					D1077D2020CD1F4300D64EB2 = {
 						CreatedOnToolsVersion = 9.3.1;
-						DevelopmentTeam = 6T97267A8F;
-						LastSwiftMigration = 1010;
-						ProvisioningStyle = Automatic;
-					};
-					F1E521881EBD642700C518CB = {
-						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 6T97267A8F;
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
@@ -1476,8 +1221,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1E521881EBD642700C518CB /* WhatsPlayer */,
-				D1077D2020CD1F4300D64EB2 /* WhatsPlayer-Pro */,
+				D1077D2020CD1F4300D64EB2 /* GanliaoPlayer */,
 			);
 		};
 /* End PBXProject section */
@@ -1502,35 +1246,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1E521871EBD642700C518CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1E521EB1EBD643E00C518CB /* Assets.xcassets in Resources */,
-				D1617B0F20CB7AE400A1782E /* Localizable.strings in Resources */,
-				6555BDD920061C2800B16A08 /* ProgressHUDView.xib in Resources */,
-				659E2FF3200CCBCB0022C7FB /* ConfigHUDView.xib in Resources */,
-				6555BDDC20061C2800B16A08 /* VolumeAndBrightHUDView.xib in Resources */,
-				F1E521EE1EBD643E00C518CB /* LaunchScreen.storyboard in Resources */,
-				65637E681FE941CA004D7019 /* MediaControllView.xib in Resources */,
-				D1F84F4F2141564D001F7B4B /* HZYReNameView.xib in Resources */,
-				AA8320F82496775E0041D32A /* Info.plist in Resources */,
-				D1315C2D20F979720015C1C3 /* GCDWebUploader.bundle in Resources */,
-				D1E284412144AE2100DC1E09 /* MediaLibraryNavTitleView.xib in Resources */,
-				D1617AE820CB704F00A1782E /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1D22EAEA13011DFF9B876A42 /* [CP] Embed Pods Frameworks */ = {
+		138E505CB18C16654BA9B7CD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhatsPlayer-Pro/Pods-WhatsPlayer-Pro-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GanliaoPlayer/Pods-GanliaoPlayer-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DBGuestureLock/DBGuestureLock.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
@@ -1539,9 +1264,6 @@
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -1554,86 +1276,29 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsPlayer-Pro/Pods-WhatsPlayer-Pro-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GanliaoPlayer/Pods-GanliaoPlayer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		324F7B08B9CCACFA564DF7E8 /* [CP] Check Pods Manifest.lock */ = {
+		6D2B54523E1BE8192225BBC6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WhatsPlayer-Pro-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		89C963AD5693F27CE317CD37 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhatsPlayer/Pods-WhatsPlayer-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DBGuestureLock/DBGuestureLock.framework",
-				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DBGuestureLock.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsPlayer/Pods-WhatsPlayer-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		98ACF6128159D6CAE1528170 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WhatsPlayer-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GanliaoPlayer-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1718,6 +1383,7 @@
 				D1BAA286213D3F2000119265 /* NSAttributedString+Colorful.m in Sources */,
 				D1315C1420F979720015C1C3 /* GCDWebServerResponse.m in Sources */,
 				D1077D5120CD305A00D64EB2 /* MediaPlayListTBV.m in Sources */,
+				AA5CA91E254BAB04005A2215 /* ConfigManager.m in Sources */,
 				D1077D5920CD306400D64EB2 /* AppDelegate.m in Sources */,
 				D12D237E20F18561009A650C /* BaseTabbarView.m in Sources */,
 				F1A3C79E2210307400655B70 /* MediaModel1+CoreDataClass copy.swift in Sources */,
@@ -1731,113 +1397,10 @@
 				D16AEEDD20E73174008BF7B9 /* MediaLibraryTBV.m in Sources */,
 				D1077D4D20CD305A00D64EB2 /* VolumeAndBrightHUDView.m in Sources */,
 				D1077D5020CD305A00D64EB2 /* MediaTopInfoView.m in Sources */,
-				D17229C921BCC05700755FCD /* ConfigManager.m in Sources */,
 				D141E402213959D2007470E4 /* HZYBubbleVC.m in Sources */,
 				D1077D5420CD306400D64EB2 /* LockerVC.m in Sources */,
 				D1315C2420F979720015C1C3 /* GCDWebServerStreamedResponse.m in Sources */,
 				D1077D5C20CD306400D64EB2 /* UIImage+extension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1E521851EBD642700C518CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D141E401213959D2007470E4 /* HZYBubbleVC.m in Sources */,
-				D16AEED420E73174008BF7B9 /* ThumbImageModel.m in Sources */,
-				F1E521E51EBD643E00C518CB /* UIImage+extension.m in Sources */,
-				D1315C1B20F979720015C1C3 /* GCDWebServerConnection.m in Sources */,
-				D16AEEA220E72185008BF7B9 /* BaseNavigationController.m in Sources */,
-				D1315C2B20F979720015C1C3 /* GCDWebServerFileRequest.m in Sources */,
-				D12D237520F183B8009A650C /* BaseTableView.m in Sources */,
-				F1E521EC1EBD643E00C518CB /* AppDelegate.m in Sources */,
-				D16AEEDE20E73174008BF7B9 /* LibraryCollectionView.m in Sources */,
-				D1B9634C215B004F00D6C542 /* SettingStatusModel.m in Sources */,
-				D1B9635A215B009E00D6C542 /* LinkGuideCell.m in Sources */,
-				D110BE67214BC938001671EA /* HZYGCDLater.m in Sources */,
-				D1B96350215B004F00D6C542 /* SettingTableView.m in Sources */,
-				D16AEEE420E73174008BF7B9 /* MediaViewCell.m in Sources */,
-				D16AEED620E73174008BF7B9 /* MediaModel.m in Sources */,
-				D16AEEDC20E73174008BF7B9 /* MediaLibraryTBV.m in Sources */,
-				6555BDDB20061C2800B16A08 /* VolumeAndBrightHUDView.m in Sources */,
-				D1315C1120F979720015C1C3 /* GCDWebDAVServer.m in Sources */,
-				D1315C1320F979720015C1C3 /* GCDWebServerResponse.m in Sources */,
-				D12D237720F183B8009A650C /* BaseButton.m in Sources */,
-				D1E2843E2144AE1500DC1E09 /* MediaLibraryNavTitleView.m in Sources */,
-				D101D00D21AC000C007BC818 /* MediaLibraryVC.m in Sources */,
-				D1315C2F20F979720015C1C3 /* GCDWebUploader.m in Sources */,
-				D1315C1D20F979720015C1C3 /* GCDWebServerErrorResponse.m in Sources */,
-				6555BDD820061C2800B16A08 /* ProgressHUDView.m in Sources */,
-				D163EBB820F0557800BC20E9 /* RelativeTool.m in Sources */,
-				D110F82721AC0CAE006C9700 /* Tabbar_Free.m in Sources */,
-				F175406F1EEBE6C800AD4673 /* MediaTopInfoView.m in Sources */,
-				F1A3C79F2210307400655B70 /* MediaModel1+CoreDataProperties copy.swift in Sources */,
-				D1BAA285213D3F2000119265 /* NSAttributedString+Colorful.m in Sources */,
-				D1B96352215B004F00D6C542 /* SettingViewController.m in Sources */,
-				D1B9634E215B004F00D6C542 /* SettingTool.m in Sources */,
-				D1B96355215B008A00D6C542 /* LinkViewController.m in Sources */,
-				D16AEED820E73174008BF7B9 /* MenuBubbleView.m in Sources */,
-				D16AEEA420E72185008BF7B9 /* BaseViewController.m in Sources */,
-				D1039B22208FF356009BC2FF /* GuideVC.m in Sources */,
-				D101D01321AC0694007BC818 /* MediaLibraryVC_Free.m in Sources */,
-				D1F84F512141564D001F7B4B /* HZYReNameView.m in Sources */,
-				D110D270213A256400331286 /* MediaEditMenuBar.m in Sources */,
-				D1315C1720F979720015C1C3 /* GCDWebServerFunctions.m in Sources */,
-				659E2FF2200CCBCB0022C7FB /* ConfigHUDView.m in Sources */,
-				D16AEEDA20E73174008BF7B9 /* PlayListHeaderView.m in Sources */,
-				F1A3C79D2210307400655B70 /* MediaModel1+CoreDataClass copy.swift in Sources */,
-				F1E2687D220A8439009F5EC1 /* SwiftFunctionPchFile.swift in Sources */,
-				D16AEED220E73174008BF7B9 /* MediaPageModel.m in Sources */,
-				F1EB07C21EBDBA3E008DE1CE /* UIButton+extension.m in Sources */,
-				703749C41F2C9614008894BB /* MediaPlayListTBV.m in Sources */,
-				D141E405213959D2007470E4 /* HZYBubbleCell.m in Sources */,
-				D1B9635B215B009E00D6C542 /* LinkTableView.m in Sources */,
-				70D6E8C01F5E1A2E001234FE /* PlayerTool.m in Sources */,
-				D1315C2320F979720015C1C3 /* GCDWebServerStreamedResponse.m in Sources */,
-				F110E1EB1EE3A85700B28EBD /* MediaView.m in Sources */,
-				D1B96359215B009E00D6C542 /* LinkTableViewCell.m in Sources */,
-				D17229C821BCC05700755FCD /* ConfigManager.m in Sources */,
-				D1315C1F20F979720015C1C3 /* GCDWebServerFileResponse.m in Sources */,
-				D16AEED020E73174008BF7B9 /* BubbleConfigModel.m in Sources */,
-				F1C6C4331EBEB31E00284BB7 /* UISlider+extension.m in Sources */,
-				F1EB07C51EBDBA78008DE1CE /* UILabel+extension.m in Sources */,
-				F1E521EF1EBD643E00C518CB /* main.m in Sources */,
-				D16DB6FB2146ABE0002748F8 /* VLCMediaThumbnailer+extension.m in Sources */,
-				F106729C21F09BD300A73745 /* MediaLibray_ViewController.swift in Sources */,
-				D16AEEE220E73174008BF7B9 /* BubbleSettingCell.m in Sources */,
-				D16038CF214730700049DFE7 /* MonitorFileChangeUtils.m in Sources */,
-				D14F4EB521C4C13700689D0B /* MediaLibraryViewModel.m in Sources */,
-				65E72A4A1FB67F1D002CC585 /* DBHelper.m in Sources */,
-				D1315C2520F979720015C1C3 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
-				F1052F401F01264C00098A51 /* DataHandleTool.m in Sources */,
-				D1315C3120F979720015C1C3 /* SJXCSMIPHelper.m in Sources */,
-				D1E7E53D21BAB3C800A18B9D /* PlayerVC_Free.m in Sources */,
-				F1E521F51EBD701500C518CB /* UIView+extension.m in Sources */,
-				70500FFC1F24AB6C00371E0D /* LockerVC.m in Sources */,
-				D1315C1520F979720015C1C3 /* GCDWebServerRequest.m in Sources */,
-				D1315C2920F979720015C1C3 /* GCDWebServerDataRequest.m in Sources */,
-				D1315C2120F979720015C1C3 /* GCDWebServerDataResponse.m in Sources */,
-				D12D237D20F18561009A650C /* BaseTabbarView.m in Sources */,
-				D12D237920F183B8009A650C /* BaseCollectionview.m in Sources */,
-				F110E1EE1EE3A8A800B28EBD /* PlayerVC.m in Sources */,
-				D1315C2720F979720015C1C3 /* GCDWebServerMultiPartFormRequest.m in Sources */,
-				D141E407213959D2007470E4 /* HZYPopoverBackgroundView.m in Sources */,
-				F1A3C799220E991500655B70 /* MediaModel2.swift in Sources */,
-				D16AEEA620E72185008BF7B9 /* BaseTabBarController.m in Sources */,
-				D16AEEEC20E73174008BF7B9 /* MediaTool.m in Sources */,
-				D1277B6221C7C08100BD1EA4 /* MBProgressHUD+HzyHUD.m in Sources */,
-				D141E403213959D2007470E4 /* HZYBubbleHeaderView.m in Sources */,
-				F16DBD0B2207D3F600F6CEB1 /* MediaLibrayVM.swift in Sources */,
-				65637E671FE941CA004D7019 /* MediaControllView.m in Sources */,
-				F16DBCFC2207D3A600F6CEB1 /* LocalDataHelper.swift in Sources */,
-				D17229C421BCBC4A00755FCD /* SettingViewController_Free.m in Sources */,
-				703749C71F2C98C9008894BB /* MediaPlayCell.m in Sources */,
-				F16DBD062207D3D900F6CEB1 /* MediaDataBase.xcdatamodeld in Sources */,
-				D15F070A20B19EA9007E789E /* HTAdTool.m in Sources */,
-				D1315C1920F979720015C1C3 /* GCDWebServer.m in Sources */,
-				D163EBBC20F0609B00BC20E9 /* UIBarButtonItem+SXCreate.m in Sources */,
-				D16AEEF320E731F8008BF7B9 /* HZYTabbarController.m in Sources */,
-				D17AEDC1214FD1EC00A8F569 /* FeedBackVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1946,7 +1509,7 @@
 /* Begin XCBuildConfiguration section */
 		D1077D3420CD1F4500D64EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA821E22474624AC49B8473E /* Pods-WhatsPlayer-Pro.debug.xcconfig */;
+			baseConfigurationReference = D2D84B8D02FF59F6CF25F81D /* Pods-GanliaoPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Pro;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1963,12 +1526,13 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 6T97267A8F;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Application/Main/LauchEntry/WhatsPlayer.pch;
+				GCC_PREFIX_HEADER = Application/Main/LauchEntry/GanliaoPlayer.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1997,21 +1561,22 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Application/Main/LauchEntry/InfoPlistFile/InfoPro.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yinglicheng.ganliaoPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "敢聊播放器";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = Application/Main/LauchEntry/WhatsPlayerBridgFile.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D1077D3520CD1F4500D64EB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52FE855C66E1FB782376981F /* Pods-WhatsPlayer-Pro.release.xcconfig */;
+			baseConfigurationReference = ADF0E8602C3B6145AFBDA3DA /* Pods-GanliaoPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Pro;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2028,13 +1593,14 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 6T97267A8F;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Application/Main/LauchEntry/WhatsPlayer.pch;
+				GCC_PREFIX_HEADER = Application/Main/LauchEntry/GanliaoPlayer.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "ISPRO=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2054,14 +1620,15 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Application/Main/LauchEntry/InfoPlistFile/InfoPro.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yinglicheng.ganliaoPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "敢聊播放器";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = Application/Main/LauchEntry/WhatsPlayerBridgFile.h;
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -2159,328 +1726,10 @@
 			};
 			name = Release;
 		};
-		F1E521B71EBD642700C518CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 795533C63036378038628B3D /* Pods-WhatsPlayer.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 6T97267A8F;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Application/SDK",
-					"$(PROJECT_DIR)/Pods/MobileVLCKit/MobileVLCKit-binary",
-				);
-				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Application/启动和其他类文件/WhatsPlayer.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-					"FREE=1",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/DBGuestureLock\"",
-					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
-					"\"${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK\"",
-					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
-					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
-					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
-					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
-					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
-					"\"${PODS_ROOT}/Headers/Public/MobileVLCKit\"",
-					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
-					"$(SDKROOT)/usr/include/libxml2",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Application/Main/LauchEntry/InfoPlistFile/InfoPro.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/SVGKit",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/CocoaLumberjack",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Application/SDK",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/DBGuestureLock\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/MobileVLCKit\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-l\"DBGuestureLock\"",
-					"-l\"FMDB\"",
-					"-l\"IQKeyboardManager\"",
-					"-l\"MBProgressHUD\"",
-					"-l\"MJExtension\"",
-					"-l\"MJRefresh\"",
-					"-l\"Masonry\"",
-					"-l\"ReactiveObjC\"",
-					"-l\"bz2\"",
-					"-l\"iconv\"",
-					"-l\"sqlite3\"",
-					"-l\"stdc++\"",
-					"-l\"xml2\"",
-					"-l\"z\"",
-					"-framework",
-					"\"AVFoundation\"",
-					"-framework",
-					"\"AudioToolbox\"",
-					"-framework",
-					"\"CFNetwork\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"CoreMedia\"",
-					"-framework",
-					"\"CoreMotion\"",
-					"-framework",
-					"\"CoreTelephony\"",
-					"-framework",
-					"\"CoreText\"",
-					"-framework",
-					"\"CoreVideo\"",
-					"-framework",
-					"\"Foundation\"",
-					"-framework",
-					"\"GLKit\"",
-					"-framework",
-					"\"GoogleMobileAds\"",
-					"-framework",
-					"\"MediaPlayer\"",
-					"-framework",
-					"\"MessageUI\"",
-					"-framework",
-					"\"MobileCoreServices\"",
-					"-framework",
-					"\"MobileVLCKit\"",
-					"-framework",
-					"\"OpenGLES\"",
-					"-framework",
-					"\"QuartzCore\"",
-					"-framework",
-					"\"Security\"",
-					"-framework",
-					"\"StoreKit\"",
-					"-framework",
-					"\"SystemConfiguration\"",
-					"-framework",
-					"\"UIKit\"",
-					"-weak_framework",
-					"\"AdSupport\"",
-					"-weak_framework",
-					"\"JavaScriptCore\"",
-					"-weak_framework",
-					"\"SafariServices\"",
-					"-weak_framework",
-					"\"WebKit\"",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yinglicheng.ganliaoPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = Application/Main/LauchEntry/WhatsPlayerBridgFile.h;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
-				WARNING_CFLAGS = (
-					"-Wno-format\n-Wno-unused-variable\n-Wno-unused-variable\n-Wno-undeclared-selector\n-Wno-int-conversion",
-					"-Wno-unused-variable",
-					"-Wno-undeclared-selector",
-					"-Wno-int-conversion",
-				);
-			};
-			name = Debug;
-		};
-		F1E521B81EBD642700C518CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D077B9F18A412019B17103E2 /* Pods-WhatsPlayer.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 6T97267A8F;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Application/SDK",
-					"$(PROJECT_DIR)/Pods/MobileVLCKit/MobileVLCKit-binary",
-				);
-				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Application/启动和其他类文件/WhatsPlayer.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-					"FREE=1",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/DBGuestureLock\"",
-					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
-					"\"${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK\"",
-					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
-					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
-					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
-					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
-					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
-					"\"${PODS_ROOT}/Headers/Public/MobileVLCKit\"",
-					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
-					"$(SDKROOT)/usr/include/libxml2",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Application/Main/LauchEntry/InfoPlistFile/InfoPro.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/SVGKit",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/CocoaLumberjack",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Application/SDK",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/DBGuestureLock\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/MobileVLCKit\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-l\"DBGuestureLock\"",
-					"-l\"FMDB\"",
-					"-l\"IQKeyboardManager\"",
-					"-l\"MBProgressHUD\"",
-					"-l\"MJExtension\"",
-					"-l\"MJRefresh\"",
-					"-l\"Masonry\"",
-					"-l\"ReactiveObjC\"",
-					"-l\"bz2\"",
-					"-l\"iconv\"",
-					"-l\"sqlite3\"",
-					"-l\"stdc++\"",
-					"-l\"xml2\"",
-					"-l\"z\"",
-					"-framework",
-					"\"AVFoundation\"",
-					"-framework",
-					"\"AudioToolbox\"",
-					"-framework",
-					"\"CFNetwork\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"CoreMedia\"",
-					"-framework",
-					"\"CoreMotion\"",
-					"-framework",
-					"\"CoreTelephony\"",
-					"-framework",
-					"\"CoreText\"",
-					"-framework",
-					"\"CoreVideo\"",
-					"-framework",
-					"\"Foundation\"",
-					"-framework",
-					"\"GLKit\"",
-					"-framework",
-					"\"GoogleMobileAds\"",
-					"-framework",
-					"\"MediaPlayer\"",
-					"-framework",
-					"\"MessageUI\"",
-					"-framework",
-					"\"MobileCoreServices\"",
-					"-framework",
-					"\"MobileVLCKit\"",
-					"-framework",
-					"\"OpenGLES\"",
-					"-framework",
-					"\"QuartzCore\"",
-					"-framework",
-					"\"Security\"",
-					"-framework",
-					"\"StoreKit\"",
-					"-framework",
-					"\"SystemConfiguration\"",
-					"-framework",
-					"\"UIKit\"",
-					"-weak_framework",
-					"\"AdSupport\"",
-					"-weak_framework",
-					"\"JavaScriptCore\"",
-					"-weak_framework",
-					"\"SafariServices\"",
-					"-weak_framework",
-					"\"WebKit\"",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yinglicheng.ganliaoPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = Application/Main/LauchEntry/WhatsPlayerBridgFile.h;
-				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
-				WARNING_CFLAGS = (
-					"-Wno-format\n-Wno-unused-variable\n-Wno-unused-variable\n-Wno-undeclared-selector\n-Wno-int-conversion",
-					"-Wno-unused-variable",
-					"-Wno-undeclared-selector",
-					"-Wno-int-conversion",
-				);
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1077D3620CD1F4500D64EB2 /* Build configuration list for PBXNativeTarget "WhatsPlayer-Pro" */ = {
+		D1077D3620CD1F4500D64EB2 /* Build configuration list for PBXNativeTarget "GanliaoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1077D3420CD1F4500D64EB2 /* Debug */,
@@ -2494,15 +1743,6 @@
 			buildConfigurations = (
 				F1E521B41EBD642700C518CB /* Debug */,
 				F1E521B51EBD642700C518CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F1E521B61EBD642700C518CB /* Build configuration list for PBXNativeTarget "WhatsPlayer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F1E521B71EBD642700C518CB /* Debug */,
-				F1E521B81EBD642700C518CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

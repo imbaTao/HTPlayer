@@ -1,13 +1,13 @@
 //
 //  MediaLibrayVM.swift
-//  WhatsPlayer
+//  敢聊播放器
 //
 //  Created by hong  on 2019/2/4.
 //  Copyright © 2019 Great. All rights reserved.
 //
 
 import Foundation
-import RxCocoa
+//import RxCocoa
 
 class MediaLibrayVM: NSObject {
     

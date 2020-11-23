@@ -13,11 +13,6 @@
 #import "LinkViewController.h"
 #import "SettingViewController.h"
 
-#ifndef ISPRO
-#import "MediaLibraryVC_Free.h"
-#import "SettingViewController_Free.h"
-#import "WhatsPlayer-Swift.h"
-#endif
 @interface HZYTabbarController ()
 
 @end
@@ -63,13 +58,8 @@ return _instance;
 
 #pragma mark - private
 - (void)p_initSubVC{
-#ifdef ISPRO
     MediaLibraryVC *vc1 = [[MediaLibraryVC alloc] init];
      SettingViewController *vc3 = [[SettingViewController alloc] init];
-#else
-    MediaLibray_ViewController *vc1 = [[MediaLibray_ViewController alloc] init];
-    SettingViewController_Free *vc3 = [[SettingViewController_Free alloc] init];
-#endif
     BaseNavigationController *nav1 = [[BaseNavigationController alloc] initWithRootViewController:vc1];
     LinkViewController *vc2 = [[LinkViewController alloc] init];
     BaseNavigationController *nav2 = [[BaseNavigationController alloc] initWithRootViewController:vc2];

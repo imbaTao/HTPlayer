@@ -1,6 +1,6 @@
 //
 //  ConfigManager.h
-//  WhatsPlayer
+//  敢聊播放器
 //
 //  Created by Mr.h on 12/9/18.
 //  Copyright © 2018 Great. All rights reserved.

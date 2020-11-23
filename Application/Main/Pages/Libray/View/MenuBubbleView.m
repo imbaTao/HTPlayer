@@ -67,13 +67,8 @@
 - (NSMutableArray *)dataArray{
     if (!_dataArray) {
         _dataArray = [NSMutableArray array];
-#ifdef FREE
-         NSArray *titleArray = @[LOCALKEY(@"Instructions"),LOCALKEY(@"Lock"),LOCALKEY(@"Buy"),LOCALKEY(@"Feedback")];
-         NSArray *imageNameArr = @[@"bubble_help",@"bubble_lock",@"bubble_buy",@"bubble_advise"];
-#else
          NSArray *titleArray = @[LOCALKEY(@"Instructions"),LOCALKEY(@"Lock"),LOCALKEY(@"Feedback")];
          NSArray *imageNameArr = @[@"bubble_help",@"bubble_lock",@"bubble_advise"];
-#endif
         for (int i = 0; i<titleArray.count ; i++) {
             BubbleConfigModel *model  = [[BubbleConfigModel alloc]init];
             model.picImageName = imageNameArr[i];

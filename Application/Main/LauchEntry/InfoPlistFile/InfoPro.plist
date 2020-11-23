@@ -19,9 +19,9 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -39,12 +39,6 @@
 	<string>摄像头权限</string>
 	<key>NSContactsUsageDescription</key>
 	<string>通讯录权限</string>
-	<key>NSHealthShareUsageDescription</key>
-	<string>健康权限</string>
-	<key>NSHealthUpdateUsageDescription</key>
-	<string>健康权限</string>
-	<key>NSHomeKitUsageDescription</key>
-	<string></string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>地理位置权限</string>
 	<key>NSLocationUsageDescription</key>
